@@ -109,10 +109,9 @@ if st.session_state.questions:
                 p = os.path.join(out_dir, q["stem_snippet"])
                 if os.path.exists(p):
                     st.image(p, caption="Question (visual reference)")
-            for img in q.get("stem_images", []):
-                p = os.path.join(out_dir, img)
-                if os.path.exists(p):
-                    st.image(p, caption="Question diagram", width=350)
+            # note: stem_images (isolated diagram crops) are intentionally not shown again here —
+            # they're already visible inside the stem_snippet above; kept in the export data/zip
+            # for anyone who wants the diagram as a standalone file.
 
             st.markdown("---")
             for opt in q["options"]:
@@ -127,7 +126,9 @@ if st.session_state.questions:
                         label_visibility="collapsed",
                     )
                 with col2:
-                    st.write(f"**({label})** {opt['text']}")
+                    # opt['text'] already starts with its own "(N)" marker from extraction —
+                    # don't prepend another one here, or it renders as "(1) (1) ...".
+                    st.write(f"**{opt['text']}**" if opt['text'] else f"**({label})**")
                     for img in opt.get("images", []):
                         p = os.path.join(out_dir, img)
                         if os.path.exists(p):
@@ -148,10 +149,8 @@ if st.session_state.questions:
         md_lines.append(f"## Q{q['question_number']}\n")
         md_lines.append(f"{q['stem_text']}\n")
         md_lines.append(f"![stem]({q['stem_snippet']})\n")
-        for img in q.get("stem_images", []):
-            md_lines.append(f"**Diagram:** ![diagram]({img})\n")
         for opt in q["options"]:
-            md_lines.append(f"**({opt['label']})** {opt['text']}")
+            md_lines.append(f"**{opt['text']}**" if opt['text'] else f"**({opt['label']})**")
             for img in opt.get("images", []):
                 md_lines.append(f"  ![opt]({img})")
             md_lines.append("")
