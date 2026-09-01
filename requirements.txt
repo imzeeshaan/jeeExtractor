@@ -1,2 +1,7 @@
 streamlit
-pymupdf
+pymupdf==1.26.5
+pillow
+pydantic>=2.0
+sqlalchemy>=2.0
+pytest
+python-dotenv

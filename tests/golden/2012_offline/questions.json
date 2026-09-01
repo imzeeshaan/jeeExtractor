@@ -1,0 +1,6354 @@
+[
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 1,
+        "rect": [
+          30,
+          125.7022705078125,
+          295.2852478027344,
+          142.2022705078125
+        ],
+        "snippet": "images/q1_opt1.png",
+        "text": "(1) 6%"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 1,
+        "rect": [
+          295.2852478027344,
+          125.7022705078125,
+          565,
+          142.2022705078125
+        ],
+        "snippet": "images/q1_opt2.png",
+        "text": "(2) zero"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 1,
+        "rect": [
+          30,
+          142.2022705078125,
+          295.2852478027344,
+          167.7022705078125
+        ],
+        "snippet": "images/q1_opt3.png",
+        "text": "(3) 1%"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 1,
+        "rect": [
+          295.2852478027344,
+          142.2022705078125,
+          565,
+          167.7022705078125
+        ],
+        "snippet": "images/q1_opt4.png",
+        "text": "(4) 3%"
+      }
+    ],
+    "question_number": 1,
+    "question_type": "mcq",
+    "stem_end_page": 1,
+    "stem_images": [],
+    "stem_page": 1,
+    "stem_rect": [
+      30,
+      76.2022705078125,
+      565,
+      125.7022705078125
+    ],
+    "stem_snippet": "images/q1_stem.png",
+    "stem_text": "Q1. Resistance of a given wire is obtained by measuring the current flowing in it and the voltage difference applied across it. If the percentage errors in the measurement of the current and the voltage difference are each, then error in the value of resistance of the wire is 3%"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 1,
+        "rect": [
+          30,
+          200.7022705078125,
+          295.2852478027344,
+          217.2022705078125
+        ],
+        "snippet": "images/q2_opt1.png",
+        "text": "(1) 20\u221a2 m"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 1,
+        "rect": [
+          295.2852478027344,
+          200.7022705078125,
+          565,
+          217.2022705078125
+        ],
+        "snippet": "images/q2_opt2.png",
+        "text": "(2) 10 m"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 1,
+        "rect": [
+          30,
+          217.2022705078125,
+          295.2852478027344,
+          242.7022705078125
+        ],
+        "snippet": "images/q2_opt3.png",
+        "text": "(3) 10\u221a2 m"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 1,
+        "rect": [
+          295.2852478027344,
+          217.2022705078125,
+          565,
+          242.7022705078125
+        ],
+        "snippet": "images/q2_opt4.png",
+        "text": "(4) 20 m"
+      }
+    ],
+    "question_number": 2,
+    "question_type": "mcq",
+    "stem_end_page": 1,
+    "stem_images": [],
+    "stem_page": 1,
+    "stem_rect": [
+      30,
+      167.7022705078125,
+      565,
+      200.7022705078125
+    ],
+    "stem_snippet": "images/q2_stem.png",
+    "stem_text": "Q2. A boy can throw a stone up to a maximum height of . The maximum horizontal distance that the boy can throw the same stone up to will be 10 m"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [
+          "images/q3_opt1_diagram_1.png"
+        ],
+        "label": "1",
+        "page": 1,
+        "rect": [
+          30,
+          275.7022705078125,
+          295.2851867675781,
+          370.2022705078125
+        ],
+        "snippet": "images/q3_opt1.png",
+        "text": "(1)"
+      },
+      {
+        "images": [
+          "images/q3_opt2_diagram_1.png"
+        ],
+        "label": "2",
+        "page": 1,
+        "rect": [
+          295.2851867675781,
+          275.7022705078125,
+          565,
+          370.2022705078125
+        ],
+        "snippet": "images/q3_opt2.png",
+        "text": "(2)"
+      },
+      {
+        "images": [
+          "images/q3_opt3_diagram_1.png"
+        ],
+        "label": "3",
+        "page": 1,
+        "rect": [
+          30,
+          370.2022705078125,
+          295.2851867675781,
+          481.9522705078125
+        ],
+        "snippet": "images/q3_opt3.png",
+        "text": "(3)"
+      },
+      {
+        "images": [
+          "images/q3_opt4_diagram_1.png"
+        ],
+        "label": "4",
+        "page": 1,
+        "rect": [
+          295.2851867675781,
+          370.2022705078125,
+          565,
+          481.9522705078125
+        ],
+        "snippet": "images/q3_opt4.png",
+        "text": "(4)"
+      }
+    ],
+    "question_number": 3,
+    "question_type": "mcq",
+    "stem_end_page": 1,
+    "stem_images": [],
+    "stem_page": 1,
+    "stem_rect": [
+      30,
+      242.7022705078125,
+      565,
+      275.7022705078125
+    ],
+    "stem_snippet": "images/q3_stem.png",
+    "stem_text": "Q3. A particle of mass is at rest at the origin at time . It is subjected to a force in the direction. Its speed is depicted by which of the following curves? m t = 0 F(t) = F0e\u2212bt x v(t)"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 1,
+        "rect": [
+          30,
+          547.9522705078125,
+          295.28594970703125,
+          564.4522705078125
+        ],
+        "snippet": "images/q4_opt1.png",
+        "text": "(1) Statement is false, Statement is true 1 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 1,
+        "rect": [
+          295.28594970703125,
+          547.9522705078125,
+          565,
+          564.4522705078125
+        ],
+        "snippet": "images/q4_opt2.png",
+        "text": "(2) Statement is true, Statement is false 1 2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 1,
+        "rect": [
+          30,
+          564.4522705078125,
+          295.2852478027344,
+          606.4522705078125
+        ],
+        "snippet": "images/q4_opt3.png",
+        "text": "(3) Statement is true, Statement is the correct explanation for statement 1 2 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 1,
+        "rect": [
+          295.2852478027344,
+          564.4522705078125,
+          565,
+          606.4522705078125
+        ],
+        "snippet": "images/q4_opt4.png",
+        "text": "(4) Statement is true, Statement is true, Statement is not the correct explanation for statement . 1 2 2 1"
+      }
+    ],
+    "question_number": 4,
+    "question_type": "mcq",
+    "stem_end_page": 1,
+    "stem_images": [],
+    "stem_page": 1,
+    "stem_rect": [
+      30,
+      481.9522705078125,
+      565,
+      547.9522705078125
+    ],
+    "stem_snippet": "images/q4_stem.png",
+    "stem_text": "Q4. This question has statement and statement . Of the four choices given after the statements, choose the one that best describes the two statements. If two springs and of force constants and , respectively, are stretched by the same force, it is found that more work is done on spring than on spring . Statement : If stretched by the same amount, work done on , will be more than that on Statement 1 2 S1 S2 k1 k2 S1 S2 1 S1 S2 2 : k1 < k2"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 1,
+        "rect": [
+          30,
+          639.4522705078125,
+          295.2853088378906,
+          655.9522705078125
+        ],
+        "snippet": "images/q5_opt1.png",
+        "text": "(1) m1r1 : m2r2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 1,
+        "rect": [
+          295.2853088378906,
+          639.4522705078125,
+          565,
+          655.9522705078125
+        ],
+        "snippet": "images/q5_opt2.png",
+        "text": "(2) m1 : m2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 1,
+        "rect": [
+          30,
+          655.9522705078125,
+          295.2853088378906,
+          681.4522705078125
+        ],
+        "snippet": "images/q5_opt3.png",
+        "text": "(3) r1 : r2"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 1,
+        "rect": [
+          295.2853088378906,
+          655.9522705078125,
+          565,
+          681.4522705078125
+        ],
+        "snippet": "images/q5_opt4.png",
+        "text": "(4) 1 : 1"
+      }
+    ],
+    "question_number": 5,
+    "question_type": "mcq",
+    "stem_end_page": 1,
+    "stem_images": [],
+    "stem_page": 1,
+    "stem_rect": [
+      30,
+      606.4522705078125,
+      565,
+      639.4522705078125
+    ],
+    "stem_snippet": "images/q5_stem.png",
+    "stem_text": "Q5. Two cars of masses and are moving in circles of radii and , respectively. Their speeds are such that they make complete circles in the same time . The ratio of their centripetal acceleration is m1 m2 r1 r2 t"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 1,
+        "rect": [
+          30,
+          730.9522705078125,
+          295.2852783203125,
+          747.4522705078125
+        ],
+        "snippet": "images/q6_opt1.png",
+        "text": "(1) Joules 6.4 \u00d7 1011"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 1,
+        "rect": [
+          295.2852783203125,
+          730.9522705078125,
+          565,
+          747.4522705078125
+        ],
+        "snippet": "images/q6_opt2.png",
+        "text": "(2) Joules 6.4 \u00d7 108"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 1,
+        "rect": [
+          30,
+          747.4522705078125,
+          295.2852783203125,
+          803.4650268554688
+        ],
+        "snippet": "images/q6_opt3.png",
+        "text": "(3) Joules 6.4 \u00d7 109"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 1,
+        "rect": [
+          295.2852783203125,
+          747.4522705078125,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q6_opt4.png",
+        "text": "(4) Joules 6.4 \u00d7 1010"
+      }
+    ],
+    "question_number": 6,
+    "question_type": "mcq",
+    "stem_end_page": 1,
+    "stem_images": [],
+    "stem_page": 1,
+    "stem_rect": [
+      30,
+      681.4522705078125,
+      565,
+      730.9522705078125
+    ],
+    "stem_snippet": "images/q6_stem.png",
+    "stem_text": "Q6. The mass of a spaceship is . It is to be launched from the earth's surface out into free space. The value of ' ' and ' ' (radius of earth) are and respectively. The required energy for this work will be ; 1000 kg g R 10 m/s2 6400 km"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 2,
+        "rect": [
+          30,
+          223.9522705078125,
+          295.2853088378906,
+          240.4522705078125
+        ],
+        "snippet": "images/q7_opt1.png",
+        "text": "(1) 0.0125 Nm\u22121"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 2,
+        "rect": [
+          295.2853088378906,
+          223.9522705078125,
+          565,
+          240.4522705078125
+        ],
+        "snippet": "images/q7_opt2.png",
+        "text": "(2) 0.1 Nm\u22121"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 2,
+        "rect": [
+          30,
+          240.4522705078125,
+          295.2853088378906,
+          265.9522705078125
+        ],
+        "snippet": "images/q7_opt3.png",
+        "text": "(3) 0.05 Nm\u22121"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 2,
+        "rect": [
+          295.2853088378906,
+          240.4522705078125,
+          565,
+          265.9522705078125
+        ],
+        "snippet": "images/q7_opt4.png",
+        "text": "(4) 0.025 Nm\u22121"
+      }
+    ],
+    "question_number": 7,
+    "question_type": "mcq",
+    "stem_end_page": 2,
+    "stem_images": [
+      "images/q7_stem_diagram_1.png"
+    ],
+    "stem_page": 2,
+    "stem_rect": [
+      30,
+      75.4522705078125,
+      565,
+      223.9522705078125
+    ],
+    "stem_snippet": "images/q7_stem.png",
+    "stem_text": "Q7. A thin liquid film formed between a U-shaped wire and a light slider supports a weight of (see figure). The length of the slider is and its weight negligible. The surface tension of the liquid film is 1.5 \u00d7 10\u22122 N 30 cm"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 2,
+        "rect": [
+          30,
+          465.4522705078125,
+          295.2853088378906,
+          481.9522705078125
+        ],
+        "snippet": "images/q8_opt1.png",
+        "text": "(1) 2\u03c0SY\u03b1\u0394T"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 2,
+        "rect": [
+          295.2853088378906,
+          465.4522705078125,
+          565,
+          481.9522705078125
+        ],
+        "snippet": "images/q8_opt2.png",
+        "text": "(2) SY\u03b1\u0394T"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 2,
+        "rect": [
+          30,
+          481.9522705078125,
+          295.2853088378906,
+          507.4522705078125
+        ],
+        "snippet": "images/q8_opt3.png",
+        "text": "(3) \u03c0SY\u03b1\u0394T"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 2,
+        "rect": [
+          295.2853088378906,
+          481.9522705078125,
+          565,
+          507.4522705078125
+        ],
+        "snippet": "images/q8_opt4.png",
+        "text": "(4) 2SY\u03b1\u0394T"
+      }
+    ],
+    "question_number": 8,
+    "question_type": "mcq",
+    "stem_end_page": 2,
+    "stem_images": [
+      "images/q8_stem_diagram_1.png"
+    ],
+    "stem_page": 2,
+    "stem_rect": [
+      30,
+      265.9522705078125,
+      565,
+      465.4522705078125
+    ],
+    "stem_snippet": "images/q8_stem.png",
+    "stem_text": "Q8. A wooden wheel of radius is made of two semicircular parts (see figure); The two parts are held together by a ring made of a metal strip of cross sectional area S and length . is slightly less than . To fit the ring on the wheel, it is heated so that its temperature rises by and it just steps over the wheel. As it cools down to surrounding temperature, it presses the semicircular parts together. If the coefficient of linear expansion of the metal is , and its Youngs' modulus is , the force that one part of the wheel applies on the other part is : R L L 2\u03c0R \u0394T \u03b1 Y"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [
+          "images/q9_opt1_diagram_1.png"
+        ],
+        "label": "1",
+        "page": 3,
+        "rect": [
+          30,
+          74.7021484375,
+          295.2851867675781,
+          193.2021484375
+        ],
+        "snippet": "images/q9_opt1.png",
+        "text": "(1)"
+      },
+      {
+        "images": [
+          "images/q9_opt2_diagram_1.png"
+        ],
+        "label": "2",
+        "page": 3,
+        "rect": [
+          295.2851867675781,
+          74.7021484375,
+          565,
+          193.2021484375
+        ],
+        "snippet": "images/q9_opt2.png",
+        "text": "(2)"
+      },
+      {
+        "images": [
+          "images/q9_opt3_diagram_1.png"
+        ],
+        "label": "3",
+        "page": 3,
+        "rect": [
+          30,
+          193.2021484375,
+          295.2851867675781,
+          318.4521484375
+        ],
+        "snippet": "images/q9_opt3.png",
+        "text": "(3)"
+      },
+      {
+        "images": [
+          "images/q9_opt4_diagram_1.png"
+        ],
+        "label": "4",
+        "page": 3,
+        "rect": [
+          295.2851867675781,
+          193.2021484375,
+          565,
+          318.4521484375
+        ],
+        "snippet": "images/q9_opt4.png",
+        "text": "(4)"
+      }
+    ],
+    "question_number": 9,
+    "question_type": "mcq",
+    "stem_end_page": 2,
+    "stem_images": [],
+    "stem_page": 2,
+    "stem_rect": [
+      30,
+      507.4522705078125,
+      565,
+      803.4650268554688
+    ],
+    "stem_snippet": "images/q9_stem.png",
+    "stem_text": "Q9. A liquid in a beaker has temperature at time and is temperature of surroundings, then according to Newton's law of cooling the correct graph between and is \u03b8(t) t \u03b80 loge (\u03b8 \u2212\u03b80) t"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 3,
+        "rect": [
+          30,
+          490.9522705078125,
+          298.10906982421875,
+          507.4522705078125
+        ],
+        "snippet": "images/q10_opt1.png",
+        "text": "(1) 15.4%"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 3,
+        "rect": [
+          298.10906982421875,
+          490.9522705078125,
+          565,
+          507.4522705078125
+        ],
+        "snippet": "images/q10_opt2.png",
+        "text": "(2) 9.1%"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 3,
+        "rect": [
+          30,
+          507.4522705078125,
+          298.10906982421875,
+          532.9522705078125
+        ],
+        "snippet": "images/q10_opt3.png",
+        "text": "(3) 10.5%"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 3,
+        "rect": [
+          298.10906982421875,
+          507.4522705078125,
+          565,
+          532.9522705078125
+        ],
+        "snippet": "images/q10_opt4.png",
+        "text": "(4) 12.5%"
+      }
+    ],
+    "question_number": 10,
+    "question_type": "mcq",
+    "stem_end_page": 3,
+    "stem_images": [
+      "images/q10_stem_diagram_1.png"
+    ],
+    "stem_page": 3,
+    "stem_rect": [
+      30,
+      318.4521484375,
+      565,
+      490.9522705078125
+    ],
+    "stem_snippet": "images/q10_stem.png",
+    "stem_text": "Q10.Helium gas goes through a cycle (consisting of two isochoric and two isobaric lines) as shown in figure. Efficiency of this cycle is nearly: (Assume the gas to be close to ideal gas) ABCDA"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 3,
+        "rect": [
+          30,
+          582.4522705078125,
+          297.8045654296875,
+          615.4522705078125
+        ],
+        "snippet": "images/q11_opt1.png",
+        "text": "(1) efficiency of Carnot engine cannot be made larger than 50%"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 3,
+        "rect": [
+          297.8045654296875,
+          582.4522705078125,
+          565,
+          615.4522705078125
+        ],
+        "snippet": "images/q11_opt2.png",
+        "text": "(2) 1200 K"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 3,
+        "rect": [
+          30,
+          615.4522705078125,
+          297.8045654296875,
+          640.9522705078125
+        ],
+        "snippet": "images/q11_opt3.png",
+        "text": "(3) 750 K"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 3,
+        "rect": [
+          297.8045654296875,
+          615.4522705078125,
+          565,
+          640.9522705078125
+        ],
+        "snippet": "images/q11_opt4.png",
+        "text": "(4) 600 K"
+      }
+    ],
+    "question_number": 11,
+    "question_type": "mcq",
+    "stem_end_page": 3,
+    "stem_images": [],
+    "stem_page": 3,
+    "stem_rect": [
+      30,
+      532.9522705078125,
+      565,
+      582.4522705078125
+    ],
+    "stem_snippet": "images/q11_stem.png",
+    "stem_text": "Q11.A Carnot engine, whose efficiency is , takes in heat from a source maintained at a temperature of It is desired to have an engine of efficiency . Then, the intake temperature for the same exhaust (sink) temperature must be 40% 500 K 60%"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 3,
+        "rect": [
+          30,
+          706.9522705078125,
+          298.10906982421875,
+          723.4522705078125
+        ],
+        "snippet": "images/q12_opt1.png",
+        "text": "(1) 0.693 b"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 3,
+        "rect": [
+          298.10906982421875,
+          706.9522705078125,
+          565,
+          723.4522705078125
+        ],
+        "snippet": "images/q12_opt2.png",
+        "text": "(2) b"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 3,
+        "rect": [
+          30,
+          723.4522705078125,
+          298.10906982421875,
+          803.4650268554688
+        ],
+        "snippet": "images/q12_opt3.png",
+        "text": "(3) 1 b"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 3,
+        "rect": [
+          298.10906982421875,
+          723.4522705078125,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q12_opt4.png",
+        "text": "(4) 2 b"
+      }
+    ],
+    "question_number": 12,
+    "question_type": "mcq",
+    "stem_end_page": 3,
+    "stem_images": [],
+    "stem_page": 3,
+    "stem_rect": [
+      30,
+      640.9522705078125,
+      565,
+      706.9522705078125
+    ],
+    "stem_snippet": "images/q12_stem.png",
+    "stem_text": "Q12.If a simple pendulum has significant amplitude (up to a factor of of original) only in the period between to , then may be called the average life of the pendulum. When the spherical bob of the pendulum suffers a retardation (due to viscous drag) proportional to its velocity, with ' ' as the constant of proportionality, the average life time of the pendulum is (assuming damping is small) in seconds: 1/e t = 0s t = \u03c4s \u03c4 b"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 4,
+        "rect": [
+          30,
+          108.4522705078125,
+          298.1090087890625,
+          124.9522705078125
+        ],
+        "snippet": "images/q13_opt1.png",
+        "text": "(1) f"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 4,
+        "rect": [
+          298.1090087890625,
+          108.4522705078125,
+          565,
+          124.9522705078125
+        ],
+        "snippet": "images/q13_opt2.png",
+        "text": "(2) f 2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 4,
+        "rect": [
+          30,
+          124.9522705078125,
+          298.1090087890625,
+          150.4522705078125
+        ],
+        "snippet": "images/q13_opt3.png",
+        "text": "(3) 3f 4"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 4,
+        "rect": [
+          298.1090087890625,
+          124.9522705078125,
+          565,
+          150.4522705078125
+        ],
+        "snippet": "images/q13_opt4.png",
+        "text": "(4) 2f"
+      }
+    ],
+    "question_number": 13,
+    "question_type": "mcq",
+    "stem_end_page": 4,
+    "stem_images": [],
+    "stem_page": 4,
+    "stem_rect": [
+      30,
+      75.4522705078125,
+      565,
+      108.4522705078125
+    ],
+    "stem_snippet": "images/q13_stem.png",
+    "stem_text": "Q13.A cylindrical tube, open at both ends, has a fundamental frequency, , in air. The tube is dipped vertically in water so that half of it is in water. The fundamental frequency of the air-column is now f"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [
+          "images/q14_opt1_diagram_1.png"
+        ],
+        "label": "1",
+        "page": 4,
+        "rect": [
+          30,
+          183.4522705078125,
+          298.1094055175781,
+          286.9522705078125
+        ],
+        "snippet": "images/q14_opt1.png",
+        "text": "(1)"
+      },
+      {
+        "images": [
+          "images/q14_opt2_diagram_1.png"
+        ],
+        "label": "2",
+        "page": 4,
+        "rect": [
+          298.1094055175781,
+          183.4522705078125,
+          565,
+          286.9522705078125
+        ],
+        "snippet": "images/q14_opt2.png",
+        "text": "(2)"
+      },
+      {
+        "images": [
+          "images/q14_opt3_diagram_1.png"
+        ],
+        "label": "3",
+        "page": 4,
+        "rect": [
+          30,
+          286.9522705078125,
+          298.1094055175781,
+          400.2022705078125
+        ],
+        "snippet": "images/q14_opt3.png",
+        "text": "(3)"
+      },
+      {
+        "images": [
+          "images/q14_opt4_diagram_1.png"
+        ],
+        "label": "4",
+        "page": 4,
+        "rect": [
+          298.1094055175781,
+          286.9522705078125,
+          565,
+          400.2022705078125
+        ],
+        "snippet": "images/q14_opt4.png",
+        "text": "(4)"
+      }
+    ],
+    "question_number": 14,
+    "question_type": "mcq",
+    "stem_end_page": 4,
+    "stem_images": [],
+    "stem_page": 4,
+    "stem_rect": [
+      30,
+      150.4522705078125,
+      565,
+      183.4522705078125
+    ],
+    "stem_snippet": "images/q14_stem.png",
+    "stem_text": "Q14.In a uniformly charged sphere of total charge and radius , the electric field is plotted as a function of distance from the centre. The graph which would correspond to the above will be Q R E"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 4,
+        "rect": [
+          30,
+          517.9522705078125,
+          298.1089782714844,
+          567.4522705078125
+        ],
+        "snippet": "images/q15_opt1.png",
+        "text": "(1) Statement is true, Statement is true, Statement is not the correct explanation for statement . 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 4,
+        "rect": [
+          298.1089782714844,
+          517.9522705078125,
+          565,
+          567.4522705078125
+        ],
+        "snippet": "images/q15_opt2.png",
+        "text": "(2) Statement is true, Statement is false 1 2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 4,
+        "rect": [
+          30,
+          567.4522705078125,
+          298.1089782714844,
+          803.4650268554688
+        ],
+        "snippet": "images/q15_opt3.png",
+        "text": "(3) Statement is false, Statement is true 1 2"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 4,
+        "rect": [
+          298.1089782714844,
+          567.4522705078125,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q15_opt4.png",
+        "text": "(4) Statement is true, Statement is the correct explanation for statement 1 2 1"
+      }
+    ],
+    "question_number": 15,
+    "question_type": "mcq",
+    "stem_end_page": 4,
+    "stem_images": [],
+    "stem_page": 4,
+    "stem_rect": [
+      30,
+      400.2022705078125,
+      565,
+      517.9522705078125
+    ],
+    "stem_snippet": "images/q15_stem.png",
+    "stem_text": "Q15.This question has statement and statement . Of the four choices given after the statements, choose the one that best describes the two statements. An insulating solid sphere of radius has a uniformly positive charge density . As a result of this uniform charge distribution there is a finite value of electric potential at the centre of the sphere, at the surface of the sphere and also at a point out side the sphere. The electric potential at infinity is zero. Statement : When a charge is taken from the centre to the surface of the sphere, its potential energy changes by Statement : The electric field at a distance from the centre of the sphere is 1 2 R \u03c1 1 q qp 3\u03b50 2 r(r < R) \u03c1r 3\u03b50"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 5,
+        "rect": [
+          30,
+          247.9522705078125,
+          298.10906982421875,
+          264.4522705078125
+        ],
+        "snippet": "images/q16_opt1.png",
+        "text": "(1) and 150 sec 200 sec"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 5,
+        "rect": [
+          298.10906982421875,
+          247.9522705078125,
+          565,
+          264.4522705078125
+        ],
+        "snippet": "images/q16_opt2.png",
+        "text": "(2) and 0 50 sec"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 5,
+        "rect": [
+          30,
+          264.4522705078125,
+          298.10833740234375,
+          289.9522705078125
+        ],
+        "snippet": "images/q16_opt3.png",
+        "text": "(3) and 50 sec 100 sec"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 5,
+        "rect": [
+          298.10833740234375,
+          264.4522705078125,
+          565,
+          289.9522705078125
+        ],
+        "snippet": "images/q16_opt4.png",
+        "text": "(4) and 100 sec 150 sec"
+      }
+    ],
+    "question_number": 16,
+    "question_type": "mcq",
+    "stem_end_page": 5,
+    "stem_images": [
+      "images/q16_stem_diagram_1.png"
+    ],
+    "stem_page": 5,
+    "stem_rect": [
+      30,
+      75.4522705078125,
+      565,
+      247.9522705078125
+    ],
+    "stem_snippet": "images/q16_stem.png",
+    "stem_text": "Q16.The figure shows an experimental plot for discharging of a capacitor in an circuit. The time constant of this circuit lies between: R \u2212C \u03c4"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 5,
+        "rect": [
+          30,
+          322.9522705078125,
+          298.1068420410156,
+          339.4522705078125
+        ],
+        "snippet": "images/q17_opt1.png",
+        "text": "(1) both"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 5,
+        "rect": [
+          298.1068420410156,
+          322.9522705078125,
+          565,
+          339.4522705078125
+        ],
+        "snippet": "images/q17_opt2.png",
+        "text": "(2) 100 W"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 5,
+        "rect": [
+          30,
+          339.4522705078125,
+          298.1068420410156,
+          364.9522705078125
+        ],
+        "snippet": "images/q17_opt3.png",
+        "text": "(3) 25 W"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 5,
+        "rect": [
+          298.1068420410156,
+          339.4522705078125,
+          565,
+          364.9522705078125
+        ],
+        "snippet": "images/q17_opt4.png",
+        "text": "(4) neither"
+      }
+    ],
+    "question_number": 17,
+    "question_type": "mcq",
+    "stem_end_page": 5,
+    "stem_images": [],
+    "stem_page": 5,
+    "stem_rect": [
+      30,
+      289.9522705078125,
+      565,
+      322.9522705078125
+    ],
+    "stem_snippet": "images/q17_stem.png",
+    "stem_text": "Q17.Two electric bulbs marked and are connected in series to a supply. Which of the bulbs will fuse? 25 W \u2212220 V 100 W \u2212220 V 440 V"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [
+          "images/q18_opt1_diagram_1.png"
+        ],
+        "label": "1",
+        "page": 5,
+        "rect": [
+          30,
+          447.4522705078125,
+          298.1094055175781,
+          529.2023315429688
+        ],
+        "snippet": "images/q18_opt1.png",
+        "text": "(1)"
+      },
+      {
+        "images": [
+          "images/q18_opt2_diagram_1.png"
+        ],
+        "label": "2",
+        "page": 5,
+        "rect": [
+          298.1094055175781,
+          447.4522705078125,
+          565,
+          529.2023315429688
+        ],
+        "snippet": "images/q18_opt2.png",
+        "text": "(2)"
+      },
+      {
+        "images": [
+          "images/q18_opt3_diagram_1.png"
+        ],
+        "label": "3",
+        "page": 5,
+        "rect": [
+          30,
+          529.2023315429688,
+          298.1094055175781,
+          618.452392578125
+        ],
+        "snippet": "images/q18_opt3.png",
+        "text": "(3)"
+      },
+      {
+        "images": [
+          "images/q18_opt4_diagram_1.png"
+        ],
+        "label": "4",
+        "page": 5,
+        "rect": [
+          298.1094055175781,
+          529.2023315429688,
+          565,
+          618.452392578125
+        ],
+        "snippet": "images/q18_opt4.png",
+        "text": "(4)"
+      }
+    ],
+    "question_number": 18,
+    "question_type": "mcq",
+    "stem_end_page": 5,
+    "stem_images": [],
+    "stem_page": 5,
+    "stem_rect": [
+      30,
+      364.9522705078125,
+      565,
+      447.4522705078125
+    ],
+    "stem_snippet": "images/q18_stem.png",
+    "stem_text": "Q18.A charge is uniformly distributed over the surface of non conducting disc of radius . The disc rotates about an axis perpendicular to its plane and passing through its centre with an angular velocity . As a result of this rotation a magnetic field of induction is obtained at the centre of the disc. If we keep both the amount of charge placed on the disc and its angular velocity to be constant and vary the radius of the disc then the variation of the magnetic induction at the centre of the disc will be represented by the figure Q R \u03c9 B"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 5,
+        "rect": [
+          30,
+          667.952392578125,
+          298.1090087890625,
+          684.452392578125
+        ],
+        "snippet": "images/q19_opt1.png",
+        "text": "(1) r\u03b1 = rp = rd"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 5,
+        "rect": [
+          298.1090087890625,
+          667.952392578125,
+          565,
+          684.452392578125
+        ],
+        "snippet": "images/q19_opt2.png",
+        "text": "(2) r\u03b1 = rp < rd"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 5,
+        "rect": [
+          30,
+          684.452392578125,
+          298.1090087890625,
+          709.952392578125
+        ],
+        "snippet": "images/q19_opt3.png",
+        "text": "(3) r\u03b1 > rd > rp"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 5,
+        "rect": [
+          298.1090087890625,
+          684.452392578125,
+          565,
+          709.952392578125
+        ],
+        "snippet": "images/q19_opt4.png",
+        "text": "(4) r\u03b1 = rd > rp"
+      }
+    ],
+    "question_number": 19,
+    "question_type": "mcq",
+    "stem_end_page": 5,
+    "stem_images": [],
+    "stem_page": 5,
+    "stem_rect": [
+      30,
+      618.452392578125,
+      565,
+      667.952392578125
+    ],
+    "stem_snippet": "images/q19_stem.png",
+    "stem_text": "Q19.Proton, Deuteron and alpha particle of the same kinetic energy are moving in circular trajectories in a constant magnetic field. The radii of proton, deuteron and alpha particle are respectively and . Which one of the following relations is correct? rp, rd r\u03b1"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 6,
+        "rect": [
+          30,
+          74.7021484375,
+          298.10906982421875,
+          107.7021484375
+        ],
+        "snippet": "images/q20_opt1.png",
+        "text": "(1) development of air current when the plate is placed."
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 6,
+        "rect": [
+          298.10906982421875,
+          74.7021484375,
+          565,
+          107.7021484375
+        ],
+        "snippet": "images/q20_opt2.png",
+        "text": "(2) induction of electrical charge on the plate"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 6,
+        "rect": [
+          30,
+          107.7021484375,
+          298.10833740234375,
+          149.7021484375
+        ],
+        "snippet": "images/q20_opt3.png",
+        "text": "(3) shielding of magnetic lines of force as aluminium is a paramagnetic material."
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 6,
+        "rect": [
+          298.10833740234375,
+          107.7021484375,
+          565,
+          149.7021484375
+        ],
+        "snippet": "images/q20_opt4.png",
+        "text": "m(4) electromagnetic induction in the aluminium plate giving rise to electromagnetic damping."
+      }
+    ],
+    "question_number": 20,
+    "question_type": "mcq",
+    "stem_end_page": 5,
+    "stem_images": [],
+    "stem_page": 5,
+    "stem_rect": [
+      30,
+      709.952392578125,
+      565,
+      803.4650268554688
+    ],
+    "stem_snippet": "images/q20_stem.png",
+    "stem_text": "Q20.A coil is suspended in a uniform magnetic field, with the plane of the coil parallel to the magnetic lines of force. When a current is passed through the coil it starts oscillating; it is very difficult to stop. But if an aluminium plate is placed near to the coil, it stops. This is due to :"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 6,
+        "rect": [
+          30,
+          204.4521484375,
+          298.1075744628906,
+          221.7021484375
+        ],
+        "snippet": "images/q21_opt1.png",
+        "text": "(1) and X\u2225B k\u2225B \u00d7E"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 6,
+        "rect": [
+          298.1075744628906,
+          204.4521484375,
+          565,
+          221.7021484375
+        ],
+        "snippet": "images/q21_opt2.png",
+        "text": "(2) and X\u2225E k\u2225E \u00d7B"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 6,
+        "rect": [
+          30,
+          221.7021484375,
+          298.1068420410156,
+          247.9521484375
+        ],
+        "snippet": "images/q21_opt3.png",
+        "text": "(3) and X\u2225B k\u2225E \u00d7B"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 6,
+        "rect": [
+          298.1068420410156,
+          221.7021484375,
+          565,
+          247.9521484375
+        ],
+        "snippet": "images/q21_opt4.png",
+        "text": "(4) and X\u2225E k\u2225B \u00d7E"
+      }
+    ],
+    "question_number": 21,
+    "question_type": "mcq",
+    "stem_end_page": 6,
+    "stem_images": [],
+    "stem_page": 6,
+    "stem_rect": [
+      30,
+      149.7021484375,
+      565,
+      204.4521484375
+    ],
+    "stem_snippet": "images/q21_stem.png",
+    "stem_text": "Q21.An electromagnetic wave in vacuum has the electric and magnetic fields and , which are always perpendicular to each other. The direction of polarization is given by and that of wave propagation by . Then : E B \u2192X \u2192 k"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 6,
+        "rect": [
+          30,
+          297.4521484375,
+          298.1060791015625,
+          313.9521484375
+        ],
+        "snippet": "images/q22_opt1.png",
+        "text": "(1) 7.2 m"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 6,
+        "rect": [
+          298.1060791015625,
+          297.4521484375,
+          565,
+          313.9521484375
+        ],
+        "snippet": "images/q22_opt2.png",
+        "text": "(2) 2.4 m"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 6,
+        "rect": [
+          30,
+          313.9521484375,
+          298.1060791015625,
+          339.4521484375
+        ],
+        "snippet": "images/q22_opt3.png",
+        "text": "(3) 3.2 m"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 6,
+        "rect": [
+          298.1060791015625,
+          313.9521484375,
+          565,
+          339.4521484375
+        ],
+        "snippet": "images/q22_opt4.png",
+        "text": "(4) 5.6 m"
+      }
+    ],
+    "question_number": 22,
+    "question_type": "mcq",
+    "stem_end_page": 6,
+    "stem_images": [],
+    "stem_page": 6,
+    "stem_rect": [
+      30,
+      247.9521484375,
+      565,
+      297.4521484375
+    ],
+    "stem_snippet": "images/q22_stem.png",
+    "stem_text": "Q22.An object in front of a lens forms a sharp image on a film behind the lens. A glass plate thick, of refractive index is interposed between lens and film with its plane faces parallel to film. At what distance (from lens) should object be shifted to be in sharp focus on film? 2.4 m 12 cm 1 cm 1.50"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 6,
+        "rect": [
+          30,
+          388.9521484375,
+          298.1060791015625,
+          410.7021484375
+        ],
+        "snippet": "images/q23_opt1.png",
+        "text": "(1) Im 9 (4 + 5 cos \u03d5)"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 6,
+        "rect": [
+          298.1060791015625,
+          388.9521484375,
+          565,
+          410.7021484375
+        ],
+        "snippet": "images/q23_opt2.png",
+        "text": "(2) lm 3 (1 + 2 cos2 \u03d5 2 )"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 6,
+        "rect": [
+          30,
+          410.7021484375,
+          298.1060791015625,
+          441.4521484375
+        ],
+        "snippet": "images/q23_opt3.png",
+        "text": "(3) Im 5 (1 + 4 cos2 \u03d5 2 )"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 6,
+        "rect": [
+          298.1060791015625,
+          410.7021484375,
+          565,
+          441.4521484375
+        ],
+        "snippet": "images/q23_opt4.png",
+        "text": "(4) Im 9 (1 + 8 cos2 \u03d5 2 )"
+      }
+    ],
+    "question_number": 23,
+    "question_type": "mcq",
+    "stem_end_page": 6,
+    "stem_images": [],
+    "stem_page": 6,
+    "stem_rect": [
+      30,
+      339.4521484375,
+      565,
+      388.9521484375
+    ],
+    "stem_snippet": "images/q23_stem.png",
+    "stem_text": "Q23.In Young's double slit experiment, one of the slit is wider than other, so that the amplitude of the light from one slit is double of that from other slit. If be the maximum intensity, the resultant intensity I when they interfere at phase difference is given by Im \u03d5"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 6,
+        "rect": [
+          30,
+          490.9521484375,
+          298.1060791015625,
+          507.4521484375
+        ],
+        "snippet": "images/q24_opt1.png",
+        "text": "(1) Statement is false, Statement is true 1 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 6,
+        "rect": [
+          298.1060791015625,
+          490.9521484375,
+          565,
+          507.4521484375
+        ],
+        "snippet": "images/q24_opt2.png",
+        "text": "(2) Statement is true, Statement is false 1 2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 6,
+        "rect": [
+          30,
+          507.4521484375,
+          298.1061096191406,
+          565.9521484375
+        ],
+        "snippet": "images/q24_opt3.png",
+        "text": "(3) Statement is true, Statement is the correct explanation for statement 1 2 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 6,
+        "rect": [
+          298.1061096191406,
+          507.4521484375,
+          565,
+          565.9521484375
+        ],
+        "snippet": "images/q24_opt4.png",
+        "text": "(4) Statement is true, Statement is true, Statement is not the correct explanation for statement . 1 2 2 1"
+      }
+    ],
+    "question_number": 24,
+    "question_type": "mcq",
+    "stem_end_page": 6,
+    "stem_images": [],
+    "stem_page": 6,
+    "stem_rect": [
+      30,
+      441.4521484375,
+      565,
+      490.9521484375
+    ],
+    "stem_snippet": "images/q24_stem.png",
+    "stem_text": "Q24.This question has statement and statement . Of the four choices given after the statements, choose the one that best describes the two statements Statement 1 : Davisson - germer experiment established the wave nature of electrons. Statement 2 : If electrons have wave nature, they can interfere and show diffraction. 1 2"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 6,
+        "rect": [
+          30,
+          598.9521484375,
+          298.1053466796875,
+          615.4521484375
+        ],
+        "snippet": "images/q25_opt1.png",
+        "text": "(1) 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 6,
+        "rect": [
+          298.1053466796875,
+          598.9521484375,
+          565,
+          615.4521484375
+        ],
+        "snippet": "images/q25_opt2.png",
+        "text": "(2) 3"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 6,
+        "rect": [
+          30,
+          615.4521484375,
+          298.1053466796875,
+          640.9521484375
+        ],
+        "snippet": "images/q25_opt3.png",
+        "text": "(3) 5"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 6,
+        "rect": [
+          298.1053466796875,
+          615.4521484375,
+          565,
+          640.9521484375
+        ],
+        "snippet": "images/q25_opt4.png",
+        "text": "(4) 6"
+      }
+    ],
+    "question_number": 25,
+    "question_type": "mcq",
+    "stem_end_page": 6,
+    "stem_images": [],
+    "stem_page": 6,
+    "stem_rect": [
+      30,
+      565.9521484375,
+      565,
+      598.9521484375
+    ],
+    "stem_snippet": "images/q25_stem.png",
+    "stem_text": "Q25.Hydrogen atom is excited from ground state to another state with principal quantum number equal to . Then the number of spectral lines in the emission spectra will be 4"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 6,
+        "rect": [
+          30,
+          690.4521484375,
+          298.1053161621094,
+          712.9521484375
+        ],
+        "snippet": "images/q26_opt1.png",
+        "text": "(1) (m1+m2)2n2h2 2m2 1m2 2r2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 6,
+        "rect": [
+          298.1053161621094,
+          690.4521484375,
+          565,
+          712.9521484375
+        ],
+        "snippet": "images/q26_opt2.png",
+        "text": "(2) n2h2 2(m1+m2)r2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 6,
+        "rect": [
+          30,
+          712.9521484375,
+          298.1053161621094,
+          803.4650268554688
+        ],
+        "snippet": "images/q26_opt3.png",
+        "text": "(3) 2n2h2 (m1+m2)r2"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 6,
+        "rect": [
+          298.1053161621094,
+          712.9521484375,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q26_opt4.png",
+        "text": "(4) (m1+m2)n2h2 2m1m2r2"
+      }
+    ],
+    "question_number": 26,
+    "question_type": "mcq",
+    "stem_end_page": 6,
+    "stem_images": [],
+    "stem_page": 6,
+    "stem_rect": [
+      30,
+      640.9521484375,
+      565,
+      690.4521484375
+    ],
+    "stem_snippet": "images/q26_stem.png",
+    "stem_text": "Q26.A diatomic molecule is made of two masses and which are separated by a distance . If we calculate its rotational energy by applying Bohr's rule of angular momentum quantization, its energy will be given by ( is an integer) m1 m2 r n"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 7,
+        "rect": [
+          30,
+          108.45196533203125,
+          298.1089782714844,
+          124.95196533203125
+        ],
+        "snippet": "images/q27_opt1.png",
+        "text": "(1) 0.73 MeV"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 7,
+        "rect": [
+          298.1089782714844,
+          108.45196533203125,
+          565,
+          124.95196533203125
+        ],
+        "snippet": "images/q27_opt2.png",
+        "text": "(2) 7.10 MeV"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 7,
+        "rect": [
+          30,
+          124.95196533203125,
+          298.1089782714844,
+          150.45196533203125
+        ],
+        "snippet": "images/q27_opt3.png",
+        "text": "(3) 6.30 MeV"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 7,
+        "rect": [
+          298.1089782714844,
+          124.95196533203125,
+          565,
+          150.45196533203125
+        ],
+        "snippet": "images/q27_opt4.png",
+        "text": "(4) 5.4 MeV"
+      }
+    ],
+    "question_number": 27,
+    "question_type": "mcq",
+    "stem_end_page": 7,
+    "stem_images": [],
+    "stem_page": 7,
+    "stem_rect": [
+      30,
+      75.45196533203125,
+      565,
+      108.45196533203125
+    ],
+    "stem_snippet": "images/q27_stem.png",
+    "stem_text": "Q27.Assume that a neutron breaks into a proton and an electron. The energy released during this process is (Mass of neutron mass of proton mass of electron = 1.6725 \u00d7 10\u221227 kg; = 1.6725 \u00d7 10\u221227 kg; = 9 \u00d7 10\u221231 kg)"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [
+          "images/q28_opt1_diagram_1.png"
+        ],
+        "label": "1",
+        "page": 7,
+        "rect": [
+          30,
+          274.20196533203125,
+          298.1094055175781,
+          382.20196533203125
+        ],
+        "snippet": "images/q28_opt1.png",
+        "text": "(1)"
+      },
+      {
+        "images": [
+          "images/q28_opt2_diagram_1.png"
+        ],
+        "label": "2",
+        "page": 7,
+        "rect": [
+          298.1094055175781,
+          274.20196533203125,
+          565,
+          382.20196533203125
+        ],
+        "snippet": "images/q28_opt2.png",
+        "text": "(2)"
+      },
+      {
+        "images": [
+          "images/q28_opt3_diagram_1.png"
+        ],
+        "label": "3",
+        "page": 7,
+        "rect": [
+          30,
+          382.20196533203125,
+          298.1094055175781,
+          496.95196533203125
+        ],
+        "snippet": "images/q28_opt3.png",
+        "text": "(3)"
+      },
+      {
+        "images": [
+          "images/q28_opt4_diagram_1.png"
+        ],
+        "label": "4",
+        "page": 7,
+        "rect": [
+          298.1094055175781,
+          382.20196533203125,
+          565,
+          496.95196533203125
+        ],
+        "snippet": "images/q28_opt4.png",
+        "text": "(4)"
+      }
+    ],
+    "question_number": 28,
+    "question_type": "mcq",
+    "stem_end_page": 7,
+    "stem_images": [
+      "images/q28_stem_diagram_1.png"
+    ],
+    "stem_page": 7,
+    "stem_rect": [
+      30,
+      150.45196533203125,
+      565,
+      274.20196533203125
+    ],
+    "stem_snippet": "images/q28_stem.png",
+    "stem_text": "Q28.Truth table for system of four NAND gates as shown in figure is"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 7,
+        "rect": [
+          30,
+          546.4519653320312,
+          298.1090393066406,
+          562.9519653320312
+        ],
+        "snippet": "images/q29_opt1.png",
+        "text": "(1) 80 km"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 7,
+        "rect": [
+          298.1090393066406,
+          546.4519653320312,
+          565,
+          562.9519653320312
+        ],
+        "snippet": "images/q29_opt2.png",
+        "text": "(2) 16 km"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 7,
+        "rect": [
+          30,
+          562.9519653320312,
+          298.1090393066406,
+          588.4519653320312
+        ],
+        "snippet": "images/q29_opt3.png",
+        "text": "(3) 40 km"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 7,
+        "rect": [
+          298.1090393066406,
+          562.9519653320312,
+          565,
+          588.4519653320312
+        ],
+        "snippet": "images/q29_opt4.png",
+        "text": "(4) 64 km"
+      }
+    ],
+    "question_number": 29,
+    "question_type": "mcq",
+    "stem_end_page": 7,
+    "stem_images": [],
+    "stem_page": 7,
+    "stem_rect": [
+      30,
+      496.95196533203125,
+      565,
+      546.4519653320312
+    ],
+    "stem_snippet": "images/q29_stem.png",
+    "stem_text": "Q29.A radar has a power of and is operating at a frequency of . It is located on a mountain top of height . The maximum distance upto which it can detect object located on the surface of the earth (Radius of earth ) is 1 Kw 10 GHz 500 m = 6.4 \u00d7 106 m"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 7,
+        "rect": [
+          30,
+          654.4519653320312,
+          298.1083068847656,
+          670.9519653320312
+        ],
+        "snippet": "images/q30_opt1.png",
+        "text": "(1) 58.59\u2218"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 7,
+        "rect": [
+          298.1083068847656,
+          654.4519653320312,
+          565,
+          670.9519653320312
+        ],
+        "snippet": "images/q30_opt2.png",
+        "text": "(2) 58.77\u2218"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 7,
+        "rect": [
+          30,
+          670.9519653320312,
+          298.1083068847656,
+          696.4519653320312
+        ],
+        "snippet": "images/q30_opt3.png",
+        "text": "(3) 58.65\u2218"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 7,
+        "rect": [
+          298.1083068847656,
+          670.9519653320312,
+          565,
+          696.4519653320312
+        ],
+        "snippet": "images/q30_opt4.png",
+        "text": "(4) 59\u2218"
+      }
+    ],
+    "question_number": 30,
+    "question_type": "mcq",
+    "stem_end_page": 7,
+    "stem_images": [],
+    "stem_page": 7,
+    "stem_rect": [
+      30,
+      588.4519653320312,
+      565,
+      654.4519653320312
+    ],
+    "stem_snippet": "images/q30_stem.png",
+    "stem_text": "Q30.A spectrometer gives the following reading when used to measure the angle of a prism. Main scale reading: degree Vernier scale reading : divisions Given that division on main scale corresponds to degree. Total divisions on the vernier scale is and match with divisions of the main scale. The angle of the prism from the above data 58.5 09 1 0.5 30 29"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 7,
+        "rect": [
+          30,
+          729.4519653320312,
+          298.1083068847656,
+          745.9519653320312
+        ],
+        "snippet": "images/q31_opt1.png",
+        "text": "(1) 0.50 M"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 7,
+        "rect": [
+          298.1083068847656,
+          729.4519653320312,
+          565,
+          745.9519653320312
+        ],
+        "snippet": "images/q31_opt2.png",
+        "text": "(2) 1.78 M"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 7,
+        "rect": [
+          30,
+          745.9519653320312,
+          298.1083068847656,
+          803.4650268554688
+        ],
+        "snippet": "images/q31_opt3.png",
+        "text": "(3) 1.02 M"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 7,
+        "rect": [
+          298.1083068847656,
+          745.9519653320312,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q31_opt4.png",
+        "text": "(4) 2.05 M"
+      }
+    ],
+    "question_number": 31,
+    "question_type": "mcq",
+    "stem_end_page": 7,
+    "stem_images": [],
+    "stem_page": 7,
+    "stem_rect": [
+      30,
+      696.4519653320312,
+      565,
+      729.4519653320312
+    ],
+    "stem_snippet": "images/q31_stem.png",
+    "stem_text": "Q31.The density of a solution prepared by dissolving of urea (mol. Mass ) in of water is . The molarity of this solution is : 120 g = 60u 1000 g 1.15 g/mL"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          108.45196533203125,
+          298.10821533203125,
+          124.95196533203125
+        ],
+        "snippet": "images/q32_opt1.png",
+        "text": "(1) (c) (d) (b) (a) < < <"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.10821533203125,
+          108.45196533203125,
+          565,
+          124.95196533203125
+        ],
+        "snippet": "images/q32_opt2.png",
+        "text": "(2) (d) (b) (c) (a) < < <"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          124.95196533203125,
+          298.10821533203125,
+          150.45196533203125
+        ],
+        "snippet": "images/q32_opt3.png",
+        "text": "(3) (b) (d) (a) (c) < < <"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.10821533203125,
+          124.95196533203125,
+          565,
+          150.45196533203125
+        ],
+        "snippet": "images/q32_opt4.png",
+        "text": "(4) (a) (c) (b) (d) < < <"
+      }
+    ],
+    "question_number": 32,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      75.45196533203125,
+      565,
+      108.45196533203125
+    ],
+    "stem_snippet": "images/q32_stem.png",
+    "stem_text": "Q32.The electrons identified by quantum numbers and : (a) (b) (c) (d) Can be placed in order of increasing energy as: n I n = 4, I = 1 n = 4, l = 0 n = 3, I = 2 n = 3, I = 1"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          166.95196533203125,
+          298.10675048828125,
+          183.45196533203125
+        ],
+        "snippet": "images/q33_opt1.png",
+        "text": "(1) Cl\u2212, Ca2+, K+, S2\u2212"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          166.95196533203125,
+          565,
+          183.45196533203125
+        ],
+        "snippet": "images/q33_opt2.png",
+        "text": "(2) S2\u2212, Cl\u2212, Ca2+, K+"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          183.45196533203125,
+          298.10675048828125,
+          208.95196533203125
+        ],
+        "snippet": "images/q33_opt3.png",
+        "text": "(3) Ca2+, K+, Cl\u2212, S2\u2212"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          183.45196533203125,
+          565,
+          208.95196533203125
+        ],
+        "snippet": "images/q33_opt4.png",
+        "text": "(4) K+, S2\u2212, Ca2+, Cl\u2212"
+      }
+    ],
+    "question_number": 33,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      150.45196533203125,
+      565,
+      166.95196533203125
+    ],
+    "stem_snippet": "images/q33_stem.png",
+    "stem_text": "Q33.The increasing order of the ionic radii of the given isoelectronic species is :"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          225.45196533203125,
+          298.10675048828125,
+          241.95196533203125
+        ],
+        "snippet": "images/q34_opt1.png",
+        "text": "(1) NCl3"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          225.45196533203125,
+          565,
+          241.95196533203125
+        ],
+        "snippet": "images/q34_opt2.png",
+        "text": "(2) AsCl3"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          241.95196533203125,
+          298.10675048828125,
+          267.45196533203125
+        ],
+        "snippet": "images/q34_opt3.png",
+        "text": "(3) SbCl3"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          241.95196533203125,
+          565,
+          267.45196533203125
+        ],
+        "snippet": "images/q34_opt4.png",
+        "text": "(4) PCl3"
+      }
+    ],
+    "question_number": 34,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      208.95196533203125,
+      565,
+      225.45196533203125
+    ],
+    "stem_snippet": "images/q34_stem.png",
+    "stem_text": "Q34.The molecule having smallest bond angle is :"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          283.95196533203125,
+          298.10675048828125,
+          300.45196533203125
+        ],
+        "snippet": "images/q35_opt1.png",
+        "text": "(1) and CO2\u2212 3 NO\u2212 3"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          283.95196533203125,
+          565,
+          300.45196533203125
+        ],
+        "snippet": "images/q35_opt2.png",
+        "text": "(2) and PCl+ 4 SiCl4"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          300.45196533203125,
+          298.10675048828125,
+          325.95196533203125
+        ],
+        "snippet": "images/q35_opt3.png",
+        "text": "(3) and PF5 BrF5"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          300.45196533203125,
+          565,
+          325.95196533203125
+        ],
+        "snippet": "images/q35_opt4.png",
+        "text": "(4) and AlF3\u2212 6 SF6"
+      }
+    ],
+    "question_number": 35,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      267.45196533203125,
+      565,
+      283.95196533203125
+    ],
+    "stem_snippet": "images/q35_stem.png",
+    "stem_text": "Q35.In which of the following pairs the two species are not isostructural?"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          342.45196533203125,
+          298.10675048828125,
+          358.95196533203125
+        ],
+        "snippet": "images/q36_opt1.png",
+        "text": "(1) 1 + RT/pb"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          342.45196533203125,
+          565,
+          358.95196533203125
+        ],
+        "snippet": "images/q36_opt2.png",
+        "text": "(2) 1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          358.95196533203125,
+          298.10675048828125,
+          384.45196533203125
+        ],
+        "snippet": "images/q36_opt3.png",
+        "text": "(3) 1 + pb/RT"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          358.95196533203125,
+          565,
+          384.45196533203125
+        ],
+        "snippet": "images/q36_opt4.png",
+        "text": "(4) 1 \u2212pb/RT"
+      }
+    ],
+    "question_number": 36,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      325.95196533203125,
+      565,
+      342.45196533203125
+    ],
+    "stem_snippet": "images/q36_stem.png",
+    "stem_text": "Q36.The compressibility factor for a real gas at high pressure is :"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          400.95196533203125,
+          298.10675048828125,
+          419.70196533203125
+        ],
+        "snippet": "images/q37_opt1.png",
+        "text": "(1) \u0394Gsystem \u0394Stotal = \u2212T"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.10675048828125,
+          400.95196533203125,
+          565,
+          419.70196533203125
+        ],
+        "snippet": "images/q37_opt2.png",
+        "text": "(2) In isothermal process wreversible = \u2212nRT ln Vf Vi"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          419.70196533203125,
+          298.10601806640625,
+          445.20196533203125
+        ],
+        "snippet": "images/q37_opt3.png",
+        "text": "(3) ln K = \u0394H0\u2212T\u0394S0 RT"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.10601806640625,
+          419.70196533203125,
+          565,
+          445.20196533203125
+        ],
+        "snippet": "images/q37_opt4.png",
+        "text": "(4) K = e\u2212\u0394G0/RT"
+      }
+    ],
+    "question_number": 37,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      384.45196533203125,
+      565,
+      400.95196533203125
+    ],
+    "stem_snippet": "images/q37_stem.png",
+    "stem_text": "Q37.The incorrect expression among the following is :"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          478.20196533203125,
+          298.1059875488281,
+          494.70196533203125
+        ],
+        "snippet": "images/q38_opt1.png",
+        "text": "(1) 0.02"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.1059875488281,
+          478.20196533203125,
+          565,
+          494.70196533203125
+        ],
+        "snippet": "images/q38_opt2.png",
+        "text": "(2) 2.5 \u00d7 102"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          494.70196533203125,
+          298.1059875488281,
+          520.2019653320312
+        ],
+        "snippet": "images/q38_opt3.png",
+        "text": "(3) 4 \u00d7 10\u22124"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.1059875488281,
+          494.70196533203125,
+          565,
+          520.2019653320312
+        ],
+        "snippet": "images/q38_opt4.png",
+        "text": "(4) 50.0"
+      }
+    ],
+    "question_number": 38,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      445.20196533203125,
+      565,
+      478.20196533203125
+    ],
+    "stem_snippet": "images/q38_stem.png",
+    "stem_text": "Q38.The equilibrium constant for the reaction at temperature is . The value of for the reaction, at the same temperature is : (Kc) N2(g) + O2( g) \u21922NO(g) T 4 \u00d7 10\u22124 Kc NO(g) \u21921/2 N2(g) + 1/2 O2(g)"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          536.7019653320312,
+          298.1059875488281,
+          553.2019653320312
+        ],
+        "snippet": "images/q39_opt1.png",
+        "text": "(1) 3 \u00d7 10\u22121"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.1059875488281,
+          536.7019653320312,
+          565,
+          553.2019653320312
+        ],
+        "snippet": "images/q39_opt2.png",
+        "text": "(2) 1 \u00d7 10\u22123"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          553.2019653320312,
+          298.1059875488281,
+          578.7019653320312
+        ],
+        "snippet": "images/q39_opt3.png",
+        "text": "(3) 1 \u00d7 10\u22125"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.1059875488281,
+          553.2019653320312,
+          565,
+          578.7019653320312
+        ],
+        "snippet": "images/q39_opt4.png",
+        "text": "(4) 1 \u00d7 10\u22127"
+      }
+    ],
+    "question_number": 39,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      520.2019653320312,
+      565,
+      536.7019653320312
+    ],
+    "stem_snippet": "images/q39_stem.png",
+    "stem_text": "Q39.The pH of a molar solution of the acid is . The value of the ionization constant, Ka of this acid is : 0.1 HQ 3"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          595.2019653320312,
+          298.1059875488281,
+          628.2019653320312
+        ],
+        "snippet": "images/q40_opt1.png",
+        "text": "(1) Reaction of methane with steam"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.1059875488281,
+          595.2019653320312,
+          565,
+          628.2019653320312
+        ],
+        "snippet": "images/q40_opt2.png",
+        "text": "(2) Mixing natural hydrocarbons of high molecular weight"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          628.2019653320312,
+          298.1052551269531,
+          653.7019653320312
+        ],
+        "snippet": "images/q40_opt3.png",
+        "text": "(3) Electrolysis of water"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.1052551269531,
+          628.2019653320312,
+          565,
+          653.7019653320312
+        ],
+        "snippet": "images/q40_opt4.png",
+        "text": "(4) Reaction of salt like hydrides with water"
+      }
+    ],
+    "question_number": 40,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      578.7019653320312,
+      565,
+      595.2019653320312
+    ],
+    "stem_snippet": "images/q40_stem.png",
+    "stem_text": "Q40.Very pure hydrogen can be made by which of the following processes? (99.9%)"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 8,
+        "rect": [
+          30,
+          670.2019653320312,
+          298.1045227050781,
+          686.7019653320312
+        ],
+        "snippet": "images/q41_opt1.png",
+        "text": "(1) NaNO3"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 8,
+        "rect": [
+          298.1045227050781,
+          670.2019653320312,
+          565,
+          686.7019653320312
+        ],
+        "snippet": "images/q41_opt2.png",
+        "text": "(2) KClO3"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 8,
+        "rect": [
+          30,
+          686.7019653320312,
+          298.1045227050781,
+          712.2019653320312
+        ],
+        "snippet": "images/q41_opt3.png",
+        "text": "(3) CaCO3"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 8,
+        "rect": [
+          298.1045227050781,
+          686.7019653320312,
+          565,
+          712.2019653320312
+        ],
+        "snippet": "images/q41_opt4.png",
+        "text": "(4) NH4NO3"
+      }
+    ],
+    "question_number": 41,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      653.7019653320312,
+      565,
+      670.2019653320312
+    ],
+    "stem_snippet": "images/q41_stem.png",
+    "stem_text": "Q41.Which of the following on thermal decomposition yields a basic as well as an acidic oxide ?"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          74.70208740234375,
+          298.1090393066406,
+          107.70208740234375
+        ],
+        "snippet": "images/q42_opt1.png",
+        "text": "(1) Nitrophenol is more volatile in steam than those of and isomers o\u2212 m\u2212 p\u2212"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1090393066406,
+          74.70208740234375,
+          565,
+          107.70208740234375
+        ],
+        "snippet": "images/q42_opt2.png",
+        "text": "(2) Nitrophenol shows Intramolecular bonding o\u2212 H\u2212"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          107.70208740234375,
+          298.1083068847656,
+          149.70208740234375
+        ],
+        "snippet": "images/q42_opt3.png",
+        "text": "(3) Nitrophenol shows Intermolecular bonding o\u2212 H\u2212"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1083068847656,
+          107.70208740234375,
+          565,
+          149.70208740234375
+        ],
+        "snippet": "images/q42_opt4.png",
+        "text": "(4) Melting point of Nitrophenol is lower than those of and isomers. o\u2212 m\u2212 p\u2212"
+      }
+    ],
+    "question_number": 42,
+    "question_type": "mcq",
+    "stem_end_page": 8,
+    "stem_images": [],
+    "stem_page": 8,
+    "stem_rect": [
+      30,
+      712.2019653320312,
+      565,
+      803.4650268554688
+    ],
+    "stem_snippet": "images/q42_stem.png",
+    "stem_text": "Q42.Ortho-Nitrophenol is less soluble in water than and Nitrophenols because : p\u2212 m\u2212"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          166.20208740234375,
+          298.1075744628906,
+          182.70208740234375
+        ],
+        "snippet": "images/q43_opt1.png",
+        "text": "(1) Pt/H2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1075744628906,
+          166.20208740234375,
+          565,
+          182.70208740234375
+        ],
+        "snippet": "images/q43_opt2.png",
+        "text": "(2) Li/NH3"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          182.70208740234375,
+          298.1075744628906,
+          208.20208740234375
+        ],
+        "snippet": "images/q43_opt3.png",
+        "text": "(3) Pd/BaSO4"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1075744628906,
+          182.70208740234375,
+          565,
+          208.20208740234375
+        ],
+        "snippet": "images/q43_opt4.png",
+        "text": "(4) LiAlH4"
+      }
+    ],
+    "question_number": 43,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      149.70208740234375,
+      565,
+      166.20208740234375
+    ],
+    "stem_snippet": "images/q43_stem.png",
+    "stem_text": "Q43. Hexyne gives trans Hexene on treatment with : 2\u2212 \u22122\u2212"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          224.70208740234375,
+          298.1075744628906,
+          241.20208740234375
+        ],
+        "snippet": "images/q44_opt1.png",
+        "text": "(1) Greenhouse gas"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1075744628906,
+          224.70208740234375,
+          565,
+          241.20208740234375
+        ],
+        "snippet": "images/q44_opt2.png",
+        "text": "(2) A fertilizer"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          241.20208740234375,
+          298.1068420410156,
+          266.70208740234375
+        ],
+        "snippet": "images/q44_opt3.png",
+        "text": "(3) Biodegradable pollutant"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1068420410156,
+          241.20208740234375,
+          565,
+          266.70208740234375
+        ],
+        "snippet": "images/q44_opt4.png",
+        "text": "(4) Non-biodegradable pollutant"
+      }
+    ],
+    "question_number": 44,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      208.20208740234375,
+      565,
+      224.70208740234375
+    ],
+    "stem_snippet": "images/q44_stem.png",
+    "stem_text": "Q44.What is DDT among the following :"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          299.70208740234375,
+          298.1061096191406,
+          316.20208740234375
+        ],
+        "snippet": "images/q45_opt1.png",
+        "text": "(1) 75 pm"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1061096191406,
+          299.70208740234375,
+          565,
+          316.20208740234375
+        ],
+        "snippet": "images/q45_opt2.png",
+        "text": "(2) 300 pm"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          316.20208740234375,
+          298.1061096191406,
+          341.70208740234375
+        ],
+        "snippet": "images/q45_opt3.png",
+        "text": "(3) 240 pm"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1061096191406,
+          316.20208740234375,
+          565,
+          341.70208740234375
+        ],
+        "snippet": "images/q45_opt4.png",
+        "text": "(4) 152 pm"
+      }
+    ],
+    "question_number": 45,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      266.70208740234375,
+      565,
+      299.70208740234375
+    ],
+    "stem_snippet": "images/q45_stem.png",
+    "stem_text": "Q45.Lithium forms body centred cubic structure. The length of the side of its unit cell is . Atomic radius of the lithium will be: 351pm"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          374.70208740234375,
+          298.1061096191406,
+          391.20208740234375
+        ],
+        "snippet": "images/q46_opt1.png",
+        "text": "(1) 72 g"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1061096191406,
+          374.70208740234375,
+          565,
+          391.20208740234375
+        ],
+        "snippet": "images/q46_opt2.png",
+        "text": "(2) 93 g"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          391.20208740234375,
+          298.1061096191406,
+          416.70208740234375
+        ],
+        "snippet": "images/q46_opt3.png",
+        "text": "(3) 39 g"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1061096191406,
+          391.20208740234375,
+          565,
+          416.70208740234375
+        ],
+        "snippet": "images/q46_opt4.png",
+        "text": "(4) 27 g"
+      }
+    ],
+    "question_number": 46,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      341.70208740234375,
+      565,
+      374.70208740234375
+    ],
+    "stem_snippet": "images/q46_stem.png",
+    "stem_text": "Q46. for water is . If your automobile radiator holds of water, how many grams of ethylene glycol must you add to get the freezing point of the solution lowered to ? Kf 1.86 K kg mol\u22121 1.0 kg (C2H6O2) \u22122.8\u2218C"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          449.70208740234375,
+          298.1061096191406,
+          466.20208740234375
+        ],
+        "snippet": "images/q47_opt1.png",
+        "text": "(1) X = Ni, Y = Fe"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1061096191406,
+          449.70208740234375,
+          565,
+          466.20208740234375
+        ],
+        "snippet": "images/q47_opt2.png",
+        "text": "(2) X = Ni, Y = Zn"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          466.20208740234375,
+          298.1061096191406,
+          491.70208740234375
+        ],
+        "snippet": "images/q47_opt3.png",
+        "text": "(3) X = Fe, Y = Zn"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1061096191406,
+          466.20208740234375,
+          565,
+          491.70208740234375
+        ],
+        "snippet": "images/q47_opt4.png",
+        "text": "(4) X = Zn, Y = Ni"
+      }
+    ],
+    "question_number": 47,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      416.70208740234375,
+      565,
+      449.70208740234375
+    ],
+    "stem_snippet": "images/q47_stem.png",
+    "stem_text": "Q47.The standard reduction potentials for , and are and respectively. The reaction will be spontaneous when: Zn2+/Zn, Ni2+/Ni Fe2+/Fe \u22120.76, \u22120.23 \u22120.44 V X + Y2+ \u2192X2+ + Y"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          524.7020874023438,
+          298.1060791015625,
+          541.2020874023438
+        ],
+        "snippet": "images/q48_opt1.png",
+        "text": "(1) 1.73 \u00d7 10\u22125M/min"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1060791015625,
+          524.7020874023438,
+          565,
+          541.2020874023438
+        ],
+        "snippet": "images/q48_opt2.png",
+        "text": "(2) 3.47 \u00d7 10\u22124M/min"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          541.2020874023438,
+          298.1060791015625,
+          566.7020874023438
+        ],
+        "snippet": "images/q48_opt3.png",
+        "text": "(3) 3.47 \u00d7 10\u22125M/min"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1060791015625,
+          541.2020874023438,
+          565,
+          566.7020874023438
+        ],
+        "snippet": "images/q48_opt4.png",
+        "text": "(4) 1.73 \u00d7 10\u22124M/min"
+      }
+    ],
+    "question_number": 48,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      491.70208740234375,
+      565,
+      524.7020874023438
+    ],
+    "stem_snippet": "images/q48_stem.png",
+    "stem_text": "Q48.For a first order reaction, products, the concentration of changes from to in minutes. The rate of reaction when the concentration of is is : (A) \u2192 A 0.1 M 0.025 M 40 A 0.01 M"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          583.2020874023438,
+          298.1060791015625,
+          599.7020874023438
+        ],
+        "snippet": "images/q49_opt1.png",
+        "text": "(1) x m \u221dP 0"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1060791015625,
+          583.2020874023438,
+          565,
+          599.7020874023438
+        ],
+        "snippet": "images/q49_opt2.png",
+        "text": "(2) x m \u221dp1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          599.7020874023438,
+          298.1060791015625,
+          641.7020874023438
+        ],
+        "snippet": "images/q49_opt3.png",
+        "text": "(3) x m \u221dp1/n"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1060791015625,
+          599.7020874023438,
+          565,
+          641.7020874023438
+        ],
+        "snippet": "images/q49_opt4.png",
+        "text": "(4) All the above are correct for different ranges of pressure"
+      }
+    ],
+    "question_number": 49,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      566.7020874023438,
+      565,
+      583.2020874023438
+    ],
+    "stem_snippet": "images/q49_stem.png",
+    "stem_text": "Q49.According to Freundlich adsorption isotherm, which of the following is correct ?"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 9,
+        "rect": [
+          30,
+          677.7020874023438,
+          298.1053466796875,
+          694.2020874023438
+        ],
+        "snippet": "images/q50_opt1.png",
+        "text": "(1) zone refining"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 9,
+        "rect": [
+          298.1053466796875,
+          677.7020874023438,
+          565,
+          694.2020874023438
+        ],
+        "snippet": "images/q50_opt2.png",
+        "text": "(2) cupellation"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 9,
+        "rect": [
+          30,
+          694.2020874023438,
+          298.1046142578125,
+          719.7020874023438
+        ],
+        "snippet": "images/q50_opt3.png",
+        "text": "(3) Poling"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 9,
+        "rect": [
+          298.1046142578125,
+          694.2020874023438,
+          565,
+          719.7020874023438
+        ],
+        "snippet": "images/q50_opt4.png",
+        "text": "(4) Van Arkel"
+      }
+    ],
+    "question_number": 50,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      641.7020874023438,
+      565,
+      677.7020874023438
+    ],
+    "stem_snippet": "images/q50_stem.png",
+    "stem_text": "Q50.Which method of purification is represented by the following equation: Ti(s) + 2I2(g) 523 K \u27f6TiI4(g) 1700 K \u27f6Ti(s) + 2I2(g)"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          74.70208740234375,
+          298.10906982421875,
+          107.70208740234375
+        ],
+        "snippet": "images/q51_opt1.png",
+        "text": "(1) Ferrous oxide is more basic in nature than the ferric oxide."
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10906982421875,
+          74.70208740234375,
+          565,
+          107.70208740234375
+        ],
+        "snippet": "images/q51_opt2.png",
+        "text": "(2) Ferrous compounds are relatively more ionic than the corresponding ferric compounds"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          107.70208740234375,
+          298.10833740234375,
+          149.70208740234375
+        ],
+        "snippet": "images/q51_opt3.png",
+        "text": "(3) Ferrous compounds are less volatile than the corresponding ferric compounds."
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10833740234375,
+          107.70208740234375,
+          565,
+          149.70208740234375
+        ],
+        "snippet": "images/q51_opt4.png",
+        "text": "(4) Ferrous compounds are more easily hydrolysed than the corresponding ferric compounds."
+      }
+    ],
+    "question_number": 51,
+    "question_type": "mcq",
+    "stem_end_page": 9,
+    "stem_images": [],
+    "stem_page": 9,
+    "stem_rect": [
+      30,
+      719.7020874023438,
+      565,
+      803.4650268554688
+    ],
+    "stem_snippet": "images/q51_stem.png",
+    "stem_text": "Q51.Iron exhibits and oxidation states. Which of the following statements about iron is incorrect? +2 +3"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          166.20208740234375,
+          298.10760498046875,
+          182.70208740234375
+        ],
+        "snippet": "images/q52_opt1.png",
+        "text": "(1) [Cr(en)3]Br3"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10760498046875,
+          166.20208740234375,
+          565,
+          182.70208740234375
+        ],
+        "snippet": "images/q52_opt2.png",
+        "text": "(2) [Cr(en)2Br2]Br"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          182.70208740234375,
+          298.10760498046875,
+          208.20208740234375
+        ],
+        "snippet": "images/q52_opt3.png",
+        "text": "(3) [Cr( en )Br4]\u2212"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10760498046875,
+          182.70208740234375,
+          565,
+          208.20208740234375
+        ],
+        "snippet": "images/q52_opt4.png",
+        "text": "(4) [Cr(en)Br2]Br"
+      }
+    ],
+    "question_number": 52,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      149.70208740234375,
+      565,
+      166.20208740234375
+    ],
+    "stem_snippet": "images/q52_stem.png",
+    "stem_text": "Q52.Which among the following will be named as dibromidobis (ethylene diamine)chromium(III) bromide?"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          224.70208740234375,
+          298.10760498046875,
+          241.20208740234375
+        ],
+        "snippet": "images/q53_opt1.png",
+        "text": "(1) 8"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10760498046875,
+          224.70208740234375,
+          565,
+          241.20208740234375
+        ],
+        "snippet": "images/q53_opt2.png",
+        "text": "(2) 2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          241.20208740234375,
+          298.10760498046875,
+          266.70208740234375
+        ],
+        "snippet": "images/q53_opt3.png",
+        "text": "(3) 4"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10760498046875,
+          241.20208740234375,
+          565,
+          266.70208740234375
+        ],
+        "snippet": "images/q53_opt4.png",
+        "text": "(4) 6"
+      }
+    ],
+    "question_number": 53,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      208.20208740234375,
+      565,
+      224.70208740234375
+    ],
+    "stem_snippet": "images/q53_stem.png",
+    "stem_text": "Q53.How many chiral compounds are possible on monochlorination of methyl butane ? 2\u2212"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          299.70208740234375,
+          298.10760498046875,
+          316.20208740234375
+        ],
+        "snippet": "images/q54_opt1.png",
+        "text": "(1) Tertiary butyl chloride"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10760498046875,
+          299.70208740234375,
+          565,
+          316.20208740234375
+        ],
+        "snippet": "images/q54_opt2.png",
+        "text": "(2) Neopentane"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          316.20208740234375,
+          298.10687255859375,
+          341.70208740234375
+        ],
+        "snippet": "images/q54_opt3.png",
+        "text": "(3) Isohexane"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10687255859375,
+          316.20208740234375,
+          565,
+          341.70208740234375
+        ],
+        "snippet": "images/q54_opt4.png",
+        "text": "(4) Neohexane"
+      }
+    ],
+    "question_number": 54,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      266.70208740234375,
+      565,
+      299.70208740234375
+    ],
+    "stem_snippet": "images/q54_stem.png",
+    "stem_text": "Q54.Which branched chain isomer of the hydrocarbon with molecular mass gives only one isomer of mono substituted alky halide? 72 u"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          358.20208740234375,
+          298.10614013671875,
+          374.70208740234375
+        ],
+        "snippet": "images/q55_opt1.png",
+        "text": "(1) Nitro compounds"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10614013671875,
+          358.20208740234375,
+          565,
+          374.70208740234375
+        ],
+        "snippet": "images/q55_opt2.png",
+        "text": "(2) Sugars"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          374.70208740234375,
+          298.10540771484375,
+          400.20208740234375
+        ],
+        "snippet": "images/q55_opt3.png",
+        "text": "(3) Amines"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10540771484375,
+          374.70208740234375,
+          565,
+          400.20208740234375
+        ],
+        "snippet": "images/q55_opt4.png",
+        "text": "(4) Primary alcohols"
+      }
+    ],
+    "question_number": 55,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      341.70208740234375,
+      565,
+      358.20208740234375
+    ],
+    "stem_snippet": "images/q55_stem.png",
+    "stem_text": "Q55.Which of the following compounds can be detected by Molisch's test ?"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          416.70208740234375,
+          298.10467529296875,
+          433.20208740234375
+        ],
+        "snippet": "images/q56_opt1.png",
+        "text": "(1) Ethyl methyl ketone"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10467529296875,
+          416.70208740234375,
+          565,
+          433.20208740234375
+        ],
+        "snippet": "images/q56_opt2.png",
+        "text": "(2) Isopropyl alcohol"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          433.20208740234375,
+          298.10467529296875,
+          458.70208740234375
+        ],
+        "snippet": "images/q56_opt3.png",
+        "text": "(3) Methyl butanone 3\u2212 \u22122\u2212"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10467529296875,
+          433.20208740234375,
+          565,
+          458.70208740234375
+        ],
+        "snippet": "images/q56_opt4.png",
+        "text": "(4) Isobutyl alcohol"
+      }
+    ],
+    "question_number": 56,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      400.20208740234375,
+      565,
+      416.70208740234375
+    ],
+    "stem_snippet": "images/q56_stem.png",
+    "stem_text": "Q56.lodoform can be prepared from all except :"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          609.4520874023438,
+          298.10906982421875,
+          632.7020874023438
+        ],
+        "snippet": "images/q57_opt1.png",
+        "text": "(1) NH2NH2, (\u2212) OH"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10906982421875,
+          609.4520874023438,
+          565,
+          632.7020874023438
+        ],
+        "snippet": "images/q57_opt2.png",
+        "text": "(2) Zn \u2212Hg/HCl"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          632.7020874023438,
+          298.10906982421875,
+          658.2020874023438
+        ],
+        "snippet": "images/q57_opt3.png",
+        "text": "(3) , Liq. Na NH3"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10906982421875,
+          632.7020874023438,
+          565,
+          658.2020874023438
+        ],
+        "snippet": "images/q57_opt4.png",
+        "text": "(4) NaBH4"
+      }
+    ],
+    "question_number": 57,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [
+      "images/q57_stem_diagram_1.png"
+    ],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      458.70208740234375,
+      565,
+      609.4520874023438
+    ],
+    "stem_snippet": "images/q57_stem.png",
+    "stem_text": "Q57.In the given transformation, which of the following is the most appropriate reagent?"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          674.7020874023438,
+          298.10906982421875,
+          691.2020874023438
+        ],
+        "snippet": "images/q58_opt1.png",
+        "text": "(1) LiAlH4"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10906982421875,
+          674.7020874023438,
+          565,
+          691.2020874023438
+        ],
+        "snippet": "images/q58_opt2.png",
+        "text": "(2) HNO3"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          691.2020874023438,
+          298.10906982421875,
+          716.7020874023438
+        ],
+        "snippet": "images/q58_opt3.png",
+        "text": "(3) AlCl3"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10906982421875,
+          691.2020874023438,
+          565,
+          716.7020874023438
+        ],
+        "snippet": "images/q58_opt4.png",
+        "text": "(4) BuLi"
+      }
+    ],
+    "question_number": 58,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      658.2020874023438,
+      565,
+      674.7020874023438
+    ],
+    "stem_snippet": "images/q58_stem.png",
+    "stem_text": "Q58.The species which can best serve as an initiator for the cationic polymerization is :"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 10,
+        "rect": [
+          30,
+          733.2020874023438,
+          298.10906982421875,
+          749.7020874023438
+        ],
+        "snippet": "images/q59_opt1.png",
+        "text": "(1) Acetyl salicylic acid"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 10,
+        "rect": [
+          298.10906982421875,
+          733.2020874023438,
+          565,
+          749.7020874023438
+        ],
+        "snippet": "images/q59_opt2.png",
+        "text": "(2) Phenyl salicylate"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 10,
+        "rect": [
+          30,
+          749.7020874023438,
+          298.10833740234375,
+          803.4650268554688
+        ],
+        "snippet": "images/q59_opt3.png",
+        "text": "(3) Acetyl salicylate"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 10,
+        "rect": [
+          298.10833740234375,
+          749.7020874023438,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q59_opt4.png",
+        "text": "(4) Methyl salicylic acid"
+      }
+    ],
+    "question_number": 59,
+    "question_type": "mcq",
+    "stem_end_page": 10,
+    "stem_images": [],
+    "stem_page": 10,
+    "stem_rect": [
+      30,
+      716.7020874023438,
+      565,
+      733.2020874023438
+    ],
+    "stem_snippet": "images/q59_stem.png",
+    "stem_text": "Q59.Aspirin is known as:"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          91.95166015625,
+          298.1090087890625,
+          108.45166015625
+        ],
+        "snippet": "images/q60_opt1.png",
+        "text": "(1) All amino acids except lysine are optically active"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1090087890625,
+          91.95166015625,
+          565,
+          108.45166015625
+        ],
+        "snippet": "images/q60_opt2.png",
+        "text": "(2) All amino acids are optically active"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          108.45166015625,
+          298.1082763671875,
+          150.45166015625
+        ],
+        "snippet": "images/q60_opt3.png",
+        "text": "(3) All amino acids except glycine are optically active"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.1082763671875,
+          108.45166015625,
+          565,
+          150.45166015625
+        ],
+        "snippet": "images/q60_opt4.png",
+        "text": "(4) All amino acids except glutamic acid are optically active"
+      }
+    ],
+    "question_number": 60,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      75.45166015625,
+      565,
+      91.95166015625
+    ],
+    "stem_snippet": "images/q60_stem.png",
+    "stem_text": "Q60.Which one of the following statements is correct?"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          167.70166015625,
+          298.1068115234375,
+          200.70166015625
+        ],
+        "snippet": "images/q61_opt1.png",
+        "text": "(1) either on the real axis or on a circle passing through the origin"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1068115234375,
+          167.70166015625,
+          565,
+          200.70166015625
+        ],
+        "snippet": "images/q61_opt2.png",
+        "text": "(2) on a circle with centre at the origin"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          200.70166015625,
+          298.1060791015625,
+          242.70166015625
+        ],
+        "snippet": "images/q61_opt3.png",
+        "text": "(3) either on the real axis or on a circle not passing through the origin"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.1060791015625,
+          200.70166015625,
+          565,
+          242.70166015625
+        ],
+        "snippet": "images/q61_opt4.png",
+        "text": "(4) on the imaginary axis"
+      }
+    ],
+    "question_number": 61,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      150.45166015625,
+      565,
+      167.70166015625
+    ],
+    "stem_snippet": "images/q61_stem.png",
+    "stem_text": "Q61.If and is real, then the point represented by the complex number lies z \u22601 z2 z\u22121 z"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          275.70166015625,
+          298.1053466796875,
+          292.20166015625
+        ],
+        "snippet": "images/q62_opt1.png",
+        "text": "(1) 880"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1053466796875,
+          275.70166015625,
+          565,
+          292.20166015625
+        ],
+        "snippet": "images/q62_opt2.png",
+        "text": "(2) 629"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          292.20166015625,
+          298.1053466796875,
+          317.70166015625
+        ],
+        "snippet": "images/q62_opt3.png",
+        "text": "(3) 630"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.1053466796875,
+          292.20166015625,
+          565,
+          317.70166015625
+        ],
+        "snippet": "images/q62_opt4.png",
+        "text": "(4) 879"
+      }
+    ],
+    "question_number": 62,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      242.70166015625,
+      565,
+      275.70166015625
+    ],
+    "stem_snippet": "images/q62_stem.png",
+    "stem_text": "Q62.Assuming the balls to be identical except for difference in colours, the number of ways in which one or more balls can be selected from white, green and black balls is 10 9 7"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          350.70166015625,
+          298.1053161621094,
+          367.20166015625
+        ],
+        "snippet": "images/q63_opt1.png",
+        "text": "(1) 52"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1053161621094,
+          350.70166015625,
+          565,
+          367.20166015625
+        ],
+        "snippet": "images/q63_opt2.png",
+        "text": "(2) 35"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          367.20166015625,
+          298.1053161621094,
+          392.70166015625
+        ],
+        "snippet": "images/q63_opt3.png",
+        "text": "(3) 25"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.1053161621094,
+          367.20166015625,
+          565,
+          392.70166015625
+        ],
+        "snippet": "images/q63_opt4.png",
+        "text": "(4) 53"
+      }
+    ],
+    "question_number": 63,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      317.70166015625,
+      565,
+      350.70166015625
+    ],
+    "stem_snippet": "images/q63_stem.png",
+    "stem_text": "Q63.Let . The number of different ordered pairs that can be formed such that and is empty, is X = {1, 2, 3, 4, 5} (Y , Z) Y \u2286X, Z \u2286X Y \u2229Z"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          442.20166015625,
+          298.1053161621094,
+          475.20166015625
+        ],
+        "snippet": "images/q64_opt1.png",
+        "text": "(1) Statement is false, statement is true. 1 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1053161621094,
+          442.20166015625,
+          565,
+          475.20166015625
+        ],
+        "snippet": "images/q64_opt2.png",
+        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          475.20166015625,
+          298.1045837402344,
+          517.20166015625
+        ],
+        "snippet": "images/q64_opt3.png",
+        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.1045837402344,
+          475.20166015625,
+          565,
+          517.20166015625
+        ],
+        "snippet": "images/q64_opt4.png",
+        "text": "(4) Statement is true, statement is false 1 2"
+      }
+    ],
+    "question_number": 64,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      392.70166015625,
+      565,
+      442.20166015625
+    ],
+    "stem_snippet": "images/q64_stem.png",
+    "stem_text": "Q64.Statement : The sum of the series is . Statement : for any natural number . 1 1 + (1 + 2 + 4) + (4 + 6 + 9) + (9 + 12 + 16) + \u2026 \u2026 + (361 + 380 + 400) 8000 2 \u2211n k=1 (k3 \u2212(k \u22121)3) = n3 n"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          550.20166015625,
+          298.1031188964844,
+          566.70166015625
+        ],
+        "snippet": "images/q65_opt1.png",
+        "text": "(1) \u2212150"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1031188964844,
+          550.20166015625,
+          565,
+          566.70166015625
+        ],
+        "snippet": "images/q65_opt2.png",
+        "text": "(2) times its term 150 50th"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          566.70166015625,
+          298.1023864746094,
+          592.20166015625
+        ],
+        "snippet": "images/q65_opt3.png",
+        "text": "(3) 150"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.1023864746094,
+          566.70166015625,
+          565,
+          592.20166015625
+        ],
+        "snippet": "images/q65_opt4.png",
+        "text": "(4) zero"
+      }
+    ],
+    "question_number": 65,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      517.20166015625,
+      565,
+      550.20166015625
+    ],
+    "stem_snippet": "images/q65_stem.png",
+    "stem_text": "Q65.If times the term of an with non zero common difference equals the times its term, then the term of this is 100 100th AP 50 50th 150th AP"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          608.70166015625,
+          298.1016540527344,
+          625.20166015625
+        ],
+        "snippet": "images/q66_opt1.png",
+        "text": "(1) an irrational number"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1016540527344,
+          608.70166015625,
+          565,
+          625.20166015625
+        ],
+        "snippet": "images/q66_opt2.png",
+        "text": "(2) an odd positive integer"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          625.20166015625,
+          298.1009216308594,
+          650.70166015625
+        ],
+        "snippet": "images/q66_opt3.png",
+        "text": "(3) an even positive integer"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.1009216308594,
+          625.20166015625,
+          565,
+          650.70166015625
+        ],
+        "snippet": "images/q66_opt4.png",
+        "text": "(4) a rational number other than positive integers"
+      }
+    ],
+    "question_number": 66,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      592.20166015625,
+      565,
+      608.70166015625
+    ],
+    "stem_snippet": "images/q66_stem.png",
+    "stem_text": "Q66.If is a positive integer, then is n (\u221a3 + 1)2n \u2212(\u221a3 \u22121)2n"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 11,
+        "rect": [
+          30,
+          667.20166015625,
+          298.1001892089844,
+          683.70166015625
+        ],
+        "snippet": "images/q67_opt1.png",
+        "text": "(1) infinite number of real roots"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 11,
+        "rect": [
+          298.1001892089844,
+          667.20166015625,
+          565,
+          683.70166015625
+        ],
+        "snippet": "images/q67_opt2.png",
+        "text": "(2) no real roots"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 11,
+        "rect": [
+          30,
+          683.70166015625,
+          298.0994567871094,
+          709.20166015625
+        ],
+        "snippet": "images/q67_opt3.png",
+        "text": "(3) exactly one real root"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 11,
+        "rect": [
+          298.0994567871094,
+          683.70166015625,
+          565,
+          709.20166015625
+        ],
+        "snippet": "images/q67_opt4.png",
+        "text": "(4) exactly four real roots"
+      }
+    ],
+    "question_number": 67,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      650.70166015625,
+      565,
+      667.20166015625
+    ],
+    "stem_snippet": "images/q67_stem.png",
+    "stem_text": "Q67.The equation has esin x \u2212e\u2212sin x \u22124 = 0"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          74.7021484375,
+          298.10906982421875,
+          91.2021484375
+        ],
+        "snippet": "images/q68_opt1.png",
+        "text": "(1) 29 5"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10906982421875,
+          74.7021484375,
+          565,
+          91.2021484375
+        ],
+        "snippet": "images/q68_opt2.png",
+        "text": "(2) 5"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          91.2021484375,
+          298.10906982421875,
+          116.7021484375
+        ],
+        "snippet": "images/q68_opt3.png",
+        "text": "(3) 6"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10906982421875,
+          91.2021484375,
+          565,
+          116.7021484375
+        ],
+        "snippet": "images/q68_opt4.png",
+        "text": "(4) 11 5"
+      }
+    ],
+    "question_number": 68,
+    "question_type": "mcq",
+    "stem_end_page": 11,
+    "stem_images": [],
+    "stem_page": 11,
+    "stem_rect": [
+      30,
+      709.20166015625,
+      565,
+      803.4650268554688
+    ],
+    "stem_snippet": "images/q68_stem.png",
+    "stem_text": "Q68.If the line passes through the point which divides the line segment joining the points and in the ratio , then equals 2x + y = k (1, 1) (2, 4) 3 : 2 k"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          149.7021484375,
+          298.10833740234375,
+          166.2021484375
+        ],
+        "snippet": "images/q69_opt1.png",
+        "text": "(1) \u22121 4"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10833740234375,
+          149.7021484375,
+          565,
+          166.2021484375
+        ],
+        "snippet": "images/q69_opt2.png",
+        "text": "(2) \u22124"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          166.2021484375,
+          298.10833740234375,
+          191.7021484375
+        ],
+        "snippet": "images/q69_opt3.png",
+        "text": "(3) \u22122"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10833740234375,
+          166.2021484375,
+          565,
+          191.7021484375
+        ],
+        "snippet": "images/q69_opt4.png",
+        "text": "(4) \u22121 2"
+      }
+    ],
+    "question_number": 69,
+    "question_type": "mcq",
+    "stem_end_page": 12,
+    "stem_images": [],
+    "stem_page": 12,
+    "stem_rect": [
+      30,
+      116.7021484375,
+      565,
+      149.7021484375
+    ],
+    "stem_snippet": "images/q69_stem.png",
+    "stem_text": "Q69.A line is drawn through the point to meet the coordinate axes at and such that it forms a triangle , where is the origin. If the area of the triangle is least, then the slope of the line is (1, 2) P Q OPQ O OPQ PQ"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          224.7021484375,
+          298.10833740234375,
+          241.9521484375
+        ],
+        "snippet": "images/q70_opt1.png",
+        "text": "(1) 10 3"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10833740234375,
+          224.7021484375,
+          565,
+          241.9521484375
+        ],
+        "snippet": "images/q70_opt2.png",
+        "text": "(2) 3 5"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          241.9521484375,
+          298.10833740234375,
+          267.4521484375
+        ],
+        "snippet": "images/q70_opt3.png",
+        "text": "(3) 6 5"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10833740234375,
+          241.9521484375,
+          565,
+          267.4521484375
+        ],
+        "snippet": "images/q70_opt4.png",
+        "text": "(4) 5 3"
+      }
+    ],
+    "question_number": 70,
+    "question_type": "mcq",
+    "stem_end_page": 12,
+    "stem_images": [],
+    "stem_page": 12,
+    "stem_rect": [
+      30,
+      191.7021484375,
+      565,
+      224.7021484375
+    ],
+    "stem_snippet": "images/q70_stem.png",
+    "stem_text": "Q70.The length of the diameter of the circle which touches the -axis at the point and passes through the point is x (1, 0) (2, 3)"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          317.7021484375,
+          298.10833740234375,
+          350.7021484375
+        ],
+        "snippet": "images/q71_opt1.png",
+        "text": "(1) Statement is false, statement is true 1 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10833740234375,
+          317.7021484375,
+          565,
+          350.7021484375
+        ],
+        "snippet": "images/q71_opt2.png",
+        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          350.7021484375,
+          298.10760498046875,
+          392.7021484375
+        ],
+        "snippet": "images/q71_opt3.png",
+        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10760498046875,
+          350.7021484375,
+          565,
+          392.7021484375
+        ],
+        "snippet": "images/q71_opt4.png",
+        "text": "(4) Statement is true, statement is false 1 2"
+      }
+    ],
+    "question_number": 71,
+    "question_type": "mcq",
+    "stem_end_page": 12,
+    "stem_images": [],
+    "stem_page": 12,
+    "stem_rect": [
+      30,
+      267.4521484375,
+      565,
+      317.7021484375
+    ],
+    "stem_snippet": "images/q71_stem.png",
+    "stem_text": "Q71.Statement : An equation of a common tangent to the parabola and the ellipse is . Statement : If the line is a common tangent to the parabola and the ellipse , then satisfies . 1 y2 = 16\u221a3x 2x2 + y2 = 4 y = 2x + 2\u221a3 2 y = mx + 4\u221a3 m , (m \u22600) y2 = 16\u221a3x 2x2 + y2 = 4 m m4 + 2m2 = 24"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          442.2021484375,
+          298.10687255859375,
+          458.7021484375
+        ],
+        "snippet": "images/q72_opt1.png",
+        "text": "(1) 4x2 + y2 = 4"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10687255859375,
+          442.2021484375,
+          565,
+          458.7021484375
+        ],
+        "snippet": "images/q72_opt2.png",
+        "text": "(2) x2 + 4y2 = 8"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          458.7021484375,
+          298.10687255859375,
+          484.2021484375
+        ],
+        "snippet": "images/q72_opt3.png",
+        "text": "(3) 4x2 + y2 = 8"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10687255859375,
+          458.7021484375,
+          565,
+          484.2021484375
+        ],
+        "snippet": "images/q72_opt4.png",
+        "text": "(4) x2 + 4y2 = 16"
+      }
+    ],
+    "question_number": 72,
+    "question_type": "mcq",
+    "stem_end_page": 12,
+    "stem_images": [],
+    "stem_page": 12,
+    "stem_rect": [
+      30,
+      392.7021484375,
+      565,
+      442.2021484375
+    ],
+    "stem_snippet": "images/q72_stem.png",
+    "stem_text": "Q72.An ellipse is drawn by taking a diameter of the circle as its semiminor axis and a diameter of the circle as its semi-major axis. If the centre of the ellipse is the origin and its axes are the coordinate axes, then the equation of the ellipse is (x \u22121)2 + y2 = 1 x2 + (y \u22122)2 = 4"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          500.7021484375,
+          298.10687255859375,
+          533.7021484375
+        ],
+        "snippet": "images/q73_opt1.png",
+        "text": "(1) I will become a teacher and I will not open a school"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10687255859375,
+          500.7021484375,
+          565,
+          533.7021484375
+        ],
+        "snippet": "images/q73_opt2.png",
+        "text": "(2) Either I will not become a teacher or I will not open a school"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          533.7021484375,
+          298.10614013671875,
+          575.7021484375
+        ],
+        "snippet": "images/q73_opt3.png",
+        "text": "(3) Neither I will become a teacher nor I will open a school"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10614013671875,
+          533.7021484375,
+          565,
+          575.7021484375
+        ],
+        "snippet": "images/q73_opt4.png",
+        "text": "(4) I will not become a teacher or I will open a school"
+      }
+    ],
+    "question_number": 73,
+    "question_type": "mcq",
+    "stem_end_page": 12,
+    "stem_images": [],
+    "stem_page": 12,
+    "stem_rect": [
+      30,
+      484.2021484375,
+      565,
+      500.7021484375
+    ],
+    "stem_snippet": "images/q73_stem.png",
+    "stem_text": "Q73.The negation of the statement \"If I become a teacher, then I will open a school\" is"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          625.2021484375,
+          298.10467529296875,
+          658.2021484375
+        ],
+        "snippet": "images/q74_opt1.png",
+        "text": "(1) Statement is false, statement is true 1 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10467529296875,
+          625.2021484375,
+          565,
+          658.2021484375
+        ],
+        "snippet": "images/q74_opt2.png",
+        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          658.2021484375,
+          298.10394287109375,
+          700.2021484375
+        ],
+        "snippet": "images/q74_opt3.png",
+        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10394287109375,
+          658.2021484375,
+          565,
+          700.2021484375
+        ],
+        "snippet": "images/q74_opt4.png",
+        "text": "(4) Statement is true, statement is false 1 2"
+      }
+    ],
+    "question_number": 74,
+    "question_type": "mcq",
+    "stem_end_page": 12,
+    "stem_images": [],
+    "stem_page": 12,
+    "stem_rect": [
+      30,
+      575.7021484375,
+      565,
+      625.2021484375
+    ],
+    "stem_snippet": "images/q74_stem.png",
+    "stem_text": "Q74.Let be observations, and let be their arithematic mean and be their variance. Statement : Variance of is . Statement : Arithmetic mean of is . x1, x2, \u2026 \u2026 , xn n \u2013x \u03c32 1 2x1, 2x2, \u2026 \u2026 , 2xn 4\u03c32 2 2x1, 2x2, \u2026 . . , 2xn 4\u2013x"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 12,
+        "rect": [
+          30,
+          716.7021484375,
+          298.10394287109375,
+          733.2021484375
+        ],
+        "snippet": "images/q75_opt1.png",
+        "text": "(1) 5\u03c0 6"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 12,
+        "rect": [
+          298.10394287109375,
+          716.7021484375,
+          565,
+          733.2021484375
+        ],
+        "snippet": "images/q75_opt2.png",
+        "text": "(2) \u03c0 6"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 12,
+        "rect": [
+          30,
+          733.2021484375,
+          298.10394287109375,
+          803.4650268554688
+        ],
+        "snippet": "images/q75_opt3.png",
+        "text": "(3) \u03c0 4"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 12,
+        "rect": [
+          298.10394287109375,
+          733.2021484375,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q75_opt4.png",
+        "text": "(4) 3\u03c0 4"
+      }
+    ],
+    "question_number": 75,
+    "question_type": "mcq",
+    "stem_end_page": 12,
+    "stem_images": [],
+    "stem_page": 12,
+    "stem_rect": [
+      30,
+      700.2021484375,
+      565,
+      716.7021484375
+    ],
+    "stem_snippet": "images/q75_stem.png",
+    "stem_text": "Q75.In a , if and , then the angle is equal to \u0394PQR 3 sin P + 4 cos Q = 6 4 sin Q + 3 cos P = 1 R"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 13,
+        "rect": [
+          30,
+          135.4522705078125,
+          298.1090087890625,
+          179.7022705078125
+        ],
+        "snippet": "images/q76_opt1.png",
+        "text": "(1) \u239c\u239f \u239b \u239c \u239d \u22121 1 0 \u239e \u239f \u23a0 \u239c\u239f"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 13,
+        "rect": [
+          298.1090087890625,
+          135.4522705078125,
+          565,
+          179.7022705078125
+        ],
+        "snippet": "images/q76_opt2.png",
+        "text": "(2) \u239c\u239f\u239c\u239f \u239b \u239c \u239d \u22121 1 \u22121 \u239e \u239f \u23a0 \u239c\u239f"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 13,
+        "rect": [
+          30,
+          179.7022705078125,
+          298.1090087890625,
+          232.2022705078125
+        ],
+        "snippet": "images/q76_opt3.png",
+        "text": "(3) \u239c\u239f\u239c\u239f \u239b \u239c \u239d \u22121 \u22121 0 \u239e \u239f \u23a0"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 13,
+        "rect": [
+          298.1090087890625,
+          179.7022705078125,
+          565,
+          232.2022705078125
+        ],
+        "snippet": "images/q76_opt4.png",
+        "text": "(4) \u239c\u239f\u239c\u239f\u239c\u239f \u239b \u239c \u239d 1 \u22121 \u22121 \u239e \u239f \u23a0"
+      }
+    ],
+    "question_number": 76,
+    "question_type": "mcq",
+    "stem_end_page": 13,
+    "stem_images": [],
+    "stem_page": 13,
+    "stem_rect": [
+      30,
+      75.4522705078125,
+      565,
+      135.4522705078125
+    ],
+    "stem_snippet": "images/q76_stem.png",
+    "stem_text": "Q76. Let . If and are column matrices such that and , then is equal to A = \u239b \u239c \u239d 1 0 0 2 1 0 3 2 1 \u239e \u239f \u23a0 u1 u2 Au1 = \u239b \u239c \u239d 1 0 0 \u239e \u239f \u23a0 Au2 = \u239b \u239c \u239d 0 1 0 \u239e \u239f \u23a0 u1 + u2 \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 13,
+        "rect": [
+          30,
+          265.2022705078125,
+          298.1097717285156,
+          281.7022705078125
+        ],
+        "snippet": "images/q77_opt1.png",
+        "text": "(1) \u239c\u239f\u239c\u239f\u239c\u239f \u22122"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 13,
+        "rect": [
+          298.1097717285156,
+          265.2022705078125,
+          565,
+          281.7022705078125
+        ],
+        "snippet": "images/q77_opt2.png",
+        "text": "(2) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 13,
+        "rect": [
+          30,
+          281.7022705078125,
+          298.1097717285156,
+          307.2022705078125
+        ],
+        "snippet": "images/q77_opt3.png",
+        "text": "(3) \u239c\u239f\u239c\u239f\u239c\u239f 0"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 13,
+        "rect": [
+          298.1097717285156,
+          281.7022705078125,
+          565,
+          307.2022705078125
+        ],
+        "snippet": "images/q77_opt4.png",
+        "text": "(4) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f \u22121"
+      }
+    ],
+    "question_number": 77,
+    "question_type": "mcq",
+    "stem_end_page": 13,
+    "stem_images": [],
+    "stem_page": 13,
+    "stem_rect": [
+      30,
+      232.2022705078125,
+      565,
+      265.2022705078125
+    ],
+    "stem_snippet": "images/q77_stem.png",
+    "stem_text": "Q77.Let and be matrices with . If and , then determinant of is equal to \u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f P Q 3 \u00d7 3 P \u2260Q P 3 = Q3 P 2Q = Q2P (P 2 + Q2)"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 13,
+        "rect": [
+          30,
+          340.2022705078125,
+          298.1097717285156,
+          356.7022705078125
+        ],
+        "snippet": "images/q78_opt1.png",
+        "text": "(1) continuous for every real \u239c\u239f\u239c\u239f\u239c\u239f x"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 13,
+        "rect": [
+          298.1097717285156,
+          340.2022705078125,
+          565,
+          356.7022705078125
+        ],
+        "snippet": "images/q78_opt2.png",
+        "text": "(2) discontinuous only at \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f x = 0"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 13,
+        "rect": [
+          30,
+          356.7022705078125,
+          298.1090393066406,
+          398.7022705078125
+        ],
+        "snippet": "images/q78_opt3.png",
+        "text": "(3) discontinuous only at non-zero integral values of\u239c\u239f\u239c\u239f\u239c\u239f x"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 13,
+        "rect": [
+          298.1090393066406,
+          356.7022705078125,
+          565,
+          398.7022705078125
+        ],
+        "snippet": "images/q78_opt4.png",
+        "text": "(4) continuous only at \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f x = 0"
+      }
+    ],
+    "question_number": 78,
+    "question_type": "mcq",
+    "stem_end_page": 13,
+    "stem_images": [],
+    "stem_page": 13,
+    "stem_rect": [
+      30,
+      307.2022705078125,
+      565,
+      340.2022705078125
+    ],
+    "stem_snippet": "images/q78_stem.png",
+    "stem_text": "Q78.If is a function defined by , where denotes the greatest integer function, then is\u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f f : R \u2192R f(x) = [x] cos ( 2x\u22121 2 )\u03c0 [x] f"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 13,
+        "rect": [
+          30,
+          431.7022705078125,
+          298.1083068847656,
+          464.7022705078125
+        ],
+        "snippet": "images/q79_opt1.png",
+        "text": "(1) Statement is false, statement is true\u239c\u239f\u239c\u239f\u239c\u239f 1 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 13,
+        "rect": [
+          298.1083068847656,
+          431.7022705078125,
+          565,
+          464.7022705078125
+        ],
+        "snippet": "images/q79_opt2.png",
+        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 13,
+        "rect": [
+          30,
+          464.7022705078125,
+          298.1075744628906,
+          506.7022705078125
+        ],
+        "snippet": "images/q79_opt3.png",
+        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement \u239c\u239f\u239c\u239f\u239c\u239f 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 13,
+        "rect": [
+          298.1075744628906,
+          464.7022705078125,
+          565,
+          506.7022705078125
+        ],
+        "snippet": "images/q79_opt4.png",
+        "text": "(4) Statement is true, statement is false\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 1 2"
+      }
+    ],
+    "question_number": 79,
+    "question_type": "mcq",
+    "stem_end_page": 13,
+    "stem_images": [],
+    "stem_page": 13,
+    "stem_rect": [
+      30,
+      398.7022705078125,
+      565,
+      399.61407470703125
+    ],
+    "stem_snippet": "images/q79_stem.png",
+    "stem_text": "\u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 13,
+        "rect": [
+          30,
+          556.2022705078125,
+          298.1068420410156,
+          572.7022705078125
+        ],
+        "snippet": "images/q80_opt1.png",
+        "text": "(1)\u239c\u239f\u239c\u239f\u239c\u239f 9 7"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 13,
+        "rect": [
+          298.1068420410156,
+          556.2022705078125,
+          565,
+          572.7022705078125
+        ],
+        "snippet": "images/q80_opt2.png",
+        "text": "(2) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 7 9"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 13,
+        "rect": [
+          30,
+          572.7022705078125,
+          298.1068420410156,
+          598.9522705078125
+        ],
+        "snippet": "images/q80_opt3.png",
+        "text": "(3)\u239c\u239f\u239c\u239f\u239c\u239f 2 9"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 13,
+        "rect": [
+          298.1068420410156,
+          572.7022705078125,
+          565,
+          598.9522705078125
+        ],
+        "snippet": "images/q80_opt4.png",
+        "text": "(4) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 9 2"
+      }
+    ],
+    "question_number": 80,
+    "question_type": "mcq",
+    "stem_end_page": 13,
+    "stem_images": [],
+    "stem_page": 13,
+    "stem_rect": [
+      30,
+      506.7022705078125,
+      565,
+      556.2022705078125
+    ],
+    "stem_snippet": "images/q80_stem.png",
+    "stem_text": "Q80.A spherical balloon is filled with cubic meters of helium gas. If a leak in the balloon causes the gas to escape at the rate of cubic meters per minute, then the rate (in meters per minute) at which the radius of the balloon decreases minutes after the leakage began is \u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f 4500 \u03c0 72 \u03c0 49"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 13,
+        "rect": [
+          30,
+          648.4522705078125,
+          298.1068420410156,
+          681.4522705078125
+        ],
+        "snippet": "images/q81_opt1.png",
+        "text": "(1) Statement is false, statement is true\u239c\u239f\u239c\u239f 1 2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 13,
+        "rect": [
+          298.1068420410156,
+          648.4522705078125,
+          565,
+          681.4522705078125
+        ],
+        "snippet": "images/q81_opt2.png",
+        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement \u239c\u239f\u239c\u239f 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 13,
+        "rect": [
+          30,
+          681.4522705078125,
+          298.1061096191406,
+          723.4522705078125
+        ],
+        "snippet": "images/q81_opt3.png",
+        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement \u239c\u239f\u239c\u239f 1 2 2 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 13,
+        "rect": [
+          298.1061096191406,
+          681.4522705078125,
+          565,
+          723.4522705078125
+        ],
+        "snippet": "images/q81_opt4.png",
+        "text": "(4) Statement is true, statement is false\u239c\u239f\u239c\u239f 1 2"
+      }
+    ],
+    "question_number": 81,
+    "question_type": "mcq",
+    "stem_end_page": 13,
+    "stem_images": [],
+    "stem_page": 13,
+    "stem_rect": [
+      30,
+      598.9522705078125,
+      565,
+      648.4522705078125
+    ],
+    "stem_snippet": "images/q81_stem.png",
+    "stem_text": "Q81.Let be such that the function given by has extreme values at and . Statement 1: has local maximum at and at . Statement 2: and \u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f a, b \u2208R f f(x) = ln |x| + bx2 + ax, x \u22600 x = \u22121 x = 2 f x = \u22121 x = 2 a = 1 2 b = \u22121 4"
+  },
+  {
+    "answer": "4",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          74.7022705078125,
+          298.10906982421875,
+          91.2022705078125
+        ],
+        "snippet": "images/q82_opt1.png",
+        "text": "(1) \u22121"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10906982421875,
+          74.7022705078125,
+          565,
+          91.2022705078125
+        ],
+        "snippet": "images/q82_opt2.png",
+        "text": "(2) \u22122"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          91.2022705078125,
+          298.10906982421875,
+          116.7022705078125
+        ],
+        "snippet": "images/q82_opt3.png",
+        "text": "(3) 1"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10906982421875,
+          91.2022705078125,
+          565,
+          116.7022705078125
+        ],
+        "snippet": "images/q82_opt4.png",
+        "text": "(4) 2"
+      }
+    ],
+    "question_number": 82,
+    "question_type": "mcq",
+    "stem_end_page": 13,
+    "stem_images": [],
+    "stem_page": 13,
+    "stem_rect": [
+      30,
+      723.4522705078125,
+      565,
+      803.4650268554688
+    ],
+    "stem_snippet": "images/q82_stem.png",
+    "stem_text": "Q82.If the integral , then is equal to \u239c\u239f \u239c\u239f \u222b 5 tan x tan x\u22122 dx = x + a ln | sin x \u22122 cos x| + k a"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          133.2022705078125,
+          298.10906982421875,
+          152.7022705078125
+        ],
+        "snippet": "images/q83_opt1.png",
+        "text": "(1) g(x) g(\u03c0)"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10906982421875,
+          133.2022705078125,
+          565,
+          152.7022705078125
+        ],
+        "snippet": "images/q83_opt2.png",
+        "text": "(2) g(x) + g(\u03c0)"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          152.7022705078125,
+          298.10906982421875,
+          178.2022705078125
+        ],
+        "snippet": "images/q83_opt3.png",
+        "text": "(3) g(x) \u2212g(\u03c0)"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10906982421875,
+          152.7022705078125,
+          565,
+          178.2022705078125
+        ],
+        "snippet": "images/q83_opt4.png",
+        "text": "(4) None of these"
+      }
+    ],
+    "question_number": 83,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      116.7022705078125,
+      565,
+      133.2022705078125
+    ],
+    "stem_snippet": "images/q83_stem.png",
+    "stem_text": "Q83.If , then equals g(x) = \u222bx 0 cos 4t dt g(x + \u03c0)"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          194.7022705078125,
+          298.10833740234375,
+          212.7022705078125
+        ],
+        "snippet": "images/q84_opt1.png",
+        "text": "(1) 20\u221a2"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10833740234375,
+          194.7022705078125,
+          565,
+          212.7022705078125
+        ],
+        "snippet": "images/q84_opt2.png",
+        "text": "(2) 10\u221a2 3"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          212.7022705078125,
+          298.10833740234375,
+          238.9522705078125
+        ],
+        "snippet": "images/q84_opt3.png",
+        "text": "(3) 20\u221a2 3"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10833740234375,
+          212.7022705078125,
+          565,
+          238.9522705078125
+        ],
+        "snippet": "images/q84_opt4.png",
+        "text": "(4) 10\u221a2"
+      }
+    ],
+    "question_number": 84,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      178.2022705078125,
+      565,
+      194.7022705078125
+    ],
+    "stem_snippet": "images/q84_stem.png",
+    "stem_text": "Q84.The area bounded between the parabolas and , and the straight line is x2 = y 4 x2 = 9y y = 2"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          272.7022705078125,
+          298.1091003417969,
+          289.2022705078125
+        ],
+        "snippet": "images/q85_opt1.png",
+        "text": "(1) 2 ln 18"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.1091003417969,
+          272.7022705078125,
+          565,
+          289.2022705078125
+        ],
+        "snippet": "images/q85_opt2.png",
+        "text": "(2) ln 9"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          289.2022705078125,
+          298.1091003417969,
+          314.7022705078125
+        ],
+        "snippet": "images/q85_opt3.png",
+        "text": "(3) 1 2 ln 18"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.1091003417969,
+          289.2022705078125,
+          565,
+          314.7022705078125
+        ],
+        "snippet": "images/q85_opt4.png",
+        "text": "(4) ln 18"
+      }
+    ],
+    "question_number": 85,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      238.9522705078125,
+      565,
+      272.7022705078125
+    ],
+    "stem_snippet": "images/q85_stem.png",
+    "stem_text": "Q85.The population at time of a certain mouse species satisfies the differential equation . If , then the time at which the population becomes zero is p(t) t dp(t) dt = 0.5 p(t) \u2212450 p(0) = 850"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          349.2022705078125,
+          298.10833740234375,
+          365.7022705078125
+        ],
+        "snippet": "images/q86_opt1.png",
+        "text": "(1) \u03c0 6"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10833740234375,
+          349.2022705078125,
+          565,
+          365.7022705078125
+        ],
+        "snippet": "images/q86_opt2.png",
+        "text": "(2) \u03c0 2"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          365.7022705078125,
+          298.10833740234375,
+          391.2022705078125
+        ],
+        "snippet": "images/q86_opt3.png",
+        "text": "(3) \u03c0 3"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10833740234375,
+          365.7022705078125,
+          565,
+          391.2022705078125
+        ],
+        "snippet": "images/q86_opt4.png",
+        "text": "(4) \u03c0 4"
+      }
+    ],
+    "question_number": 86,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      314.7022705078125,
+      565,
+      349.2022705078125
+    ],
+    "stem_snippet": "images/q86_stem.png",
+    "stem_text": "Q86.Let and be two unit vectors. If the vectors and are perpendicular to each other, then the angle between and is ^a ^b c = ^a + 2^b d = 5^a \u22124^b ^a ^b"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          430.9522705078125,
+          298.10760498046875,
+          458.7022705078125
+        ],
+        "snippet": "images/q87_opt1.png",
+        "text": "(1)r = 3q \u22123(p\u22c5q) (p\u22c5p)p"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          430.9522705078125,
+          565,
+          458.7022705078125
+        ],
+        "snippet": "images/q87_opt2.png",
+        "text": "(2)r = \u2212\u2192q + ( \u2192p\u22c5\u2192q \u2192p\u22c5\u2192p )\u2192p"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          458.7022705078125,
+          298.10760498046875,
+          489.4522705078125
+        ],
+        "snippet": "images/q87_opt3.png",
+        "text": "(3)r =q \u2212(p\u22c5q p\u22c5p )p"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          458.7022705078125,
+          565,
+          489.4522705078125
+        ],
+        "snippet": "images/q87_opt4.png",
+        "text": "(4)r = \u22123q + 3(p\u22c5q) (p\u22c5p)p"
+      }
+    ],
+    "question_number": 87,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      391.2022705078125,
+      565,
+      430.9522705078125
+    ],
+    "stem_snippet": "images/q87_stem.png",
+    "stem_text": "Q87.Let be a parallelogram such that and be an acute angle. If is the vector that coincides with the altitude directed from the vertex to the side , then is given by ABCD AB =\u2192q, AD =p \u2212 \u2192 \u2212 \u2192 \u2220BAD r B AD \u2192r"
+  },
+  {
+    "answer": "1",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          505.9522705078125,
+          298.10760498046875,
+          522.4522705078125
+        ],
+        "snippet": "images/q88_opt1.png",
+        "text": "(1) x \u22122y + 2z \u22123 = 0"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          505.9522705078125,
+          565,
+          522.4522705078125
+        ],
+        "snippet": "images/q88_opt2.png",
+        "text": "(2) x \u22122y + 2z + 1 = 0"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          522.4522705078125,
+          298.10760498046875,
+          547.9522705078125
+        ],
+        "snippet": "images/q88_opt3.png",
+        "text": "(3) x \u22122y + 2z \u22121 = 0"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          522.4522705078125,
+          565,
+          547.9522705078125
+        ],
+        "snippet": "images/q88_opt4.png",
+        "text": "(4) x \u22122y + 2z + 5 = 0"
+      }
+    ],
+    "question_number": 88,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      489.4522705078125,
+      565,
+      505.9522705078125
+    ],
+    "stem_snippet": "images/q88_stem.png",
+    "stem_text": "Q88.An equation of a plane parallel to the plane and at a unit distance from the origin is x \u22122y + 2z \u22125 = 0"
+  },
+  {
+    "answer": "3",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          564.4522705078125,
+          298.10760498046875,
+          580.9522705078125
+        ],
+        "snippet": "images/q89_opt1.png",
+        "text": "(1) \u22121"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          564.4522705078125,
+          565,
+          580.9522705078125
+        ],
+        "snippet": "images/q89_opt2.png",
+        "text": "(2) 2 9"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          580.9522705078125,
+          298.10760498046875,
+          606.4522705078125
+        ],
+        "snippet": "images/q89_opt3.png",
+        "text": "(3) 9 2"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          580.9522705078125,
+          565,
+          606.4522705078125
+        ],
+        "snippet": "images/q89_opt4.png",
+        "text": "(4) 0"
+      }
+    ],
+    "question_number": 89,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      547.9522705078125,
+      565,
+      564.4522705078125
+    ],
+    "stem_snippet": "images/q89_stem.png",
+    "stem_text": "Q89.If the lines and intersect, then is equal to x\u22121 2 = y+1 3 = z\u22121 4 x\u22123 1 = y\u2212k 2 = z 1 k"
+  },
+  {
+    "answer": "2",
+    "options": [
+      {
+        "images": [],
+        "label": "1",
+        "page": 14,
+        "rect": [
+          30,
+          639.4522705078125,
+          298.10760498046875,
+          656.7022705078125
+        ],
+        "snippet": "images/q90_opt1.png",
+        "text": "(1) 3 8"
+      },
+      {
+        "images": [],
+        "label": "2",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          639.4522705078125,
+          565,
+          656.7022705078125
+        ],
+        "snippet": "images/q90_opt2.png",
+        "text": "(2) 1 5"
+      },
+      {
+        "images": [],
+        "label": "3",
+        "page": 14,
+        "rect": [
+          30,
+          656.7022705078125,
+          298.10760498046875,
+          803.4650268554688
+        ],
+        "snippet": "images/q90_opt3.png",
+        "text": "(3) 1 4"
+      },
+      {
+        "images": [],
+        "label": "4",
+        "page": 14,
+        "rect": [
+          298.10760498046875,
+          656.7022705078125,
+          565,
+          803.4650268554688
+        ],
+        "snippet": "images/q90_opt4.png",
+        "text": "(4) 2 5"
+      }
+    ],
+    "question_number": 90,
+    "question_type": "mcq",
+    "stem_end_page": 14,
+    "stem_images": [],
+    "stem_page": 14,
+    "stem_rect": [
+      30,
+      606.4522705078125,
+      565,
+      639.4522705078125
+    ],
+    "stem_snippet": "images/q90_stem.png",
+    "stem_text": "Q90.Three numbers are chosen at random without replacement from . The probability that their minimum is , given that their maximum is , is {1, 2, 3, \u2026 . .8} 3 6"
+  }
+]
