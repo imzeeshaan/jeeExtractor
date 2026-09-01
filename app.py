@@ -103,7 +103,9 @@ if st.session_state.questions:
 
     for q in questions:
         qnum = q["question_number"]
-        with st.expander(f"Q{qnum}"):
+        is_numerical = q.get("question_type") == "numerical"
+        label_suffix = " (Numerical Value)" if is_numerical else ""
+        with st.expander(f"Q{qnum}{label_suffix}"):
             st.markdown(f"**{q['stem_text']}**")
             if q.get("stem_snippet"):
                 p = os.path.join(out_dir, q["stem_snippet"])
@@ -114,28 +116,33 @@ if st.session_state.questions:
             # for anyone who wants the diagram as a standalone file.
 
             st.markdown("---")
-            for opt in q["options"]:
-                label = opt["label"]
-                col1, col2 = st.columns([0.08, 0.92])
-                with col1:
-                    st.checkbox(
-                        "",
-                        key=f"q{qnum}_opt{label}",
-                        on_change=_select_option,
-                        args=(qnum, label),
-                        label_visibility="collapsed",
-                    )
-                with col2:
-                    # opt['text'] already starts with its own "(N)" marker from extraction —
-                    # don't prepend another one here, or it renders as "(1) (1) ...".
-                    st.write(f"**{opt['text']}**" if opt['text'] else f"**({label})**")
-                    for img in opt.get("images", []):
-                        p = os.path.join(out_dir, img)
-                        if os.path.exists(p):
-                            st.image(p, width=220)
+            if is_numerical:
+                # no MCQ options exist for this question type — it's a fill-in-the-blank numeric
+                # answer, so there's nothing to select between.
+                st.caption("This question has no options — enter a numeric answer.")
+            else:
+                for opt in q["options"]:
+                    label = opt["label"]
+                    col1, col2 = st.columns([0.08, 0.92])
+                    with col1:
+                        st.checkbox(
+                            "",
+                            key=f"q{qnum}_opt{label}",
+                            on_change=_select_option,
+                            args=(qnum, label),
+                            label_visibility="collapsed",
+                        )
+                    with col2:
+                        # opt['text'] already starts with its own "(N)" marker from extraction —
+                        # don't prepend another one here, or it renders as "(1) (1) ...".
+                        st.write(f"**{opt['text']}**" if opt['text'] else f"**({label})**")
+                        for img in opt.get("images", []):
+                            p = os.path.join(out_dir, img)
+                            if os.path.exists(p):
+                                st.image(p, width=220)
 
             if q.get("answer"):
-                st.caption(f"Answer key: ({q['answer']})")
+                st.caption(f"Answer key: {q['answer']}" if is_numerical else f"Answer key: ({q['answer']})")
 
     st.divider()
     st.subheader("Download Results")
@@ -155,7 +162,8 @@ if st.session_state.questions:
                 md_lines.append(f"  ![opt]({img})")
             md_lines.append("")
         if q["answer"]:
-            md_lines.append(f"**Answer:** ({q['answer']})\n")
+            is_numerical = q.get("question_type") == "numerical"
+            md_lines.append(f"**Answer:** {q['answer']}\n" if is_numerical else f"**Answer:** ({q['answer']})\n")
         md_lines.append("\n---\n")
     md_path = os.path.join(out_dir, "questions.md")
     with open(md_path, "w") as f:
