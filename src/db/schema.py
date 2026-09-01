@@ -1,11 +1,11 @@
 """
-SQLAlchemy ORM schema — Phase-1-relevant tables only:
+SQLAlchemy ORM schema — Phase 1 + Phase 2 + Phase 3 + Phase 4 tables:
 documents, pages, processing_jobs, stage_runs, questions, options,
-content_blocks, assets, answers.
+content_blocks, assets, answers, validation_issues, review_actions,
+templates, template_versions.
 
 Deliberately NOT created here (later-phase tables, per the approved plan):
-templates, template_versions, template_examples, template_evaluations,
-validation_issues, review_actions, shared_contexts, exports.
+template_examples, template_evaluations, shared_contexts, exports.
 
 Binary files (uploaded PDFs, rendered pages, crops) are never stored here —
 only paths/hashes/sizes, per spec §8. evidence/metrics/answer values that are
@@ -43,6 +43,8 @@ class DocumentRow(Base):
     publisher = Column(String)
     source_note = Column(String)
     uploaded_at = Column(String, nullable=False)  # ISO8601
+    template_id = Column(String)
+    template_version = Column(Integer)
 
 
 class PageRow(Base):
@@ -163,3 +165,62 @@ class AnswerRow(Base):
     raw_value = Column(String, nullable=False)
     matched = Column(Boolean, nullable=False)
     source_page = Column(Integer)
+
+
+class ValidationIssueRow(Base):
+    __tablename__ = "validation_issues"
+
+    id = Column(String, primary_key=True)
+    document_id = Column(String, ForeignKey("documents.id"), nullable=False)
+    page_number = Column(Integer)
+    question_id = Column(String, ForeignKey("questions.id"))
+    field_path = Column(String)
+    rule_code = Column(String, nullable=False)
+    severity = Column(String, nullable=False)  # info|warning|error|blocking
+    message = Column(Text, nullable=False)
+    evidence_path = Column(String)
+    resolved = Column(Boolean, nullable=False, default=False)
+    resolution_note = Column(String)
+
+
+class ReviewActionRow(Base):
+    __tablename__ = "review_actions"
+
+    id = Column(String, primary_key=True)
+    document_id = Column(String, ForeignKey("documents.id"), nullable=False)
+    question_id = Column(String, ForeignKey("questions.id"), nullable=False)
+    action_type = Column(String, nullable=False)
+    field_path = Column(String, nullable=False)
+    previous_value = Column(Text)
+    new_value = Column(Text)
+    reason = Column(String)
+    actor = Column(String)
+    source_page = Column(Integer)
+    source_bbox_json = Column(Text)
+    is_template_example = Column(Boolean, nullable=False, default=False)
+    created_at = Column(String, nullable=False)
+
+
+class TemplateRow(Base):
+    __tablename__ = "templates"
+
+    id = Column(String, primary_key=True)
+    name = Column(String, nullable=False)
+    document_family = Column(String, nullable=False)
+    created_at = Column(String, nullable=False)
+
+
+class TemplateVersionRow(Base):
+    __tablename__ = "template_versions"
+    __table_args__ = (UniqueConstraint("template_id", "version"),)
+
+    id = Column(String, primary_key=True)  # synthetic uuid PK
+    template_id = Column(String, ForeignKey("templates.id"), nullable=False)
+    version = Column(Integer, nullable=False)
+    kind = Column(String, nullable=False)
+    status = Column(String, nullable=False)
+    adapter_ref = Column(String, nullable=False)
+    match_signature_json = Column(Text, nullable=False)
+    baseline_score = Column(Float)
+    run_count = Column(Integer, nullable=False, default=0)
+    created_at = Column(String, nullable=False)

@@ -16,8 +16,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from config import get_config
-from db.session import get_engine, init_db, make_session_factory
-from extraction.ingest import ingest_and_extract, DuplicateDocumentError
+from db.session import get_engine, init_db, make_session_factory, session_scope
+from extraction.ingest import ingest_and_extract, DuplicateDocumentError, UnmatchedDocumentResult
+from templates.bootstrap import ensure_default_templates_registered
 
 
 def main():
@@ -35,6 +36,8 @@ def main():
     engine = get_engine(config.db_path, echo=config.db_echo)
     init_db(engine)
     session_factory = make_session_factory(engine)
+    with session_scope(session_factory) as session:
+        ensure_default_templates_registered(session)
 
     try:
         result = ingest_and_extract(
@@ -46,6 +49,16 @@ def main():
         print(f"Already ingested as document {exc.existing_document_id} "
               f"(pass --allow-duplicate to ingest again)")
         return 1
+
+    if isinstance(result, UnmatchedDocumentResult):
+        print(f"document_id: {result.document_id}")
+        print("No registered template matched this document — nothing was extracted.")
+        for c in result.candidates:
+            print(f"  candidate {c.template_version.template_id} v{c.template_version.version}: "
+                  f"score={c.fingerprint_score:.2f}")
+            for reason in c.reasons:
+                print(f"    - {reason}")
+        return 0
 
     m = result.metrics
     print(f"document_id: {result.document_id}")

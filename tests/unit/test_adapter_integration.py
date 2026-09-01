@@ -7,6 +7,7 @@ import os
 import uuid
 from datetime import datetime, timezone
 
+import fitz
 import pytest
 
 from db.repositories import DocumentRepository, QuestionRepository
@@ -14,6 +15,7 @@ from db.session import get_engine, init_db, make_session_factory, session_scope
 from extraction.legacy_mathongo_adapter import LegacyMathonGoAdapter
 from models.documents import Document
 from models.questions import question_to_legacy_dict
+from validation.engine import run_validation
 
 FIXTURES_DIR = os.path.join(os.path.dirname(__file__), "..", "fixtures", "pdfs")
 GOLDEN_DIR = os.path.join(os.path.dirname(__file__), "..", "golden")
@@ -109,3 +111,37 @@ def test_legacy_round_trip_matches_golden_questions_json(paper_id, tmp_path):
         assert [o["text"] for o in back["options"]] == [o["text"] for o in golden["options"]], (
             f"{paper_id} Q{back['question_number']}: option text mismatch"
         )
+
+
+@pytest.mark.parametrize("paper_id", PAPER_IDS)
+def test_validation_finds_zero_error_or_blocking_issues_on_verified_clean_papers(paper_id, tmp_path):
+    """Phase 2's exit condition: "known good papers pass." warning-severity
+    heuristic hits are NOT asserted to be zero (allowed to be imperfect per
+    spec §16.5) — only error/blocking, which would indicate a real defect in
+    a paper we've already hand-verified as clean."""
+    pdf_path = os.path.join(FIXTURES_DIR, f"{paper_id}.pdf")
+    out_dir = tmp_path / "crops"
+    out_dir.mkdir()
+
+    document = Document(
+        document_id=str(uuid.uuid4()),
+        filename=f"{paper_id}.pdf",
+        sha256="0" * 64,
+        page_count=1,
+        file_size_bytes=1,
+        uploaded_at=datetime.now(timezone.utc),
+        storage_path=str(pdf_path),
+    )
+    result = LegacyMathonGoAdapter().run(document, str(pdf_path), str(out_dir))
+
+    doc = fitz.open(str(pdf_path))
+    try:
+        issues = run_validation(
+            result.questions, result.legacy_questions, doc, document.document_id,
+            crops_root=str(out_dir),
+        )
+    finally:
+        doc.close()
+
+    bad = [i for i in issues if i.severity in ("error", "blocking")]
+    assert bad == [], f"{paper_id}: unexpected error/blocking validation issues: {bad}"

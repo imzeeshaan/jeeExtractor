@@ -55,11 +55,17 @@ class PageGeometry:
 
 
 class LegacyAdapterResult:
-    def __init__(self, document_id: str, questions: list[Question], metrics: dict, issues: list[dict]):
+    def __init__(self, document_id: str, questions: list[Question], metrics: dict, issues: list[dict],
+                 legacy_questions: list[dict]):
         self.document_id = document_id
         self.questions = questions
         self.metrics = metrics
         self.issues = issues
+        # raw parse_pdf() dicts — kept around so the Phase 2 validation engine's
+        # image-disposition rule can reuse extraction.metrics's existing
+        # dict-shaped functions unchanged, rather than re-deriving that shape
+        # (lossily) from the canonical Question objects.
+        self.legacy_questions = legacy_questions
 
 
 def _classify_note(note: str) -> str:
@@ -95,7 +101,11 @@ class LegacyMathonGoAdapter:
     canonical models, computes metrics, and classifies notes as lightweight
     issues. Does not touch app.py's behavior or extractor.py's logic."""
 
-    def run(self, document: Document, pdf_path: str, out_dir: str) -> LegacyAdapterResult:
+    def run(self, document: Document, pdf_path: str, out_dir: str,
+            template_id: str = "jee_main_mathongo", template_version: int = 1) -> LegacyAdapterResult:
+        # template_id/template_version default to the historical hardcoded
+        # values so every pre-Phase-4 call site keeps working unchanged;
+        # Phase 4's ingest.py passes the REAL matched values through.
         legacy_questions, notes = parse_pdf(pdf_path, out_dir)
 
         geometry = PageGeometry(pdf_path)
@@ -122,6 +132,8 @@ class LegacyMathonGoAdapter:
                     page_start=legacy_q.get("stem_page", 1),
                     page_end=legacy_q.get("stem_end_page", geometry.page_count),
                     make_evidence=make_evidence,
+                    template_id=template_id,
+                    template_version=template_version,
                 )
             )
 
@@ -138,4 +150,5 @@ class LegacyMathonGoAdapter:
             questions=canonical_questions,
             metrics=metrics,
             issues=issues,
+            legacy_questions=legacy_questions,
         )

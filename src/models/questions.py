@@ -3,9 +3,9 @@ The canonical Question/Option/ContentBlock models (spec §7), plus the two
 required backward-compatibility conversion functions (spec §7.7) that prove
 the canonical layer can round-trip to/from the exact shape app.py already
 relies on. template_id/template_version/validation_issue_ids stay as plain
-scalar fields on purpose — no src/models/templates.py or
-src/models/validation.py exist yet (deliberately deferred to Phase 2/4, see
-the approved plan).
+scalar fields on purpose — src/models/templates.py (Phase 4) and
+src/models/validation.py (Phase 2) provide the real models those scalars
+reference by id, without this module needing to import either.
 """
 import uuid
 from typing import Literal, Optional, Union
@@ -145,6 +145,8 @@ def legacy_dict_to_question(
     page_start: int,
     page_end: int,
     make_evidence,
+    template_id: str = "jee_main_mathongo",
+    template_version: int = 1,
 ) -> Question:
     """Convert one legacy parse_pdf() question dict into a canonical
     Question. `make_evidence(rect_key_prefix, page_number, rect=None) ->
@@ -228,6 +230,6 @@ def legacy_dict_to_question(
         extraction_mode="deterministic_text",
         confidence=1.0,
         status="draft",
-        template_id="jee_main_mathongo",
-        template_version=1,
+        template_id=template_id,
+        template_version=template_version,
     )

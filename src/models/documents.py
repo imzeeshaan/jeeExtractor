@@ -22,6 +22,13 @@ class Document(BaseModel):
     publisher: Optional[str] = None
     source_note: Optional[str] = None
     storage_path: str
+    # Set once template matching runs (Phase 4) — None until then, and
+    # stays None if no template matched (an "unmatched" document).
+    # Parallel to Question.template_id/template_version, and queryable
+    # directly rather than only recoverable by parsing a stage_runs
+    # metrics_json blob.
+    template_id: Optional[str] = None
+    template_version: Optional[int] = None
 
 
 class Page(BaseModel):
@@ -48,7 +55,10 @@ class ProcessingJob(BaseModel):
     # running the legacy adapter. Extended in later phases (template
     # matching, vision fallback, etc.), not pre-built here.
     job_type: Literal["legacy_mathongo_extraction"]
-    status: Literal["pending", "running", "succeeded", "failed"]
+    # "unmatched" (Phase 4): the job ran to completion but no template
+    # matched the document well enough to run any adapter — nothing errored
+    # (not "failed") and nothing was extracted (not "succeeded").
+    status: Literal["pending", "running", "succeeded", "failed", "unmatched"]
     started_at: Optional[datetime] = None
     completed_at: Optional[datetime] = None
     error_message: Optional[str] = None
