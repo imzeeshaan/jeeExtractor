@@ -34,7 +34,15 @@ def check_option_consistency(question, document_id) -> list[ValidationIssue]:
             ))
 
     option_count = len(q.options)
-    if q.question_type == "numerical":
+    if q.question_type == "unknown":
+        # Vision-derived (Phase 5): option count/shape is whatever the
+        # model detected, not yet a known MCQ/numerical shape.
+        # OPT_COUNT_UNEXPECTED/OPT_PARTIAL_MARKER_SET assume a known
+        # expected count and would misfire here — deliberately skipped, not
+        # guessed at. OPT_DUPLICATE_LABEL above and OPT_IMAGE_OPTION_NO_ASSET
+        # below are untouched — they're shape-agnostic.
+        pass
+    elif q.question_type == "numerical":
         if option_count != 0:
             issues.append(ValidationIssue(
                 issue_id=str(uuid.uuid4()),

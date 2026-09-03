@@ -62,6 +62,12 @@ class ProcessingJob(BaseModel):
     started_at: Optional[datetime] = None
     completed_at: Optional[datetime] = None
     error_message: Optional[str] = None
+    # Phase 5 follow-up (concurrent + incremental vision processing): a
+    # single mutable JSON blob, overwritten (not appended) as extraction
+    # progresses -- {"stage": ..., "completed": N, "total": M, "detail": ...}.
+    # The one source of truth any page/rerun can query for "how far along
+    # is this job", decoupled from whatever thread is actually running it.
+    progress_json: Optional[str] = None
 
 
 class StageRun(BaseModel):

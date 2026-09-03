@@ -10,6 +10,17 @@ empty/fallback value, and (b) validation rule outcomes for that question.
 _SEVERITY_PENALTY = {"blocking": 1.00, "error": 0.30, "warning": 0.10, "info": 0.0}
 _DOCUMENT_LEVEL_PENALTY = 0.05
 _EMPTY_CONTENT_CAP = 0.5
+# Phase 5: nothing was transcribed/verified in a vision_layout question —
+# layout regions and crops exist, but that is weaker evidence than
+# deterministic text extraction, so it's capped below what a clean
+# deterministic question can reach (1.0). Same mechanism as
+# _EMPTY_CONTENT_CAP, applied for a different reason.
+_VISION_ONLY_CONFIDENCE_CAP = 0.6
+
+_TRUST_TIER_ORDER = {"NONE": 0, "LOW": 1, "MEDIUM": 2, "HIGH": 3}
+# spec §17: "vision-only extraction is never HIGH in the MVP" — model
+# self-confidence/clean validation cannot override this.
+_VISION_ONLY_TRUST_TIER_CAP = "MEDIUM"
 
 
 def compute_question_confidence(question, question_issues, document_level_issues) -> float:
@@ -34,6 +45,9 @@ def compute_question_confidence(question, question_issues, document_level_issues
     if not stem_has_content or question.answer is None:
         score = min(score, _EMPTY_CONTENT_CAP)
 
+    if question.extraction_mode == "vision_layout":
+        score = min(score, _VISION_ONLY_CONFIDENCE_CAP)
+
     return round(score, 4)
 
 
@@ -48,9 +62,15 @@ def compute_document_trust_tier(questions, all_issues) -> str:
     demotes below MEDIUM, since "error" always indicates a concrete,
     non-heuristic defect even when not blocking."""
     if any(issue.severity == "blocking" for issue in all_issues):
-        return "NONE"
-    if any(issue.severity == "error" for issue in all_issues):
-        return "LOW"
-    if any(issue.severity == "warning" for issue in all_issues):
-        return "MEDIUM"
-    return "HIGH"
+        tier = "NONE"
+    elif any(issue.severity == "error" for issue in all_issues):
+        tier = "LOW"
+    elif any(issue.severity == "warning" for issue in all_issues):
+        tier = "MEDIUM"
+    else:
+        tier = "HIGH"
+
+    if any(q.extraction_mode == "vision_layout" for q in questions):
+        if _TRUST_TIER_ORDER[tier] > _TRUST_TIER_ORDER[_VISION_ONLY_TRUST_TIER_CAP]:
+            tier = _VISION_ONLY_TRUST_TIER_CAP
+    return tier

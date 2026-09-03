@@ -8,6 +8,7 @@ Mutating functions take a `session_factory` and manage their own atomic
 transaction via db.session.session_scope — an edit and its ReviewAction
 audit record always commit together, never one without the other.
 """
+import json
 import os
 import uuid
 from datetime import datetime, timezone
@@ -52,7 +53,13 @@ def get_review_queue(session, document_id: str, include_reviewed: bool = False) 
         })
 
     def sort_key(row):
-        number_key = int(row["number"]) if row["number"].isdigit() else row["number"]
+        # (0, int) for a purely-numeric number, (1, str) otherwise — keeps
+        # every number_key the SAME shape so tuple comparison never mixes
+        # int and str (crashes with "'<' not supported between instances of
+        # 'str' and 'int'"). Real-world case: a vision-derived document can
+        # return an inconsistent format like "Q.40" alongside plain "41" —
+        # confirmed live, not hypothetical.
+        number_key = (0, int(row["number"])) if row["number"].isdigit() else (1, row["number"])
         return (not row["has_error_or_blocking"], row["confidence"], number_key)
 
     rows.sort(key=sort_key)
@@ -174,6 +181,62 @@ def approve_question(session_factory, question_id: str, actor: str = None, reaso
         question = q_repo.get(question_id)
         _record_action(session, question.document_id, question_id, "approve_question",
                         "status", previous, "approved", actor, reason)
+
+
+def _find_block(question, block_id: str):
+    for b in question.stem_blocks:
+        if b.block_id == block_id:
+            return b, "question_stem"
+    for opt in question.options:
+        for b in opt.blocks:
+            if b.block_id == block_id:
+                return b, "option_content"
+    return None, None
+
+
+def repair_block_with_vision(session_factory, config, vision_provider, question_id: str,
+                              block_id: str, actor: str = None, reason: str = None) -> None:
+    """Mirrors edit_stem_text's atomic write pattern, with one deliberate
+    structural difference: the slow, multi-second network call to the
+    vision provider happens OUTSIDE any open DB session/transaction, in a
+    short read-only session first, then a separate short write session
+    after. Confirmed live: holding a SQLAlchemy session open across that
+    network call (the original implementation) extends SQLite's write-lock
+    window for seconds instead of milliseconds, and a concurrent Streamlit
+    rerun hitting the DB in that window raised "database is locked" —
+    a real, reproducible failure, not theoretical."""
+    with session_scope(session_factory) as session:
+        q_repo = QuestionRepository(session)
+        question = q_repo.get(question_id)
+        if question is None:
+            return
+        block, field_kind = _find_block(question, block_id)
+        if block is None or not block.clean_crop_path:
+            return  # nothing to transcribe — no crop exists for this block
+        crop_path = os.path.join(_crops_root(config, question.document_id), block.clean_crop_path)
+        question_number = question.number
+        prior_text = block.text
+        document_id = question.document_id
+
+    result = vision_provider.transcribe_region(crop_path, {
+        "field_kind": field_kind,
+        "question_number": question_number,
+        "prior_text": prior_text,
+    })
+    new_text = None if result.unreadable else result.text
+    new_latex = None if result.unreadable else result.latex
+
+    with session_scope(session_factory) as session:
+        q_repo = QuestionRepository(session)
+        previous_text, previous_latex = q_repo.update_block_text_and_latex(block_id, new_text, new_latex)
+        _record_action(
+            session, document_id, question_id, "vision_repair_transcription",
+            f"blocks.{block_id}.text_and_latex",
+            json.dumps({"text": previous_text, "latex": previous_latex}),
+            json.dumps({"text": new_text, "latex": new_latex}),
+            actor, reason,
+        )
+    recheck_question(session_factory, config, question_id)
 
 
 def reject_question(session_factory, question_id: str, actor: str = None, reason: str = None) -> None:

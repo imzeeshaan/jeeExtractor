@@ -102,10 +102,16 @@ class LegacyMathonGoAdapter:
     issues. Does not touch app.py's behavior or extractor.py's logic."""
 
     def run(self, document: Document, pdf_path: str, out_dir: str,
-            template_id: str = "jee_main_mathongo", template_version: int = 1) -> LegacyAdapterResult:
+            template_id: str = "jee_main_mathongo", template_version: int = 1,
+            pages: list = None) -> LegacyAdapterResult:
         # template_id/template_version default to the historical hardcoded
         # values so every pre-Phase-4 call site keeps working unchanged;
         # Phase 4's ingest.py passes the REAL matched values through.
+        # pages (Phase 5, additive, ignored here): VisionLayoutAdapter needs
+        # already-persisted Page rows for their rendered_path; this adapter
+        # re-derives everything from parse_pdf() and doesn't need them —
+        # accepting and ignoring the kwarg keeps ingest.py's single call
+        # site adapter-agnostic.
         legacy_questions, notes = parse_pdf(pdf_path, out_dir)
 
         geometry = PageGeometry(pdf_path)

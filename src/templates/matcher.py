@@ -18,6 +18,17 @@ _WEIGHT_QUESTION_MARKERS = 0.20
 _WEIGHT_OPTION_MARKERS = 0.15
 _WEIGHT_ANSWER_KEY = 0.10
 
+# A vision_layout template exists for the OPPOSITE population of documents
+# than a deterministic_text one: it wants NO text layer and NO/FEW markers.
+# The deterministic-text formula above only ever awards points for
+# *presence* of signals (branding found, markers found), so a genuinely
+# scanned PDF (which has none of those, by definition) would never clear
+# MATCH_AUTO_RUN_THRESHOLD under that formula — confirmed by hand against
+# the real JEE_ADV_2016-1.pdf fingerprint, which scores only 0.45 there.
+# This is a deliberately DIFFERENT formula, not a tweak of the weights above.
+_VISION_WEIGHT_TEXT_LAYER = 0.70
+_VISION_WEIGHT_MARKERS_AT_OR_BELOW_FLOOR = 0.30
+
 
 @dataclass
 class MatchResult:
@@ -26,7 +37,31 @@ class MatchResult:
     reasons: list
 
 
+def _score_vision_template(fp: Fingerprint, sig):
+    score = 0.0
+    reasons = []
+    if fp.requires_text_layer == sig.requires_text_layer:
+        score += _VISION_WEIGHT_TEXT_LAYER
+        reasons.append(f"text layer presence matches (requires_text_layer={sig.requires_text_layer})")
+    else:
+        reasons.append(f"text layer presence mismatch (found={fp.requires_text_layer}, "
+                        f"expected={sig.requires_text_layer})")
+
+    if fp.question_marker_hits <= sig.min_question_marker_hits:
+        score += _VISION_WEIGHT_MARKERS_AT_OR_BELOW_FLOOR
+        reasons.append(f"{fp.question_marker_hits} question-marker hits at or below the "
+                        f"{sig.min_question_marker_hits} floor expected for a vision template")
+    else:
+        reasons.append(f"{fp.question_marker_hits} question-marker hits exceed the "
+                        f"{sig.min_question_marker_hits} floor expected for a vision template — "
+                        f"this looks like a text-based document, not one needing vision fallback")
+    return score, reasons
+
+
 def score_against_template(fp: Fingerprint, tv: TemplateVersion):
+    if tv.kind == "vision_layout":
+        return _score_vision_template(fp, tv.match_signature)
+
     sig = tv.match_signature
     score = 0.0
     reasons = []

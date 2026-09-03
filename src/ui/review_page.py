@@ -5,11 +5,13 @@ Kept thin: every decision (queue ordering, edits, approve/reject, recheck)
 delegates to services.review_service. This file only reads widget state and
 renders results, per the Phase 3 plan's testability requirement.
 """
+import json
 import os
+import time
 
 import streamlit as st
 
-from db.repositories import DocumentRepository, PageRepository
+from db.repositories import DocumentRepository, JobRepository, PageRepository
 from db.session import session_scope
 from services import review_service
 from ui.bbox_overlay import draw_bbox_overlay
@@ -28,7 +30,7 @@ def _resolve_asset_path(config, document_id, relative_path):
     return os.path.join(str(config.crops_dir), document_id, relative_path)
 
 
-def render_review_page(session_factory, config):
+def render_review_page(session_factory, config, vision_provider=None):
     st.title("Review")
 
     with session_scope(session_factory) as session:
@@ -42,7 +44,17 @@ def render_review_page(session_factory, config):
     if default_doc_id not in doc_by_id:
         default_doc_id = documents[0].document_id
 
-    doc_labels = {d.document_id: f"{d.filename} ({d.document_id[:8]})" for d in documents}
+    with session_scope(session_factory) as session:
+        job_repo = JobRepository(session)
+        status_by_doc = {d.document_id: job_repo.get_latest_for_document(d.document_id) for d in documents}
+    _STATUS_BADGE = {"running": "⏳", "succeeded": "✅", "failed": "❌", "unmatched": "🚫"}
+    doc_labels = {
+        d.document_id: (
+            f"{_STATUS_BADGE.get(status_by_doc[d.document_id].status, '')} "
+            if status_by_doc.get(d.document_id) else ""
+        ) + f"{d.filename} ({d.document_id[:8]})"
+        for d in documents
+    }
     selected_doc_id = st.sidebar.selectbox(
         "Document", list(doc_labels.keys()), format_func=lambda k: doc_labels[k],
         index=list(doc_labels.keys()).index(default_doc_id),
@@ -53,10 +65,29 @@ def render_review_page(session_factory, config):
 
     with session_scope(session_factory) as session:
         queue = review_service.get_review_queue(session, selected_doc_id, include_reviewed=include_reviewed)
+        job = JobRepository(session).get_latest_for_document(selected_doc_id)
+
+    if job and job.status == "running":
+        progress = json.loads(job.progress_json) if job.progress_json else {}
+        stage = progress.get("stage", "starting")
+        completed, total = progress.get("completed", 0), progress.get("total")
+        detail = progress.get("detail", "")
+        st.info(
+            f"⏳ Still processing — **{stage}**: {completed}/{total if total else '?'} ({detail}). "
+            f"{len(queue)} question(s) available so far — already-finished ones are safe to review now."
+        )
+        if st.checkbox("Auto-refresh every 3s while processing", value=True, key="auto_refresh_review"):
+            time.sleep(3)
+            st.rerun()
+    elif job and job.status == "failed":
+        st.error(f"Ingestion failed: {job.error_message or 'unknown error'}")
 
     st.sidebar.markdown(f"**{len(queue)} question(s) in queue**")
     if not queue:
-        st.success("Nothing left to review for this document (with current filters).")
+        if job and job.status == "running":
+            st.info("No questions have finished processing yet — check back shortly.")
+        else:
+            st.success("Nothing left to review for this document (with current filters).")
         return
 
     queue_labels = {
@@ -137,8 +168,46 @@ def render_review_page(session_factory, config):
 
         st.markdown("**Stem**")
         for block in question.stem_blocks:
+            if block.content_type == "image":
+                crop = _resolve_asset_path(config, selected_doc_id, block.clean_crop_path)
+                if crop and os.path.exists(crop):
+                    st.image(crop, caption="Stem diagram")
+                else:
+                    st.caption("(image block — no crop file found on disk)")
+                bcol2, bcol3 = st.columns(2)
+                new_status = bcol2.selectbox(
+                    "Block status", BLOCK_STATUSES,
+                    index=BLOCK_STATUSES.index(block.status) if block.status in BLOCK_STATUSES else 0,
+                    key=f"stem_status_{block.block_id}",
+                )
+                if new_status != block.status and bcol2.button("Save status", key=f"save_stem_status_{block.block_id}"):
+                    review_service.mark_block_status(session_factory, question.question_id, block.block_id, new_status)
+                    st.rerun()
+                if vision_provider is not None and bcol3.button("🔎 Ask vision to transcribe",
+                                                                  key=f"vision_repair_{block.block_id}"):
+                    if block.clean_crop_path:
+                        review_service.repair_block_with_vision(session_factory, config, vision_provider,
+                                                                  question.question_id, block.block_id)
+                        st.rerun()
+                    else:
+                        st.warning("This block has no crop to transcribe.")
+                continue
+
+            # Always show the crop image alongside the text box, regardless
+            # of content_type -- a real gap this closes: a vision-derived
+            # block can be classified content_type=="text" (correctly --
+            # it's not a diagram) while still having NO transcribed text
+            # yet (layout-only extraction, by design), which previously
+            # rendered as a blank textarea with nothing else visible,
+            # looking exactly like a total extraction failure even though
+            # the crop file itself has real, correct content on disk.
+            crop = _resolve_asset_path(config, selected_doc_id, block.clean_crop_path)
+            if crop and os.path.exists(crop):
+                st.image(crop, caption="Stem crop")
             new_text = st.text_area("Stem text", value=block.text or "", key=f"stem_{block.block_id}")
-            bcol1, bcol2 = st.columns(2)
+            if block.latex:
+                st.latex(block.latex)
+            bcol1, bcol2, bcol3 = st.columns(3)
             if bcol1.button("Save stem text", key=f"save_stem_{block.block_id}"):
                 review_service.edit_stem_text(session_factory, config, question.question_id,
                                                block.block_id, new_text)
@@ -151,6 +220,14 @@ def render_review_page(session_factory, config):
             if new_status != block.status and bcol2.button("Save status", key=f"save_stem_status_{block.block_id}"):
                 review_service.mark_block_status(session_factory, question.question_id, block.block_id, new_status)
                 st.rerun()
+            if vision_provider is not None and bcol3.button("🔎 Ask vision to transcribe",
+                                                              key=f"vision_repair_{block.block_id}"):
+                if block.clean_crop_path:
+                    review_service.repair_block_with_vision(session_factory, config, vision_provider,
+                                                              question.question_id, block.block_id)
+                    st.rerun()
+                else:
+                    st.warning("This block has no crop to transcribe.")
 
         if question.options:
             st.markdown("**Options**")
@@ -158,14 +235,34 @@ def render_review_page(session_factory, config):
                 st.write(f"Option {opt.label}")
                 for block in opt.blocks:
                     if block.content_type == "image":
-                        st.caption("(image block — no text to edit)")
+                        crop = _resolve_asset_path(config, selected_doc_id, block.clean_crop_path)
+                        if crop and os.path.exists(crop):
+                            st.image(crop, caption=f"Option {opt.label} image", width=260)
+                        else:
+                            st.caption("(image block — no crop file found on disk)")
                         continue
+                    # Same fix as the stem block above -- always show the
+                    # crop image, not only for content_type=="image".
+                    opt_crop = _resolve_asset_path(config, selected_doc_id, block.clean_crop_path)
+                    if opt_crop and os.path.exists(opt_crop):
+                        st.image(opt_crop, caption=f"Option {opt.label} crop", width=320)
                     new_opt_text = st.text_area("Option text", value=block.text or "",
                                                  key=f"opt_{block.block_id}", label_visibility="collapsed")
-                    if st.button("Save option text", key=f"save_opt_{block.block_id}"):
+                    if block.latex:
+                        st.latex(block.latex)
+                    ocol1, ocol2 = st.columns(2)
+                    if ocol1.button("Save option text", key=f"save_opt_{block.block_id}"):
                         review_service.edit_option_text(session_factory, config, question.question_id,
                                                           block.block_id, new_opt_text)
                         st.rerun()
+                    if vision_provider is not None and ocol2.button("🔎 Ask vision to transcribe",
+                                                                     key=f"vision_repair_opt_{block.block_id}"):
+                        if block.clean_crop_path:
+                            review_service.repair_block_with_vision(session_factory, config, vision_provider,
+                                                                      question.question_id, block.block_id)
+                            st.rerun()
+                        else:
+                            st.warning("This block has no crop to transcribe.")
 
         st.markdown(f"**Answer:** {question.answer if question.answer is not None else '—'}")
 

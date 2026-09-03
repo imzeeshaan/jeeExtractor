@@ -177,9 +177,40 @@ class JobRepository:
         row = self.session.query(ProcessingJobRow).filter_by(id=job_id).one_or_none()
         if row is None:
             return None
+        return self._to_model(row)
+
+    def get_latest_for_document(self, document_id: str) -> Optional[ProcessingJob]:
+        """Exactly one job per document exists today (no re-run/retry
+        concept yet) — "latest" just means "the row that exists", but
+        ordering by started_at descending future-proofs this if that ever
+        changes. Used by Upload/Review pages to show live progress without
+        needing the job_id threaded through separately."""
+        row = (
+            self.session.query(ProcessingJobRow)
+            .filter_by(document_id=document_id)
+            .order_by(ProcessingJobRow.started_at.desc())
+            .first()
+        )
+        return self._to_model(row) if row else None
+
+    def update_progress(self, job_id: str, stage: str, completed: int, total: int, detail: str) -> None:
+        """Overwrites (not appends) progress_json — a single mutable status
+        blob, not a log. Called frequently (once per page/per escalated
+        question) from a short-lived transaction so any other reader sees
+        up-to-date progress immediately (WAL mode + the connection timeout
+        already added this session make this safe under concurrent access)."""
+        row = self.session.query(ProcessingJobRow).filter_by(id=job_id).one()
+        row.progress_json = json.dumps({
+            "stage": stage, "completed": completed, "total": total, "detail": detail,
+        })
+        self.session.flush()
+
+    @staticmethod
+    def _to_model(row: ProcessingJobRow) -> ProcessingJob:
         return ProcessingJob(
             job_id=row.id, document_id=row.document_id, job_type=row.job_type, status=row.status,
             started_at=row.started_at, completed_at=row.completed_at, error_message=row.error_message,
+            progress_json=row.progress_json,
         )
 
     def list_stage_runs(self, stage_name: str) -> list[StageRun]:
@@ -256,6 +287,37 @@ class QuestionRepository:
                 ))
         self.session.flush()
 
+    def replace_blocks_for_question(self, question: Question) -> None:
+        """Vision-escalation-only: after escalate_question() rebuilds a
+        question's stem_blocks/options in memory from the fallback
+        provider's response, this persists that replacement — deletes the
+        question's existing option/content_block rows and re-inserts from
+        the updated Question object, reusing the exact same
+        _content_block_row helper bulk_save uses (no new row-construction
+        logic). Does NOT touch the QuestionRow itself (number/type/status/
+        etc. are unaffected by escalation) or the answer row."""
+        old_options = self.session.query(OptionRow).filter_by(question_id=question.question_id).all()
+        for opt in old_options:
+            self.session.query(ContentBlockRow).filter_by(owner_type="option", owner_id=opt.id).delete()
+        self.session.query(OptionRow).filter_by(question_id=question.question_id).delete()
+        self.session.query(ContentBlockRow).filter_by(
+            owner_type="question_stem", owner_id=question.question_id
+        ).delete()
+        self.session.flush()
+
+        for seq, block in enumerate(question.stem_blocks):
+            self.session.add(self._content_block_row(block, "question_stem", question.question_id, seq))
+        for opt in question.options:
+            self.session.add(OptionRow(
+                id=opt.option_id, question_id=question.question_id, label=opt.label,
+                evidence_json=opt.evidence.model_dump_json(), confidence=opt.confidence,
+                review_required=opt.review_required,
+            ))
+            self.session.flush()
+            for seq, block in enumerate(opt.blocks):
+                self.session.add(self._content_block_row(block, "option", opt.option_id, seq))
+        self.session.flush()
+
     @staticmethod
     def _content_block_row(block: ContentBlock, owner_type: str, owner_id: str, sequence: int) -> ContentBlockRow:
         return ContentBlockRow(
@@ -313,8 +375,12 @@ class QuestionRepository:
                 template_version=qr.template_version,
             ))
         # sort numerically where possible (question "number" is stored as a
-        # string since some future question types may not be purely numeric)
-        questions.sort(key=lambda q: int(q.number) if q.number.isdigit() else q.number)
+        # string since some future question types may not be purely numeric).
+        # (0, int) vs (1, str) keeps every key the same shape so a mixed
+        # digit/non-digit set (confirmed live: a vision-derived document can
+        # return "Q.40" alongside plain "41") never raises
+        # "'<' not supported between instances of 'str' and 'int'".
+        questions.sort(key=lambda q: (0, int(q.number)) if q.number.isdigit() else (1, q.number))
         return questions
 
     def get(self, question_id: str) -> Optional[Question]:
@@ -386,6 +452,21 @@ class QuestionRepository:
         row = self.session.query(ContentBlockRow).filter_by(id=block_id).one()
         previous = row.text
         row.text = new_text
+        self.session.flush()
+        return previous
+
+    def update_block_text_and_latex(self, block_id: str, new_text: Optional[str],
+                                     new_latex: Optional[str]) -> tuple:
+        """Vision-repair-only: sets .text and .latex atomically. Deliberately
+        a separate method from update_block_text rather than an optional
+        new_latex=None param there — a None default would be ambiguous
+        ("no latex" vs. "don't touch latex") and would risk silently
+        nulling out a previously-transcribed latex value on every plain
+        text edit. Returns (previous_text, previous_latex)."""
+        row = self.session.query(ContentBlockRow).filter_by(id=block_id).one()
+        previous = (row.text, row.latex)
+        row.text = new_text
+        row.latex = new_latex
         self.session.flush()
         return previous
 
@@ -639,12 +720,23 @@ class TemplateRepository:
         return [self._to_version_model(r) for r in rows]
 
     def list_matchable(self) -> list[TemplateVersion]:
-        """status in (validated, monitored) only — candidate/draft are
-        never auto-matched. Nothing in Phase 4 ever creates a
-        candidate/draft row; this guards the invariant for Phase 6."""
+        """status in (validated, monitored, draft). "draft" is included
+        deliberately (Phase 5): per spec §18, a draft template has passed
+        schema validation and hard rules on development examples and IS
+        expected to run in production, just under mandatory human sampling
+        on every run — a materially different claim than "candidate" (an
+        unvalidated proposal nothing should auto-run). "candidate" stays
+        excluded — nothing in this codebase ever creates a candidate-status
+        row (that's Phase 6's template-learning concern), so this widening
+        can't let an unvalidated proposal slip through by construction.
+
+        The vision_layout template (Phase 5) registers as status="draft"
+        (honest — zero proven runs). "Mandatory human sampling" for it is
+        enforced downstream via the confidence/trust-tier cap
+        (validation.confidence), not by blocking the match itself."""
         rows = (
             self.session.query(TemplateVersionRow)
-            .filter(TemplateVersionRow.status.in_(("validated", "monitored")))
+            .filter(TemplateVersionRow.status.in_(("validated", "monitored", "draft")))
             .all()
         )
         return [self._to_version_model(r) for r in rows]

@@ -16,6 +16,7 @@ from pydantic import BaseModel
 ReviewActionType = Literal[
     "edit_stem_text", "edit_option_text", "change_question_type",
     "mark_block_status", "approve_question", "reject_question",
+    "vision_repair_transcription",
 ]
 
 

@@ -258,6 +258,66 @@ def test_geom_no_crops_root_returns_no_issues():
     assert rules_geometry.check_geometry(q, None, DOCUMENT_ID) == []
 
 
+def test_geom_crop_edge_clipped(tmp_path):
+    # Real, live-observed failure mode: content cut off right at the crop's
+    # top edge (e.g. a radical/superscript extending above the detected
+    # box). Synthetic image: a solid dark band across the very top 2 rows
+    # (simulating text sliced at the boundary) plus a small amount of
+    # sparse "body" content elsewhere, so the top edge is far busier than
+    # the image's own overall average -- exactly the signal the rule checks.
+    img_path = tmp_path / "images"
+    img_path.mkdir()
+    img = Image.new("RGB", (100, 100), color=(255, 255, 255))
+    for x in range(100):
+        img.putpixel((x, 0), (0, 0, 0))
+        img.putpixel((x, 1), (0, 0, 0))
+    for x in range(0, 30):
+        img.putpixel((x, 50), (0, 0, 0))
+    img.save(img_path / "clipped.png")
+
+    evidence = _make_evidence("stem", 1)
+    stem_block = ContentBlock(
+        block_id=str(uuid.uuid4()), content_type="image", clean_crop_path="images/clipped.png",
+        evidence=evidence, confidence=1.0, status="extracted",
+    )
+    q = Question(
+        question_id=str(uuid.uuid4()), document_id=DOCUMENT_ID, number="1",
+        question_type="numerical", stem_blocks=[stem_block], options=[],
+        answer="1", page_start=1, page_end=1, extraction_mode="deterministic_text",
+        confidence=1.0, status="draft",
+    )
+    issues = rules_geometry.check_geometry(q, str(tmp_path), DOCUMENT_ID)
+    assert "GEOM_CROP_EDGE_CLIPPED" in _rule_codes(issues)
+    clipped_issue = [i for i in issues if i.rule_code == "GEOM_CROP_EDGE_CLIPPED"][0]
+    assert clipped_issue.severity == "warning"
+
+
+def test_geom_cleanly_bounded_crop_does_not_fire_edge_clipped(tmp_path):
+    # Same body content, but with a clean white margin at every edge --
+    # must NOT fire, proving the rule isn't just reacting to "has content."
+    img_path = tmp_path / "images"
+    img_path.mkdir()
+    img = Image.new("RGB", (100, 100), color=(255, 255, 255))
+    for x in range(20, 80):
+        img.putpixel((x, 50), (0, 0, 0))
+        img.putpixel((x, 51), (0, 0, 0))
+    img.save(img_path / "clean.png")
+
+    evidence = _make_evidence("stem", 1)
+    stem_block = ContentBlock(
+        block_id=str(uuid.uuid4()), content_type="image", clean_crop_path="images/clean.png",
+        evidence=evidence, confidence=1.0, status="extracted",
+    )
+    q = Question(
+        question_id=str(uuid.uuid4()), document_id=DOCUMENT_ID, number="1",
+        question_type="numerical", stem_blocks=[stem_block], options=[],
+        answer="1", page_start=1, page_end=1, extraction_mode="deterministic_text",
+        confidence=1.0, status="draft",
+    )
+    issues = rules_geometry.check_geometry(q, str(tmp_path), DOCUMENT_ID)
+    assert "GEOM_CROP_EDGE_CLIPPED" not in _rule_codes(issues)
+
+
 # --- IMG_CONSERVATION_MISMATCH (rules_image_disposition.py) ---
 
 def test_img_conservation_mismatch(tmp_path):

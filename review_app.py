@@ -15,7 +15,8 @@ import streamlit as st
 
 from config import get_config
 from db.session import get_engine, init_db, make_session_factory, session_scope
-from templates.bootstrap import ensure_default_templates_registered
+from templates.bootstrap import ensure_default_templates_registered, ensure_vision_layout_template_registered
+from templates.registry import build_vision_provider
 from ui.upload_page import render_upload_page
 from ui.review_page import render_review_page
 from ui.template_studio_page import render_template_studio_page
@@ -31,14 +32,16 @@ def _bootstrap():
     session_factory = make_session_factory(engine)
     with session_scope(session_factory) as session:
         ensure_default_templates_registered(session)
-    return session_factory, config
+        ensure_vision_layout_template_registered(session)
+    vision_provider = build_vision_provider(config)
+    return session_factory, config, vision_provider
 
 
-session_factory, config = _bootstrap()
+session_factory, config, vision_provider = _bootstrap()
 
 upload_page = st.Page(lambda: render_upload_page(session_factory, config), title="Upload / Ingest",
                        icon="📥", url_path="upload", default=True)
-review_page = st.Page(lambda: render_review_page(session_factory, config), title="Review",
+review_page = st.Page(lambda: render_review_page(session_factory, config, vision_provider), title="Review",
                        icon="🔍", url_path="review")
 template_studio_page = st.Page(lambda: render_template_studio_page(session_factory, config),
                                 title="Template Studio", icon="🧩", url_path="template-studio")

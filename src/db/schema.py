@@ -77,6 +77,7 @@ class ProcessingJobRow(Base):
     started_at = Column(String)
     completed_at = Column(String)
     error_message = Column(String)
+    progress_json = Column(Text)
 
 
 class StageRunRow(Base):

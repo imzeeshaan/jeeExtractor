@@ -29,6 +29,63 @@ from models.validation import ValidationIssue
 MIN_CROP_DIMENSION_PX = 20
 BLANK_CROP_STDDEV_THRESHOLD = 3.0
 
+# Phase 5 follow-up: a real, live-observed vision-pipeline limitation —
+# DeepSeek's bounding boxes are sometimes drawn too tight, cutting off
+# content right at the top/bottom edge of the crop (radicals, superscripts,
+# stacked-fraction numerators, and occasionally plain text). A properly
+# bounded crop should trail off to near-white margin at its edges; if the
+# very edge row is nearly as "busy" (dark-pixel-dense) as the crop's own
+# body, that's a strong, cheap, computable signal the box cut through real
+# content rather than leaving a clean margin. Heuristic (warning severity,
+# same convention as rules_stem_completeness.py's heuristic checks) — some
+# false positives are acceptable; this exists to surface likely-clipped
+# crops for review/escalation, not to prove clipping with certainty.
+_EDGE_CLIP_MIN_HEIGHT_PX = 20
+_EDGE_CLIP_MIN_OVERALL_DARK_FRACTION = 0.02
+_EDGE_CLIP_EDGE_BAND_PX = 2
+_EDGE_CLIP_RATIO_THRESHOLD = 2.5
+
+
+def _dark_fraction(img_l) -> float:
+    pixels = img_l.getdata()
+    total = len(pixels)
+    if total == 0:
+        return 0.0
+    dark = sum(1 for p in pixels if p < 200)
+    return dark / total
+
+
+def _check_edge_clipping(img, crop_path, document_id, question_id, field_path):
+    if img.height < _EDGE_CLIP_MIN_HEIGHT_PX:
+        return []
+    img_l = img.convert("L")
+    overall_dark = _dark_fraction(img_l)
+    if overall_dark < _EDGE_CLIP_MIN_OVERALL_DARK_FRACTION:
+        return []
+
+    top_band = img_l.crop((0, 0, img.width, _EDGE_CLIP_EDGE_BAND_PX))
+    bottom_band = img_l.crop((0, img.height - _EDGE_CLIP_EDGE_BAND_PX, img.width, img.height))
+    top_ratio = _dark_fraction(top_band) / overall_dark
+    bottom_ratio = _dark_fraction(bottom_band) / overall_dark
+
+    if top_ratio <= _EDGE_CLIP_RATIO_THRESHOLD and bottom_ratio <= _EDGE_CLIP_RATIO_THRESHOLD:
+        return []
+    return [ValidationIssue(
+        issue_id=str(uuid.uuid4()),
+        document_id=document_id,
+        question_id=question_id,
+        field_path=field_path,
+        rule_code="GEOM_CROP_EDGE_CLIPPED",
+        severity="warning",
+        message=(
+            f"Crop {crop_path!r} has significant ink right at its top/bottom edge "
+            f"(top_ratio={top_ratio:.2f}, bottom_ratio={bottom_ratio:.2f}, threshold="
+            f"{_EDGE_CLIP_RATIO_THRESHOLD}) — likely cut off mid-content rather than "
+            "cleanly bounded."
+        ),
+        evidence_path=crop_path,
+    )]
+
 
 def _check_one_crop(crop_path, crops_root, document_id, question_id, field_path):
     full_path = os.path.join(crops_root, crop_path)
@@ -72,6 +129,8 @@ def _check_one_crop(crop_path, crops_root, document_id, question_id, field_path)
                         f"{BLANK_CROP_STDDEV_THRESHOLD}).",
                 evidence_path=crop_path,
             ))
+
+        issues += _check_edge_clipping(img, crop_path, document_id, question_id, field_path)
     return issues
 
 

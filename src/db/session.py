@@ -12,12 +12,20 @@ from db.schema import Base
 
 
 def get_engine(db_path, echo=False):
-    engine = create_engine(f"sqlite:///{db_path}", echo=echo)
+    # timeout=30: sqlite3's busy-wait window before raising "database is
+    # locked" — the driver default (5s) was confirmed live to be too short
+    # for a concurrent Streamlit rerun to wait out a write in progress.
+    engine = create_engine(f"sqlite:///{db_path}", echo=echo, connect_args={"timeout": 30})
 
     @event.listens_for(engine, "connect")
     def _enable_foreign_keys(dbapi_connection, connection_record):
         cursor = dbapi_connection.cursor()
         cursor.execute("PRAGMA foreign_keys=ON")
+        # WAL allows concurrent readers while one writer is active (the
+        # default DELETE journal mode locks the whole file on any write) —
+        # the Review Studio's multiple Streamlit sessions/reruns read and
+        # write the same file concurrently by design, not an edge case.
+        cursor.execute("PRAGMA journal_mode=WAL")
         cursor.close()
 
     return engine

@@ -27,6 +27,13 @@ def _is_float_parseable(value: str) -> bool:
 def check_answer_coverage(questions, document_id) -> list[ValidationIssue]:
     issues = []
     for q in questions:
+        if q.extraction_mode == "vision_layout":
+            # Answer-key mapping is not attempted for vision-derived
+            # questions this phase (Phase 5) — an honest gap, not a fake
+            # per-question failure. Firing ANSWER_MISSING (blocking) against
+            # an intentionally-unattempted field would floor every vision
+            # question's confidence to 0.0 regardless of layout quality.
+            continue
         if q.answer is None:
             issues.append(ValidationIssue(
                 issue_id=str(uuid.uuid4()),

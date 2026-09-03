@@ -15,7 +15,12 @@ from validation import (
 
 def run_validation(questions, legacy_questions, fitz_doc, document_id, crops_root=None) -> list:
     issues = []
-    issues += rules_image_disposition.check_image_conservation(questions, legacy_questions, fitz_doc, document_id)
+    # legacy_questions is None for vision-derived documents (Phase 5) — an
+    # honest "this concept does not apply", not a fabricated empty list —
+    # so this whole-document image-conservation check is skipped rather than
+    # run against data that doesn't exist for that extraction path.
+    if legacy_questions is not None:
+        issues += rules_image_disposition.check_image_conservation(questions, legacy_questions, fitz_doc, document_id)
     issues += rules_answer_coverage.check_answer_coverage(questions, document_id)
     issues += rules_sequence.check_question_sequence(questions, document_id)
     for q in questions:

@@ -55,3 +55,48 @@ def ensure_default_templates_registered(session) -> None:
             created_at=now,
         ),
     )
+
+
+# Phase 5: the vision-layout template, for scanned documents with no text
+# layer (e.g. JEE Advanced). Registered as status="draft" — NOT "validated"
+# like MathonGo above — because zero proven runs exist for it, unlike
+# MathonGo's bootstrapped 8. min_question_marker_hits=0 and
+# requires_text_layer=False make its match_signature the honest inverse of
+# a text-based template's, scored by matcher.py's separate
+# _score_vision_template formula.
+VISION_TEMPLATE_ID = "jee_advanced_vision_layout"
+VISION_TEMPLATE_VERSION = 1
+
+
+def ensure_vision_layout_template_registered(session) -> None:
+    repo = TemplateRepository(session)
+    if repo.get_version(VISION_TEMPLATE_ID, VISION_TEMPLATE_VERSION) is not None:
+        return
+
+    now = datetime.now(timezone.utc)
+    repo.register(
+        Template(
+            template_id=VISION_TEMPLATE_ID,
+            name="JEE Advanced (vision layout)",
+            document_family="jee_advanced",
+            created_at=now,
+        ),
+        TemplateVersion(
+            template_id=VISION_TEMPLATE_ID,
+            version=VISION_TEMPLATE_VERSION,
+            kind="vision_layout",
+            status="draft",
+            adapter_ref="vision_layout_adapter",
+            match_signature=MatchSignature(
+                requires_text_layer=False,
+                branding_strings=[],
+                question_marker_pattern="",
+                option_marker_pattern="",
+                answer_key_marker="",
+                min_question_marker_hits=0,
+            ),
+            baseline_score=None,
+            run_count=0,
+            created_at=now,
+        ),
+    )
