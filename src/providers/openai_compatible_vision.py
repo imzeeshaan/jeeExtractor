@@ -151,10 +151,12 @@ class OpenAICompatibleVisionProvider:
         # extra_body: provider-specific, non-OpenAI-standard request fields
         # forwarded verbatim (the openai SDK's documented mechanism for this
         # — never validated against OpenAI's own schema). E.g. DeepSeek's
-        # deepseek-v4-flash-vision-exp defaults to "thinking mode", which is
-        # incompatible with a forced tool_choice — confirmed live against
-        # the real API, not guessed — so registry.py passes
-        # {"thinking": {"type": "disabled"}} for the DeepSeek instance only.
+        # deepseek-flash (formerly deepseek-v4-flash-vision-exp, which now
+        # routes here for backward compatibility) defaults to "thinking
+        # mode", which is incompatible with a forced tool_choice —
+        # confirmed live against the real API, not guessed — so
+        # registry.py passes {"thinking": {"type": "disabled"}} for the
+        # DeepSeek instance only.
         self._extra_body = extra_body
         # reasoning_effort: a real, top-level Chat Completions param (not an
         # extra_body passthrough) — GPT-5-series models default to a

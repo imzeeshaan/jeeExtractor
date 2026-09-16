@@ -31,7 +31,7 @@ class AppConfig:
     # is never stored, printed, or accidentally included in a log line via
     # this dataclass's repr.
     vision_provider: Literal["mock", "real"] = "mock"
-    vision_primary_model: str = "deepseek-v4-flash-vision-exp"
+    vision_primary_model: str = "deepseek-flash"
     vision_fallback_model: str = "gpt-5.6-luna"
     # Concurrent per-page/per-question API dispatch (Phase 5 follow-up). A
     # conservative default, NOT verified against DeepSeek/OpenAI's actual
@@ -55,7 +55,7 @@ def get_config() -> AppConfig:
     render_dpi = int(os.environ.get("JEE_RENDER_DPI", "300"))
     db_echo = os.environ.get("JEE_DB_ECHO", "false").lower() in ("1", "true", "yes")
     vision_provider = os.environ.get("JEE_VISION_PROVIDER", "mock")
-    vision_primary_model = os.environ.get("JEE_VISION_PRIMARY_MODEL", "deepseek-v4-flash-vision-exp")
+    vision_primary_model = os.environ.get("JEE_VISION_PRIMARY_MODEL", "deepseek-flash")
     vision_fallback_model = os.environ.get("JEE_VISION_FALLBACK_MODEL", "gpt-5.6-luna")
     vision_concurrency = int(os.environ.get("JEE_VISION_CONCURRENCY", "5"))
 

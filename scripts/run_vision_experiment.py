@@ -8,7 +8,7 @@ imported by pytest and never run in CI.
 Usage:
     DEEPSEEK_API_KEY=... OPENAI_API_KEY=... python3 scripts/run_vision_experiment.py \
         [--pdf tests/fixtures/unsupported/JEE_ADV_2016-1.pdf] \
-        [--primary-model deepseek-v4-flash-vision-exp] [--fallback-model gpt-5.6-terra]
+        [--primary-model deepseek-flash] [--fallback-model gpt-5.6-terra]
 
 Hard rule (do not relax): this script targets ONLY the one committed
 JEE Advanced fixture by default — pass --pdf explicitly to override, but
@@ -16,8 +16,11 @@ there is no "run against everything" mode, given real API cost.
 
 Model pricing referenced in comments is cached from this session's research
 (2026-08-31 / 2026-09-01) and may be stale — re-verify before trusting it for
-a real budget decision. DeepSeek's deepseek-v4-flash-vision-exp is EXPERIMENTAL
-and caps images at 384 tokens each per its own docs.
+a real budget decision. DeepSeek's deepseek-flash (formerly
+deepseek-v4-flash-vision-exp, which now routes here for backward
+compatibility as of the V4.1-Flash release, 2026-09-10) has native vision
+support built into the model rather than the earlier "-vision-exp"
+experimental bolt-on.
 """
 import argparse
 import os

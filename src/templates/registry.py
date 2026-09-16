@@ -54,9 +54,9 @@ def build_vision_provider(config):
             base_url="https://api.deepseek.com",
             api_key_env_var="DEEPSEEK_API_KEY",
             model=config.vision_primary_model,
-            # deepseek-v4-flash-vision-exp defaults to "thinking mode",
-            # which rejects a forced tool_choice — confirmed live against
-            # the real API. Disabled so structured tool-output works.
+            # deepseek-flash defaults to "thinking mode", which rejects a
+            # forced tool_choice — confirmed live against the real API.
+            # Disabled so structured tool-output works.
             extra_body={"thinking": {"type": "disabled"}},
             provider_label="deepseek",
         )
