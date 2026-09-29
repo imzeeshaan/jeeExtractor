@@ -67,7 +67,7 @@
       125.7022705078125
     ],
     "stem_snippet": "images/q1_stem.png",
-    "stem_text": "Q1. The amount of heat produced in an electric circuit depends upon the current , resistance and time . If the error made in the measurements of the above quantities are and respectively then the maximum possible error in the total heat produced will be (I) (R) (t) 2%, 1% 1%"
+    "stem_text": "Q1. The amount of heat produced in an electric circuit depends upon the current (I) , resistance (R) and time (t) . If the error made in the measurements of the above quantities are 2%, 1% and 1% respectively then the maximum possible error in the total heat produced will be"
   },
   {
     "answer": "4",
@@ -96,7 +96,7 @@
           233.7022705078125
         ],
         "snippet": "images/q2_opt2.png",
-        "text": "(2) 1 2 \u221au2 + v2"
+        "text": "(2) 1 \u221au2 + v2 2"
       },
       {
         "images": [],
@@ -122,7 +122,7 @@
           271.9522705078125
         ],
         "snippet": "images/q2_opt4.png",
-        "text": "(4) \u221a( u2+v2 2 )"
+        "text": "(4) \u221a( u2+v2 ) 2"
       }
     ],
     "question_number": 2,
@@ -137,7 +137,7 @@
       217.2022705078125
     ],
     "stem_snippet": "images/q2_stem.png",
-    "stem_text": "Q2. A goods train accelerating uniformly on a straight railway track, approaches an electric pole standing on the side of track. Its engine passes the pole with velocity and the guard's room passes with velocity . The middle wagon of the train passes the pole with a velocity. u v"
+    "stem_text": "Q2. A goods train accelerating uniformly on a straight railway track, approaches an electric pole standing on the side of track. Its engine passes the pole with velocity u and the guard's room passes with velocity v . The middle wagon of the train passes the pole with a velocity."
   },
   {
     "answer": "2",
@@ -207,7 +207,7 @@
       304.9522705078125
     ],
     "stem_snippet": "images/q3_stem.png",
-    "stem_text": "Q3. Sand is being dropped on a conveyer belt at the rate of per second. The force necessary to keep the belt moving with a constant speed of will be 2 kg 3 ms\u22121"
+    "stem_text": "Q3. Sand is being dropped on a conveyer belt at the rate of 2 kg per second. The force necessary to keep the belt moving with a constant speed of 3 ms\u22121 will be"
   },
   {
     "answer": "1",
@@ -223,7 +223,7 @@
           418.2022705078125
         ],
         "snippet": "images/q4_opt1.png",
-        "text": "(1) \u03b8 = tan\u22121(\u03bc), F = \u03bcW \u221a1+\u03bc2"
+        "text": "(1) tan\u22121(\u03bc), \u03bcW \u03b8 = F = \u221a1+\u03bc2"
       },
       {
         "images": [],
@@ -236,7 +236,7 @@
           418.2022705078125
         ],
         "snippet": "images/q4_opt2.png",
-        "text": "(2) \u03b8 = tan\u22121 ( 1 \u03bc ), F = \u03bcW \u221a1+\u03bc2"
+        "text": "(2) tan\u22121 ( 1 ), \u03bcW \u03b8 = F = \u03bc \u221a1+\u03bc2"
       },
       {
         "images": [],
@@ -262,7 +262,7 @@
           448.9522705078125
         ],
         "snippet": "images/q4_opt4.png",
-        "text": "(4) \u03b8 = tan\u22121 ( \u03bc 1+\u03bc ), F = \u03bcW 1+\u03bc"
+        "text": "(4) tan\u22121 ( \u03bc ), \u03bcW \u03b8 = F = 1+\u03bc 1+\u03bc"
       }
     ],
     "question_number": 4,
@@ -277,7 +277,7 @@
       396.4522705078125
     ],
     "stem_snippet": "images/q4_stem.png",
-    "stem_text": "Q4. A block of weight rests on a horizontal floor with coefficient of static friction . It is desired to make the block move by applying minimum amount of force. The angle from the horizontal at which the force should be applied and magnitude of the force are respectively. W \u03bc \u03b8 F"
+    "stem_text": "Q4. A block of weight W rests on a horizontal floor with coefficient of static friction \u03bc . It is desired to make the block move by applying minimum amount of force. The angle \u03b8 from the horizontal at which the force should be applied and magnitude of the force F are respectively."
   },
   {
     "answer": "2",
@@ -306,7 +306,7 @@
           514.9522705078125
         ],
         "snippet": "images/q5_opt2.png",
-        "text": "(2) and independent of \u03c91 = \u03c92 f"
+        "text": "(2) \u03c91 = \u03c92 and independent of f"
       },
       {
         "images": [],
@@ -332,7 +332,7 @@
           540.4522705078125
         ],
         "snippet": "images/q5_opt4.png",
-        "text": "(4) and depend on \u03c91 = \u03c92 f"
+        "text": "(4) \u03c91 = \u03c92 and depend on f"
       }
     ],
     "question_number": 5,
@@ -347,7 +347,7 @@
       498.4522705078125
     ],
     "stem_snippet": "images/q5_stem.png",
-    "stem_text": "Q5. Two point masses of mass and are in outer space (far from gravitational influence of other objects) at a distance from each other. They move in circular orbits about their centre of mass with angular velocities for and for . In that case m1 = fM m2 = (1 \u2212f)M(f < 1) R \u03c91 m1 \u03c92 m2"
+    "stem_text": "Q5. Two point masses of mass m1 = fM and m2 = (1 \u2212f)M(f < 1) are in outer space (far from gravitational influence of other objects) at a distance R from each other. They move in circular orbits about their centre of mass with angular velocities \u03c91 for m1 and \u03c92 for m2 . In that case"
   },
   {
     "answer": "3",
@@ -417,7 +417,7 @@
       573.4522705078125
     ],
     "stem_snippet": "images/q6_stem.png",
-    "stem_text": "Q6. A moving particle of mass , makes a head on elastic collision with another particle of mass , which is initially at rest. The percentage loss in energy of the colliding particle on collision, is close to m 2m"
+    "stem_text": "Q6. A moving particle of mass m , makes a head on elastic collision with another particle of mass 2m , which is initially at rest. The percentage loss in energy of the colliding particle on collision, is close to"
   },
   {
     "answer": "3",
@@ -487,7 +487,7 @@
       648.4522705078125
     ],
     "stem_snippet": "images/q7_stem.png",
-    "stem_text": "Q7. A steel wire can sustain weight without breaking. If the wire is cut into two equal parts, each part can sustain a weight of 100 kg"
+    "stem_text": "Q7. A steel wire can sustain 100 kg weight without breaking. If the wire is cut into two equal parts, each part can sustain a weight of"
   },
   {
     "answer": "2",
@@ -503,7 +503,7 @@
           98.7022705078125
         ],
         "snippet": "images/q8_opt1.png",
-        "text": "(1) [ T \u03c1 ( 1 r \u22121 R )] 1/2"
+        "text": "(1) 1/2 [ T 1 \u22121 )] ( \u03c1 r R"
       },
       {
         "images": [],
@@ -516,7 +516,7 @@
           98.7022705078125
         ],
         "snippet": "images/q8_opt2.png",
-        "text": "(2) [ 6T \u03c1 ( 1 r \u22121 R )] 1/2"
+        "text": "(2) 1/2 [ 6T 1 \u22121 )] ( \u03c1 r R"
       },
       {
         "images": [],
@@ -529,7 +529,7 @@
           132.4522705078125
         ],
         "snippet": "images/q8_opt3.png",
-        "text": "(3) [ 3T \u03c1 ( 1 r \u22121 R )] 1/2"
+        "text": "(3) 1/2 [ 3T 1 \u22121 )] ( \u03c1 r R"
       },
       {
         "images": [],
@@ -542,7 +542,7 @@
           132.4522705078125
         ],
         "snippet": "images/q8_opt4.png",
-        "text": "(4) [ 2T \u03c1 ( 1 r \u22121 R )] 1/2"
+        "text": "(4) 1/2 [ 2T 1 \u22121 )] ( \u03c1 r R"
       }
     ],
     "question_number": 8,
@@ -557,7 +557,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q8_stem.png",
-    "stem_text": "Q8. A large number of droplets, each of radius, coalesce to form a bigger drop of radius, . An engineer designs a machine so that the energy released in this process is converted into the kinetic energy of the drop. Velocity of the drop is ( surface tension, density) r R T = \u03c1 ="
+    "stem_text": "Q8. A large number of droplets, each of radius, r coalesce to form a bigger drop of radius, R . An engineer designs a machine so that the energy released in this process is converted into the kinetic energy of the drop. Velocity of the drop is ( T = surface tension, \u03c1 = density)"
   },
   {
     "answer": "1",
@@ -627,7 +627,7 @@
       198.4522705078125
     ],
     "stem_snippet": "images/q9_stem.png",
-    "stem_text": "Q9. A large cylindrical rod of length is made by joining two identical rods of copper and steel of length each. The rods are completely insulated from the surroundings. If the free end of copper rod is maintained at and that of steel at then the temperature of junction is (Thermal conductivity of copper is 9 times that of steel) L ( L 2 ) 100\u2218C 0\u2218C"
+    "stem_text": "Q9. A large cylindrical rod of length L is made by joining two identical rods of copper and steel of length ( L ) each. 2 The rods are completely insulated from the surroundings. If the free end of copper rod is maintained at 100\u2218C and that of steel at 0\u2218C then the temperature of junction is (Thermal conductivity of copper is 9 times that of steel)"
   },
   {
     "answer": "4",
@@ -697,7 +697,7 @@
       322.9522705078125
     ],
     "stem_snippet": "images/q10_stem.png",
-    "stem_text": "Q10.This question has Statement 1 and Statement 2. Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: An inventor claims to have constructed an engine that has an efficiency of when operated between the boiling and freezing points of water. This is not possible. Statement 2: The efficiency of a real engine is always less than the efficiency of a Carnot engine operating between the same two temperatures. 30%"
+    "stem_text": "Q10.This question has Statement 1 and Statement 2. Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: An inventor claims to have constructed an engine that has an efficiency of 30% when operated between the boiling and freezing points of water. This is not possible. Statement 2: The efficiency of a real engine is always less than the efficiency of a Carnot engine operating between the same two temperatures."
   },
   {
     "answer": "4",
@@ -713,7 +713,7 @@
           496.9522705078125
         ],
         "snippet": "images/q11_opt1.png",
-        "text": "(1) \u03b1V 2 (m2 \u22121)"
+        "text": "(1) \u03b1V (m2 \u22121) 2"
       },
       {
         "images": [],
@@ -726,7 +726,7 @@
           496.9522705078125
         ],
         "snippet": "images/q11_opt2.png",
-        "text": "(2) \u03b12V 2 2 (m2 \u22121)"
+        "text": "(2) \u03b12V 2 (m2 \u22121) 2"
       },
       {
         "images": [],
@@ -739,7 +739,7 @@
           523.2022705078125
         ],
         "snippet": "images/q11_opt3.png",
-        "text": "(3) \u03b1 2 (m2 \u22121)"
+        "text": "(3) \u03b1 (m2 \u22121) 2"
       },
       {
         "images": [],
@@ -752,7 +752,7 @@
           523.2022705078125
         ],
         "snippet": "images/q11_opt4.png",
-        "text": "(4) \u03b1V 2 2 (m2 \u22121)"
+        "text": "(4) \u03b1V 2 (m2 \u22121) 2"
       }
     ],
     "question_number": 11,
@@ -767,7 +767,7 @@
       480.4522705078125
     ],
     "stem_snippet": "images/q11_stem.png",
-    "stem_text": "Q11.The pressure of an ideal gas varies with volume as , where is a constant. One mole of the gas is allowed to undergo expansion such that its volume becomes ' ' times its initial volume. The work done by the gas in the process is P = \u03b1V \u03b1 m"
+    "stem_text": "Q11.The pressure of an ideal gas varies with volume as P = \u03b1V , where \u03b1 is a constant. One mole of the gas is allowed to undergo expansion such that its volume becomes ' m ' times its initial volume. The work done by the gas in the process is"
   },
   {
     "answer": "1",
@@ -845,7 +845,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q12_stem.png",
-    "stem_text": "Q12.The displacement of a pendulum for is correctly represented by y(t) = A sin(\u03c9t + \u03d5) \u03d5 = 2\u03c0 3"
+    "stem_text": "Q12.The displacement y(t) = A sin(\u03c9t + \u03d5) of a pendulum for \u03d5 = 2\u03c0 is correctly represented by 3"
   },
   {
     "answer": "1",
@@ -917,7 +917,7 @@
       471.4521789550781
     ],
     "stem_snippet": "images/q13_stem.png",
-    "stem_text": "Q13.A ring is suspended from a point on its rim as shown in the figure. When displaced from equilibrium, it oscillates with time period of 1 second. The radius of the ring is (take ) S g = \u03c02"
+    "stem_text": "Q13.A ring is suspended from a point S on its rim as shown in the figure. When displaced from equilibrium, it oscillates with time period of 1 second. The radius of the ring is (take g = \u03c02 )"
   },
   {
     "answer": "4",
@@ -987,7 +987,7 @@
       579.4522094726562
     ],
     "stem_snippet": "images/q14_stem.png",
-    "stem_text": "Q14.A uniform tube of length is held vertically with its lower end dipped in water. A sound source of frequency sends sound waves into the tube. When the length of tube above water is and again when it is , the tube resonates with the source of sound. Two lowest frequencies (in ), to which tube will resonate when it is taken out of water, are (approximately). 60.5 cm 500 Hz 16 cm 50 cm Hz"
+    "stem_text": "Q14.A uniform tube of length 60.5 cm is held vertically with its lower end dipped in water. A sound source of frequency 500 Hz sends sound waves into the tube. When the length of tube above water is 16 cm and again when it is 50 cm , the tube resonates with the source of sound. Two lowest frequencies (in Hz ), to which tube will resonate when it is taken out of water, are (approximately)."
   },
   {
     "answer": "3",
@@ -1003,7 +1003,7 @@
           673.9522094726562
         ],
         "snippet": "images/q15_opt1.png",
-        "text": "(1) 1 4\u03c0\u03b50 (R\u2212r)Q (R2+r2)"
+        "text": "(1) 1 (R\u2212r)Q 4\u03c0\u03b50 (R2+r2)"
       },
       {
         "images": [],
@@ -1016,7 +1016,7 @@
           673.9522094726562
         ],
         "snippet": "images/q15_opt2.png",
-        "text": "(2) 1 4\u03c0\u03b50 (R+r)Q 2(R2+r2)"
+        "text": "(2) 1 (R+r)Q 4\u03c0\u03b50 2(R2+r2)"
       },
       {
         "images": [],
@@ -1029,7 +1029,7 @@
           704.7022094726562
         ],
         "snippet": "images/q15_opt3.png",
-        "text": "(3) 1 4\u03c0\u03b50 (R+r)Q (R2+r2 )"
+        "text": "(3) 1 (R+r)Q ) 4\u03c0\u03b50 (R2+r2"
       },
       {
         "images": [],
@@ -1042,7 +1042,7 @@
           704.7022094726562
         ],
         "snippet": "images/q15_opt4.png",
-        "text": "(4) 1 4\u03c0\u03b50 (R\u2212r)Q 2(R2+r2)"
+        "text": "(4) 1 (R\u2212r)Q 4\u03c0\u03b50 2(R2+r2)"
       }
     ],
     "question_number": 15,
@@ -1057,7 +1057,7 @@
       654.4522094726562
     ],
     "stem_snippet": "images/q15_stem.png",
-    "stem_text": "Q15.A charge of total amount is distributed over two concentric hollow spheres of radii and ) such that the surface charge densities on the two spheres are equal. The electric potential at the common centre is Q r R(R > r"
+    "stem_text": "Q15.A charge of total amount Q is distributed over two concentric hollow spheres of radii r and R(R > r ) such that the surface charge densities on the two spheres are equal. The electric potential at the common centre is"
   },
   {
     "answer": "2",
@@ -1135,7 +1135,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q16_stem.png",
-    "stem_text": "Q16.The flat base of a hemisphere of radius a with no charge inside it lies in a horizontal plane. A uniform electric field is applied at an angle with the vertical direction. The electric flux through the curved surface of the E \u03c0 4 hemisphere is"
+    "stem_text": "Q16.The flat base of a hemisphere of radius a with no charge inside it lies in a horizontal plane. A uniform electric field E is applied at an angle \u03c0 with the vertical direction. The electric flux through the curved surface of the 4 hemisphere is"
   },
   {
     "answer": "2",
@@ -1207,7 +1207,7 @@
       484.2022705078125
     ],
     "stem_snippet": "images/q17_stem.png",
-    "stem_text": "Q17.A volt battery is connected to two light bulbs as shown in figure. Light bulb 1 has resistance 3 ohm while light bulb 2 has resistance . Battery has negligible internal resistance. Which bulb will glow brighter? 6.0 6ohm"
+    "stem_text": "Q17.A 6.0 volt battery is connected to two light bulbs as shown in figure. Light bulb 1 has resistance 3 ohm while light bulb 2 has resistance 6ohm . Battery has negligible internal resistance. Which bulb will glow brighter?"
   },
   {
     "answer": "3",
@@ -1277,7 +1277,7 @@
       575.7022705078125
     ],
     "stem_snippet": "images/q18_stem.png",
-    "stem_text": "Q18.A generator has armature resistance of and develops an induced emf of when driven at its rated speed. Its terminal voltage when a current of is being drawn is 0.1\u03a9 120 V 50 A"
+    "stem_text": "Q18.A generator has armature resistance of 0.1\u03a9 and develops an induced emf of 120 V when driven at its rated speed. Its terminal voltage when a current of 50 A is being drawn is"
   },
   {
     "answer": "2",
@@ -1347,7 +1347,7 @@
       667.2022705078125
     ],
     "stem_snippet": "images/q19_stem.png",
-    "stem_text": "Q19.A proton and a deuteron are both accelerated through the same potential difference and enter in a magnetic field perpendicular to the direction of the field. If the deuteron follows a path of radius , assuming the neutron and proton masses are nearly equal, the radius of the proton's path will be R"
+    "stem_text": "Q19.A proton and a deuteron are both accelerated through the same potential difference and enter in a magnetic field perpendicular to the direction of the field. If the deuteron follows a path of radius R , assuming the neutron and proton masses are nearly equal, the radius of the proton's path will be"
   },
   {
     "answer": "4",
@@ -1433,7 +1433,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q20_stem.png",
-    "stem_text": "Q20.A coil of self inductance is connected at one end of two rails as shown in figure. A connector of length , mass can slide freely over the two parallel rails. The entire set up is placed in a magnetic field of induction going into the page. At an instant an initial velocity is imparted to it and as a result of that it starts L l m B t = 0 v0 moving along -axis. The displacement of the connector is represented by the figure. x"
+    "stem_text": "Q20.A coil of self inductance L is connected at one end of two rails as shown in figure. A connector of length l , mass m can slide freely over the two parallel rails. The entire set up is placed in a magnetic field of induction B going into the page. At an instant t = 0 an initial velocity v0 is imparted to it and as a result of that it starts moving along x -axis. The displacement of the connector is represented by the figure."
   },
   {
     "answer": "2",
@@ -1503,7 +1503,7 @@
       603.4523315429688
     ],
     "stem_snippet": "images/q21_stem.png",
-    "stem_text": "Q21.This question has Statement 1 and Statement 2. Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: Self inductance of a long solenoid of length , total number of turns and radius is less than . Statement 2: The magnetic induction in the solenoid in Statement 1 carrying current is in the middle of the solenoid but becomes less as we move towards its ends. L N r \u03c0\u03bc0N 2r2 L I \u03bc0NI L"
+    "stem_text": "Q21.This question has Statement 1 and Statement 2. Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: Self inductance of a long solenoid of length L , total \u03c0\u03bc0N 2r2 number of turns N and radius r is less than . Statement 2: The magnetic induction in the solenoid in L Statement 1 carrying current is \u03bc0NI in the middle of the solenoid but becomes less as we move towards its I L ends."
   },
   {
     "answer": "3",
@@ -1519,7 +1519,7 @@
           91.9521484375
         ],
         "snippet": "images/q22_opt1.png",
-        "text": "(1)E = \u2212E0 cos (\u03c9t + 2\u03c0 \u03bb y)^x"
+        "text": "(1)E = \u2212E0 cos (\u03c9t + 2\u03c0 y)^x \u03bb"
       },
       {
         "images": [],
@@ -1532,7 +1532,7 @@
           91.9521484375
         ],
         "snippet": "images/q22_opt2.png",
-        "text": "(2)E = E0 cos (\u03c9t \u22122\u03c0 \u03bb y)^x"
+        "text": "(2)E = E0 cos (\u03c9t \u22122\u03c0 y)^x \u03bb"
       },
       {
         "images": [],
@@ -1545,7 +1545,7 @@
           118.2021484375
         ],
         "snippet": "images/q22_opt3.png",
-        "text": "(3)E = E0 cos (\u03c9t \u22122\u03c0 \u03bb y)^z"
+        "text": "(3)E = E0 cos (\u03c9t \u22122\u03c0 y)^z \u03bb"
       },
       {
         "images": [],
@@ -1558,7 +1558,7 @@
           118.2021484375
         ],
         "snippet": "images/q22_opt4.png",
-        "text": "(4)E = \u2212E0 cos (\u03c9t + 2\u03c0 \u03bb y)^z"
+        "text": "(4)E = \u2212E0 cos (\u03c9t + 2\u03c0 y)^z \u03bb"
       }
     ],
     "question_number": 22,
@@ -1573,7 +1573,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q22_stem.png",
-    "stem_text": "Q22.An electromagnetic wave with frequency and wavelength travels in the direction. Its magnetic field is along -axis. The vector equation for the associated electric field (of amplitude ) is \u03c9 \u03bb +y +x E0"
+    "stem_text": "Q22.An electromagnetic wave with frequency \u03c9 and wavelength \u03bb travels in the +y direction. Its magnetic field is along +x -axis. The vector equation for the associated electric field (of amplitude E0 ) is"
   },
   {
     "answer": "3",
@@ -1645,7 +1645,7 @@
       340.2021789550781
     ],
     "stem_snippet": "images/q23_stem.png",
-    "stem_text": "Q23.A glass prism of refractive index is immersed in water (refractive index ) as shown in figure. A light beam incident normally on the face is 1.5 4 3 AB totally reflected to reach the face BC, if"
+    "stem_text": "Q23.A glass prism of refractive index 1.5 is immersed in water (refractive index 4 ) as shown in figure. A light 3 beam incident normally on the face AB is totally reflected to reach the face BC, if"
   },
   {
     "answer": "3",
@@ -1715,7 +1715,7 @@
       431.7021789550781
     ],
     "stem_snippet": "images/q24_stem.png",
-    "stem_text": "Q24.Two coherent plane light waves of equal amplitude makes a small angle with each other. They fall almost normally on a screen. If is the wavelength of light waves, the fringe width of interference patterns of the two sets of waves on the screen is \u03b1(<< 1) \u03bb \u0394x"
+    "stem_text": "Q24.Two coherent plane light waves of equal amplitude makes a small angle \u03b1(<< 1) with each other. They fall almost normally on a screen. If \u03bb is the wavelength of light waves, the fringe width \u0394x of interference patterns of the two sets of waves on the screen is"
   },
   {
     "answer": "2",
@@ -1785,7 +1785,7 @@
       575.7022094726562
     ],
     "stem_snippet": "images/q25_stem.png",
-    "stem_text": "Q25.This question has Statement 1 and Statement 2. Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: A metallic surface is irradiated by a monochromatic light of frequency (the threshold frequency). If the incident frequency is now doubled, the photocurrent and the maximum kinetic energy are also doubled. Statement 2: The maximum kinetic energy of photoelectrons emitted from a surface is linearly dependent on the frequency of the incident light. The photocurrent depends only on the intensity of the incident light. v > v0"
+    "stem_text": "Q25.This question has Statement 1 and Statement 2. Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: A metallic surface is irradiated by a monochromatic light of frequency v > v0 (the threshold frequency). If the incident frequency is now doubled, the photocurrent and the maximum kinetic energy are also doubled. Statement 2: The maximum kinetic energy of photoelectrons emitted from a surface is linearly dependent on the frequency of the incident light. The photocurrent depends only on the intensity of the incident light."
   },
   {
     "answer": "4",
@@ -1855,7 +1855,7 @@
       716.7022094726562
     ],
     "stem_snippet": "images/q26_stem.png",
-    "stem_text": "Q26.Ionisation energy of Li (Lithium) atom in ground state is . Binding energy of an electron in ion in ground state is . Energy required to remove all three electrons of Lithium (Li) atom is 5.4eV Li+ 75.6eV"
+    "stem_text": "Q26.Ionisation energy of Li (Lithium) atom in ground state is 5.4eV . Binding energy of an electron in Li+ ion in ground state is 75.6eV . Energy required to remove all three electrons of Lithium (Li) atom is"
   },
   {
     "answer": "3",
@@ -1910,7 +1910,7 @@
           157.20196533203125
         ],
         "snippet": "images/q27_opt4.png",
-        "text": "(4) 1 2 (T\u03b1 + T\u03b2 )"
+        "text": "(4) 1 (T\u03b1 + T\u03b2 ) 2"
       }
     ],
     "question_number": 27,
@@ -1925,7 +1925,7 @@
       108.45196533203125
     ],
     "stem_snippet": "images/q27_stem.png",
-    "stem_text": "Q27.The decay constants of a radioactive substance for and emission are and respectively. If the substance emits and simultaneously, then the average half life of the material will be \u03b1 \u03b2 \u03bb\u03b1 \u03bb\u03b2 \u03b1 \u03b2"
+    "stem_text": "Q27.The decay constants of a radioactive substance for \u03b1 and \u03b2 emission are \u03bb\u03b1 and \u03bb\u03b2 respectively. If the substance emits \u03b1 and \u03b2 simultaneously, then the average half life of the material will be"
   },
   {
     "answer": "1",
@@ -1941,7 +1941,7 @@
           190.20196533203125
         ],
         "snippet": "images/q28_opt1.png",
-        "text": "(1) Y = A + B \u2013 \u2013"
+        "text": "\u2013 \u2013 (1) Y = A + B"
       },
       {
         "images": [],
@@ -1954,7 +1954,7 @@
           190.20196533203125
         ],
         "snippet": "images/q28_opt2.png",
-        "text": "(2) \u2013 Y = A \u22c5B \u2013"
+        "text": "\u2013 \u2013 (2) Y = A \u22c5B"
       },
       {
         "images": [],
@@ -1980,7 +1980,7 @@
           215.70196533203125
         ],
         "snippet": "images/q28_opt4.png",
-        "text": "(4) Y = \u00afA"
+        "text": "(4) = \u00afA Y"
       }
     ],
     "question_number": 28,
@@ -2011,7 +2011,7 @@
           330.45196533203125
         ],
         "snippet": "images/q29_opt1.png",
-        "text": "(1) and \u03c9c \u221a\u03c92c + \u03c92m"
+        "text": "(1) \u03c9c and \u221a\u03c92c + \u03c92m"
       },
       {
         "images": [],
@@ -2024,7 +2024,7 @@
           330.45196533203125
         ],
         "snippet": "images/q29_opt2.png",
-        "text": "(2) and \u03c9c, \u03c9c + \u03c9m \u03c9c \u2212\u03c9m"
+        "text": "(2) \u03c9c, \u03c9c + \u03c9m and \u03c9c \u2212\u03c9m"
       },
       {
         "images": [],
@@ -2037,7 +2037,7 @@
           355.95196533203125
         ],
         "snippet": "images/q29_opt3.png",
-        "text": "(3) and \u03c9c \u03c9m"
+        "text": "(3) \u03c9c and \u03c9m"
       },
       {
         "images": [],
@@ -2050,7 +2050,7 @@
           355.95196533203125
         ],
         "snippet": "images/q29_opt4.png",
-        "text": "(4) and \u03c9c \u221a\u03c9c\u03c9m"
+        "text": "(4) \u03c9c and \u221a\u03c9c\u03c9m"
       }
     ],
     "question_number": 29,
@@ -2065,7 +2065,7 @@
       313.95196533203125
     ],
     "stem_snippet": "images/q29_stem.png",
-    "stem_text": "Q29.Given the electric field of a complete amplitude modulated wave as Where the subscript c stands for the carrier wave and for the modulating signal. The frequencies present in the modulated wave are \u2192E = ^iEc (1 + Em Ec cos \u03c9mt) cos \u03c9ct m"
+    "stem_text": "Q29.Given the electric field of a complete \u2192E amplitude modulated wave as (1 Em \u03c9mt) = ^iEc + cos cos \u03c9ct Ec Where the subscript c stands for the carrier wave and m for the modulating signal. The frequencies present in the modulated wave are"
   },
   {
     "answer": "4",
@@ -2107,7 +2107,7 @@
           431.70196533203125
         ],
         "snippet": "images/q30_opt3.png",
-        "text": "(3) N N+1 \u00d7 a"
+        "text": "(3) N \u00d7 a N+1"
       },
       {
         "images": [],
@@ -2135,7 +2135,7 @@
       388.95196533203125
     ],
     "stem_snippet": "images/q30_stem.png",
-    "stem_text": "Q30. divisions on the main scale of a vernier calliper coincide with divisions of the vernier scale. If each division of main scale is ' ' units, then the least count of the instrument is N (N + 1) a"
+    "stem_text": "Q30. N divisions on the main scale of a vernier calliper coincide with (N + 1) divisions of the vernier scale. If each division of main scale is ' a ' units, then the least count of the instrument is"
   },
   {
     "answer": "1",
@@ -2205,7 +2205,7 @@
       481.20196533203125
     ],
     "stem_snippet": "images/q31_stem.png",
-    "stem_text": "Q31.When is passed over red hot coke it partially gets reduced to . Upon passing of over red hot coke, the total volume of the gases increased to . The composition of the gaseous mixture at STP is CO2( g) CO(g) 0.5 L CO2(g) 700 mL"
+    "stem_text": "Q31.When CO2( is passed over red hot coke it partially gets reduced to CO(g) . Upon passing 0.5 L of CO2(g) g) over red hot coke, the total volume of the gases increased to 700 mL . The composition of the gaseous mixture at STP is"
   },
   {
     "answer": "4",
@@ -2275,7 +2275,7 @@
       556.2019653320312
     ],
     "stem_snippet": "images/q32_stem.png",
-    "stem_text": "Q32.Which of the following paramagnetic ions would exhibit a magnetic moment (spin only) of the order of ? (At. Nos. ) 5BM Mn = 25, Cr = 24, V = 23, Ti = 22"
+    "stem_text": "Q32.Which of the following paramagnetic ions would exhibit a magnetic moment (spin only) of the order of 5BM ? (At. Nos. Mn = 25, Cr = 24, V = 23, Ti = 22 )"
   },
   {
     "answer": "2",
@@ -2765,7 +2765,7 @@
       325.20196533203125
     ],
     "stem_snippet": "images/q39_stem.png",
-    "stem_text": "Q39.An open vessel at is heated till of the air in it is expelled. Assuming that the volume of the vessel remains constant, the temperature to which the vessel is heated, is 300 K 2/5th"
+    "stem_text": "Q39.An open vessel at 300 K is heated till 2/5th of the air in it is expelled. Assuming that the volume of the vessel remains constant, the temperature to which the vessel is heated, is"
   },
   {
     "answer": "4",
@@ -2835,7 +2835,7 @@
       400.20196533203125
     ],
     "stem_snippet": "images/q40_stem.png",
-    "stem_text": "Q40.The enthalpy of neutralisation of with is and the enthalpy of neutralisation of with is . The enthalpy of ionisation of is NH4OH HCl \u221251.46 kJ mol\u22121 NaOH HCl \u221255.90 kJ mol\u22121 NH4OH"
+    "stem_text": "Q40.The enthalpy of neutralisation of NH4OH with HCl is \u221251.46 kJ mol\u22121 and the enthalpy of neutralisation of NaOH with HCl is \u221255.90 kJ mol\u22121 . The enthalpy of ionisation of NH4OH is"
   },
   {
     "answer": "4",
@@ -2905,7 +2905,7 @@
       475.20196533203125
     ],
     "stem_snippet": "images/q41_stem.png",
-    "stem_text": "Q41.The value of for the equilibrium reaction is 2 . The percentage dissociation of at a pressure of is Kp N2O4(g) \u21cc2NO2(g) N2O4(g) 0.5 atm"
+    "stem_text": "Q41.The value of Kp for the equilibrium reaction N2O4(g) \u21cc2NO2(g) is 2 . The percentage dissociation of N2O4(g) at a pressure of 0.5 atm is"
   },
   {
     "answer": "1",
@@ -2921,7 +2921,7 @@
           566.7019653320312
         ],
         "snippet": "images/q42_opt1.png",
-        "text": "(1) and 1 \u00d7 10\u22122MCa2+ 1 \u00d7 10\u22123MF\u2212"
+        "text": "(1) 1 \u00d7 10\u22122MCa2+ and 1 \u00d7 10\u22123MF\u2212"
       },
       {
         "images": [],
@@ -2934,7 +2934,7 @@
           566.7019653320312
         ],
         "snippet": "images/q42_opt2.png",
-        "text": "(2) and 1 \u00d7 10\u22124MCa2+ 1 \u00d7 10\u22124MF\u2212"
+        "text": "(2) 1 \u00d7 10\u22124MCa2+ and 1 \u00d7 10\u22124MF\u2212"
       },
       {
         "images": [],
@@ -2947,7 +2947,7 @@
           592.2019653320312
         ],
         "snippet": "images/q42_opt3.png",
-        "text": "(3) and 1 \u00d7 10\u22122MCa2+ 1 \u00d7 10\u22125MF\u2212"
+        "text": "(3) 1 \u00d7 10\u22122MCa2+ and 1 \u00d7 10\u22125MF\u2212"
       },
       {
         "images": [],
@@ -2960,7 +2960,7 @@
           592.2019653320312
         ],
         "snippet": "images/q42_opt4.png",
-        "text": "(4) and 1 \u00d7 10\u22123MCa2+ 1 \u00d7 10\u22125MF\u2212"
+        "text": "(4) 1 \u00d7 10\u22123MCa2+ and 1 \u00d7 10\u22125MF\u2212"
       }
     ],
     "question_number": 42,
@@ -2975,7 +2975,7 @@
       550.2019653320312
     ],
     "stem_snippet": "images/q42_stem.png",
-    "stem_text": "Q42.If of at is , the combination amongst the following which gives a precipitate of is Ksp CaF2 25\u2218C 1.7 \u00d7 10\u221210 CaF2"
+    "stem_text": "Q42.If Ksp of CaF2 at 25\u2218C is 1.7 \u00d7 10\u221210 , the combination amongst the following which gives a precipitate of CaF2 is"
   },
   {
     "answer": "2",
@@ -2991,7 +2991,7 @@
           743.7019653320312
         ],
         "snippet": "images/q43_opt1.png",
-        "text": "(1) IV I III II > > >"
+        "text": "(1) IV > I > III > II"
       },
       {
         "images": [],
@@ -3004,7 +3004,7 @@
           743.7019653320312
         ],
         "snippet": "images/q43_opt2.png",
-        "text": "(2) I III II IV > > >"
+        "text": "(2) I > III > II > IV"
       },
       {
         "images": [],
@@ -3017,7 +3017,7 @@
           803.4650268554688
         ],
         "snippet": "images/q43_opt3.png",
-        "text": "(3) III I IV II > > >"
+        "text": "(3) III > I > IV > II"
       },
       {
         "images": [],
@@ -3030,7 +3030,7 @@
           803.4650268554688
         ],
         "snippet": "images/q43_opt4.png",
-        "text": "(4) II I III IV > > >"
+        "text": "(4) II > I > III > IV"
       }
     ],
     "question_number": 43,
@@ -3161,7 +3161,7 @@
           257.70208740234375
         ],
         "snippet": "images/q45_opt3.png",
-        "text": "(3) and C H"
+        "text": "(3) C and H"
       },
       {
         "images": [],
@@ -3259,7 +3259,7 @@
       290.70208740234375
     ],
     "stem_snippet": "images/q46_stem.png",
-    "stem_text": "Q46.Ammonium chloride crystallizes in a body centred cubic lattice with edge length of unit cell of 390 . If the size of chloride ion is , the size of ammonium ion would be pm 180pm"
+    "stem_text": "Q46.Ammonium chloride crystallizes in a body centred cubic lattice with edge length of unit cell of 390 pm . If the size of chloride ion is 180pm , the size of ammonium ion would be"
   },
   {
     "answer": "3",
@@ -3329,7 +3329,7 @@
       382.20208740234375
     ],
     "stem_snippet": "images/q47_stem.png",
-    "stem_text": "Q47.Liquids A and B form an ideal solution. At , the total vapour pressure of a solution containing of A and of B is . The total vapour pressure becomes when 1 more mol of is added to the first solution. The vapour pressures of pure and at the same temperature are 30\u2218C 1 mol 2 mol 250 mmHg 300 mmHg A A B"
+    "stem_text": "Q47.Liquids A and B form an ideal solution. At 30\u2218C , the total vapour pressure of a solution containing 1 mol of A and 2 mol of B is 250 mmHg . The total vapour pressure becomes 300 mmHg when 1 more mol of A is added to the first solution. The vapour pressures of pure A and B at the same temperature are"
   },
   {
     "answer": "3",
@@ -3358,7 +3358,7 @@
           506.70208740234375
         ],
         "snippet": "images/q48_opt2.png",
-        "text": "(2) , Ag only Cu, Hg"
+        "text": "(2) Cu, Hg , Ag only"
       },
       {
         "images": [],
@@ -3399,7 +3399,7 @@
       490.20208740234375
     ],
     "stem_snippet": "images/q48_stem.png",
-    "stem_text": "Q48.The standard potentials of , and electrodes are , and , respectively. An aqueous solution which contains one mole per litre of the salts of each of the four metals is electrolyzed. With increasing voltage, the correct sequence of deposition of the metals at the cathode is Ag+/Ag, Hg2 2+/2Hg Cu2+/Cu Mg2+/Mg 0.80, 0.79 0.34 \u22122.37 V"
+    "stem_text": "Q48.The standard potentials of Ag+/Ag, Hg2 2+/2Hg , Cu2+/Cu and Mg2+/Mg electrodes are 0.80, 0.79 , 0.34 and \u22122.37 V , respectively. An aqueous solution which contains one mole per litre of the salts of each of the four metals is electrolyzed. With increasing voltage, the correct sequence of deposition of the metals at the cathode is"
   },
   {
     "answer": "2",
@@ -3471,7 +3471,7 @@
       676.9520874023438
     ],
     "stem_snippet": "images/q49_stem.png",
-    "stem_text": "Q49.For a reaction Products, a plot of versus is shown in the figure. If the initial concentration of is represented by , the order of the reaction is A \u2192 log t1/2 log a0 A a0"
+    "stem_text": "Q49.For a reaction A \u2192 Products, a plot of log t1/2 versus log a0 is shown in the figure. If the initial concentration of A is represented by a0 , the order of the reaction is"
   },
   {
     "answer": "2",
@@ -3541,7 +3541,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q50_stem.png",
-    "stem_text": "Q50.On addition of of solution to 10 gold sol in the presence of of starch, the coagulation is just prevented. Starch has gold number 1 mL 10%NaCl mL 0.025 g"
+    "stem_text": "Q50.On addition of 1 mL of 10%NaCl solution to 10 mL gold sol in the presence of 0.025 g of starch, the coagulation is just prevented. Starch has gold number"
   },
   {
     "answer": "3",
@@ -3767,7 +3767,7 @@
           341.70208740234375
         ],
         "snippet": "images/q54_opt1.png",
-        "text": "(1) en Cl\u2212> > CN\u2212> NCS\u2212"
+        "text": "(1) Cl\u2212> en > CN\u2212> NCS\u2212"
       },
       {
         "images": [],
@@ -3780,7 +3780,7 @@
           341.70208740234375
         ],
         "snippet": "images/q54_opt2.png",
-        "text": "(2) en CN\u2212> > NCS\u2212> Cl\u2212"
+        "text": "(2) CN\u2212> en > NCS\u2212> Cl\u2212"
       },
       {
         "images": [],
@@ -3793,7 +3793,7 @@
           367.20208740234375
         ],
         "snippet": "images/q54_opt3.png",
-        "text": "(3) en NCS\u2212> CN\u2212> Cl\u2212>"
+        "text": "(3) NCS\u2212> CN\u2212> Cl\u2212> en"
       },
       {
         "images": [],
@@ -4319,7 +4319,7 @@
       299.70166015625
     ],
     "stem_snippet": "images/q61_stem.png",
-    "stem_text": "Q61.Let and . If the quadratic equation has two complex roots and , then is p, q, r \u2208R r > p > 0 px2 + qx + r = 0 \u03b1 \u03b2 |\u03b1| + |\u03b2|"
+    "stem_text": "Q61.Let p, q, r \u2208R and r > p > 0 . If the quadratic equation px2 + qx + r = 0 has two complex roots \u03b1 and \u03b2 , then |\u03b1| + |\u03b2| is"
   },
   {
     "answer": "4",
@@ -4389,7 +4389,7 @@
       391.20166015625
     ],
     "stem_snippet": "images/q62_stem.png",
-    "stem_text": "Q62.Consider a quadratic equation , where and let . Statement 1: The quadratic equation has at least one root in the interval . Statement 2: The Rolle's theorem is applicable to function on the interval . ax2 + bx + c = 0 2a + 3b + 6c = 0 g(x) = a x3 3 + b x2 2 + cx (0, 1) g(x) [0, 1]"
+    "stem_text": "Q62.Consider a quadratic equation ax2 , where and let x3 x2 . + bx + c = 0 2a + 3b + 6c = 0 g(x) = a + b + cx 3 2 Statement 1: The quadratic equation has at least one root in the interval (0, 1) . Statement 2: The Rolle's theorem is applicable to function g(x) on the interval [0, 1] ."
   },
   {
     "answer": "1",
@@ -4459,7 +4459,7 @@
       499.20166015625
     ],
     "stem_snippet": "images/q63_stem.png",
-    "stem_text": "Q63.Let and be complex numbers such that , and denotes the principal argument of . Statement 1:If , then . Statement 2: , implies arg . Z W |Z| = |W| arg Z Z arg Z + arg W = \u03c0 Z = \u2212\u00afW |Z| = |W| Z \u2212arg \u00afW = \u03c0"
+    "stem_text": "Q63.Let Z and W be complex numbers such that |Z| = |W| , and arg Z denotes the principal argument of Z . Statement 1:If arg Z + arg W = \u03c0 , then Z = \u2212\u00afW . Statement 2: |Z| = |W| , implies arg Z \u2212arg \u00afW = \u03c0 ."
   },
   {
     "answer": "1",
@@ -4529,7 +4529,7 @@
       640.20166015625
     ],
     "stem_snippet": "images/q64_stem.png",
-    "stem_text": "Q64.The number of arrangements that can be formed from the letters taken 3 at a time without repetition and each arrangement containing at least one vowel, is a, b, c, d, e, f"
+    "stem_text": "Q64.The number of arrangements that can be formed from the letters a, b, c, d, e, f taken 3 at a time without repetition and each arrangement containing at least one vowel, is"
   },
   {
     "answer": "3",
@@ -4545,7 +4545,7 @@
           716.70166015625
         ],
         "snippet": "images/q65_opt1.png",
-        "text": "(1) 7 6 n + 1 6 \u2212 2 3.2n\u22121"
+        "text": "(1) 7 n + 1 \u2212 2 6 6 3.2n\u22121"
       },
       {
         "images": [],
@@ -4558,7 +4558,7 @@
           716.70166015625
         ],
         "snippet": "images/q65_opt2.png",
-        "text": "(2) 5 3 n \u22127 6 + 1 2.3n\u22121"
+        "text": "(2) 5 n \u22127 + 1 3 6 2.3n\u22121"
       },
       {
         "images": [],
@@ -4571,7 +4571,7 @@
           743.70166015625
         ],
         "snippet": "images/q65_opt3.png",
-        "text": "(3) n + 1 2 \u2212 1 2.3n"
+        "text": "(3) n + 1 \u2212 1 2 2.3n"
       },
       {
         "images": [],
@@ -4584,7 +4584,7 @@
           743.70166015625
         ],
         "snippet": "images/q65_opt4.png",
-        "text": "(4) n \u22121 3 \u2212 1 3.2n\u22121"
+        "text": "(4) n \u22121 \u2212 1 3 3.2n\u22121"
       }
     ],
     "question_number": 65,
@@ -4599,7 +4599,7 @@
       699.45166015625
     ],
     "stem_snippet": "images/q65_stem.png",
-    "stem_text": "Q65.The sum of the series upto terms is 1 + 4 3 + 10 9 + 28 27 + \u2026 n"
+    "stem_text": "Q65.The sum of the series 1 + 4 + 10 + 28 + \u2026 upto n terms is 3 9 27"
   },
   {
     "answer": "1",
@@ -4669,7 +4669,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q66_stem.png",
-    "stem_text": "Q66.If , then the value of is given by n = mC2 nC2"
+    "stem_text": "Q66.If n = mC2 , then the value of nC2 is given by"
   },
   {
     "answer": "1",
@@ -4739,7 +4739,7 @@
       154.9521484375
     ],
     "stem_snippet": "images/q67_stem.png",
-    "stem_text": "Q67.Suppose and are such that , sec and are in A.P. If for some , then is equal to \u03b8 \u03d5(\u22600) sec(\u03b8 + \u03d5) \u03b8 sec(\u03b8 \u2212\u03d5) cos \u03b8 = k cos ( \u03d5 2 ) k k"
+    "stem_text": "Q67.Suppose and are such that , sec and are in A.P. If ( \u03d5 ) for some \u03b8 \u03d5(\u22600) sec(\u03b8 + \u03d5) \u03b8 sec(\u03b8 \u2212\u03d5) cos \u03b8 = k cos 2 k , then k is equal to"
   },
   {
     "answer": "3",
@@ -4809,7 +4809,7 @@
       249.4521484375
     ],
     "stem_snippet": "images/q68_stem.png",
-    "stem_text": "Q68.Let be the line , in the two dimensional plane. Statement 1: The image of the point in is the point Statement 2: The points and lie on opposite sides of the line and are at equal distance from it. L y = 2x (0, 1) L ( 4 5 , 3 5 ) (0, 1) ( 4 5 , 3 5 ) L"
+    "stem_text": "Q68.Let L be the line y = 2x , in the two dimensional plane. Statement 1: The image of the point (0, 1) in L is the point ( 4 , 3 ) Statement 2: The points (0, 1) and ( 4 , 3 ) lie on opposite sides of the line L and are at equal 5 5 5 5 distance from it."
   },
   {
     "answer": "2",
@@ -4879,7 +4879,7 @@
       390.4521484375
     ],
     "stem_snippet": "images/q69_stem.png",
-    "stem_text": "Q69.If the line meets the circle in two points equidistant from and on opposite sides of -axis, then y = mx + 1 x2 + y2 + 3x = 0 x"
+    "stem_text": "Q69.If the line y = mx + 1 meets the circle x2 + y2 + 3x = 0 in two points equidistant from and on opposite sides of x -axis, then"
   },
   {
     "answer": "4",
@@ -4949,7 +4949,7 @@
       448.9521484375
     ],
     "stem_snippet": "images/q70_stem.png",
-    "stem_text": "Q70.The equation of the normal to the parabola, at is x2 = 8y x = 4"
+    "stem_text": "Q70.The equation of the normal to the parabola, x2 = 8y at x = 4 is"
   },
   {
     "answer": "3",
@@ -5019,7 +5019,7 @@
       525.4521484375
     ],
     "stem_snippet": "images/q71_stem.png",
-    "stem_text": "Q71.If the foci of the ellipse coincide with the foci of the hyperbola , then is equal to x2 16 + y2 b2 = 1 x2 144 \u2212y2 81 = 1 25 b2"
+    "stem_text": "Q71.If x2 y2 x2 \u2212y2 1 the foci of the ellipse + = 1 coincide with the foci of the hyperbola = , then b2 is equal 16 b2 144 81 25 to"
   },
   {
     "answer": "2",
@@ -5089,7 +5089,7 @@
       586.2021484375
     ],
     "stem_snippet": "images/q72_stem.png",
-    "stem_text": "Q72.If , then is f(x) = 3x10 \u22127x8 + 5x6 \u221221x3 + 3x2 \u22127 lim\u03b1\u21920 f(1\u2212\u03b1)\u2212f(1) \u03b13+3\u03b1"
+    "stem_text": "Q72.If 3x10 \u22127x8 5x6 \u221221x3 3x2 , then f(1\u2212\u03b1)\u2212f(1) is f(x) = + + \u22127 lim\u03b1\u21920 \u03b13+3\u03b1"
   },
   {
     "answer": "2",
@@ -5159,7 +5159,7 @@
       644.7021484375
     ],
     "stem_snippet": "images/q73_stem.png",
-    "stem_text": "Q73.Let and be two Statements. Amongst the following, the Statement that is equivalent to is p q p \u2192q"
+    "stem_text": "Q73.Let p and q be two Statements. Amongst the following, the Statement that is equivalent to p \u2192q is"
   },
   {
     "answer": "1",
@@ -5245,7 +5245,7 @@
           141.4522705078125
         ],
         "snippet": "images/q75_opt1.png",
-        "text": "(1) ( 5 3 , 0) \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (1) ( 5 , 0) 3"
       },
       {
         "images": [],
@@ -5258,7 +5258,7 @@
           141.4522705078125
         ],
         "snippet": "images/q75_opt2.png",
-        "text": "(2) (0, 0) \u23a5"
+        "text": "\u23a5 (2) (0, 0)"
       },
       {
         "images": [],
@@ -5271,7 +5271,7 @@
           166.9522705078125
         ],
         "snippet": "images/q75_opt3.png",
-        "text": "(3) ( 1 3 , 0) \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (3) ( 1 , 0) 3"
       },
       {
         "images": [],
@@ -5284,7 +5284,7 @@
           166.9522705078125
         ],
         "snippet": "images/q75_opt4.png",
-        "text": "(4) (3, 0) \u23a5"
+        "text": "\u23a5 (4) (3, 0)"
       }
     ],
     "question_number": 75,
@@ -5299,7 +5299,7 @@
       124.9522705078125
     ],
     "stem_snippet": "images/q75_stem.png",
-    "stem_text": "Q75.If three distinct points are given in the 2dimensional coordinate plane such that the ratio of the distance of each one of them from the point to the distance from is equal to , then the circumcentre of the triangle is at the point A, B, C (1, 0) (\u22121, 0) 1 2 ABC \u23a2\u23a5 \u2223\u2223"
+    "stem_text": "\u23a2\u23a5 \u2223\u2223 Q75.If three distinct points A, B, C are given in the 2dimensional coordinate plane such that the ratio of the distance of each one of them from the point (1, 0) to the distance from (\u22121, 0) is equal to 1 , then the 2 circumcentre of the triangle ABC is at the point"
   },
   {
     "answer": "3",
@@ -5315,7 +5315,7 @@
           244.2022705078125
         ],
         "snippet": "images/q76_opt1.png",
-        "text": "(1) 2(3!) \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (1) 2(3!)"
       },
       {
         "images": [],
@@ -5328,7 +5328,7 @@
           244.2022705078125
         ],
         "snippet": "images/q76_opt2.png",
-        "text": "(2) \u23a5 3(2!)"
+        "text": "\u23a5 (2) 3(2!)"
       },
       {
         "images": [],
@@ -5341,7 +5341,7 @@
           269.7022705078125
         ],
         "snippet": "images/q76_opt3.png",
-        "text": "(3) \u23a2 23 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (3) 23"
       },
       {
         "images": [],
@@ -5354,7 +5354,7 @@
           269.7022705078125
         ],
         "snippet": "images/q76_opt4.png",
-        "text": "(4) \u23a5 32"
+        "text": "\u23a5 (4) 32"
       }
     ],
     "question_number": 76,
@@ -5369,7 +5369,7 @@
       227.7022705078125
     ],
     "stem_snippet": "images/q76_stem.png",
-    "stem_text": "Q76. If denotes the transpose of the matrix , where and are integers such that , then the number of such matrices for which is AT A = \u23a1 \u23a2 \u23a3 0 0 a 0 b c d e f \u23a4 \u23a5 \u23a6 a, b, c, d, e f abd \u22600 A\u22121 = AT \u2223\u2223"
+    "stem_text": "\u23a2 \u23a5 \u2223\u2223 Q76. \u23a1 0 0 a \u23a4 If AT denotes the transpose of the matrix A = 0 b c , where a, b, c, d, e and f are integers such that \u23a3 \u23a6 d e f abd \u22600 , then the number of such matrices for which A\u22121 = AT is"
   },
   {
     "answer": "3",
@@ -5385,7 +5385,7 @@
           349.2022705078125
         ],
         "snippet": "images/q77_opt1.png",
-        "text": "(1) 1 \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (1) 1"
       },
       {
         "images": [],
@@ -5398,7 +5398,7 @@
           349.2022705078125
         ],
         "snippet": "images/q77_opt2.png",
-        "text": "(2) 3 \u23a5"
+        "text": "\u23a5 (2) 3"
       },
       {
         "images": [],
@@ -5411,7 +5411,7 @@
           374.7022705078125
         ],
         "snippet": "images/q77_opt3.png",
-        "text": "(3) 4 \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (3) 4"
       },
       {
         "images": [],
@@ -5424,7 +5424,7 @@
           374.7022705078125
         ],
         "snippet": "images/q77_opt4.png",
-        "text": "(4) 2 \u23a5"
+        "text": "\u23a5 (4) 2"
       }
     ],
     "question_number": 77,
@@ -5439,7 +5439,7 @@
       332.7022705078125
     ],
     "stem_snippet": "images/q77_stem.png",
-    "stem_text": "Q77.If , are non zero complex numbers satisfying and , then is equal to \u23a2\u23a5 a, b, c a2 + b2 + c2 = 0 = ka2b2c2 \u2223 b2 + c2 ab ac ab c2 + a2 bc ac bc a2 + b2 \u2223 k"
+    "stem_text": "\u23a2\u23a5 \u2223 \u2223 Q77.If a, b, c , are non zero complex numbers satisfying a2 + b2 + c2 = 0 and b2 + c2 ab ac ab c2 + a2 bc = ka2b2c2 , then k is equal to ac bc a2 + b2"
   },
   {
     "answer": "4",
@@ -5455,7 +5455,7 @@
           418.9522705078125
         ],
         "snippet": "images/q78_opt1.png",
-        "text": "(1) \u23a2 \u2223\u2223 \u03c0 4"
+        "text": "\u23a2 \u2223\u2223 (1) \u03c0 4"
       },
       {
         "images": [],
@@ -5481,7 +5481,7 @@
           444.4522705078125
         ],
         "snippet": "images/q78_opt3.png",
-        "text": "(3) \u23a2 \u2223\u2223 \u03c0 3"
+        "text": "\u23a2 \u2223\u2223 (3) \u03c0 3"
       },
       {
         "images": [],
@@ -5509,7 +5509,7 @@
       402.4522705078125
     ],
     "stem_snippet": "images/q78_stem.png",
-    "stem_text": "Q78.A value of is \u23a2\u23a5 \u2223\u2223 tan\u22121 (sin (cos\u22121 (\u221a2 3 )))"
+    "stem_text": "\u23a2\u23a5 \u2223\u2223 Q78.A (sin (cos\u22121 (\u221a2 ))) value of tan\u22121 is 3"
   },
   {
     "answer": "3",
@@ -5525,7 +5525,7 @@
           493.9522705078125
         ],
         "snippet": "images/q79_opt1.png",
-        "text": "(1) 24 \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (1) 24"
       },
       {
         "images": [],
@@ -5538,7 +5538,7 @@
           493.9522705078125
         ],
         "snippet": "images/q79_opt2.png",
-        "text": "(2) 8\u23a5"
+        "text": "8\u23a5 (2)"
       },
       {
         "images": [],
@@ -5551,7 +5551,7 @@
           519.4522705078125
         ],
         "snippet": "images/q79_opt3.png",
-        "text": "(3) 336 \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (3) 336"
       },
       {
         "images": [],
@@ -5564,7 +5564,7 @@
           519.4522705078125
         ],
         "snippet": "images/q79_opt4.png",
-        "text": "(4) 320\u23a5"
+        "text": "320\u23a5 (4)"
       }
     ],
     "question_number": 79,
@@ -5579,7 +5579,7 @@
       477.4522705078125
     ],
     "stem_snippet": "images/q79_stem.png",
-    "stem_text": "Q79.If denotes the set of all subsets of a given set , then the number of one-to-one functions from the set to the is \u23a2\u23a5 \u2223\u2223 P(S) S S = {1, 2, 3} set P(S)"
+    "stem_text": "\u23a2\u23a5 \u2223\u2223 Q79.If P(S) denotes the set of all subsets of a given set S , then the number of one-to-one functions from the set S = {1, 2, 3} to the set P(S) is"
   },
   {
     "answer": "4",
@@ -5595,7 +5595,7 @@
           620.7022705078125
         ],
         "snippet": "images/q80_opt1.png",
-        "text": "(1) Statement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1. \u23a2 \u2223\u2223"
+        "text": "\u23a2 \u2223\u2223 (1) Statement 1 is true, Statement 2 is true, Statement 2 is a correct explanation for Statement 1."
       },
       {
         "images": [],
@@ -5608,7 +5608,7 @@
           620.7022705078125
         ],
         "snippet": "images/q80_opt2.png",
-        "text": "(2) Statement 1 is false, Statement 2 is true.\u23a5"
+        "text": "true.\u23a5 (2) Statement 1 is false, Statement 2 is"
       },
       {
         "images": [],
@@ -5621,7 +5621,7 @@
           679.2022705078125
         ],
         "snippet": "images/q80_opt3.png",
-        "text": "(3) Statement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement 1.\u2223\u2223"
+        "text": "1.\u2223\u2223 (3) Statement 1 is true, Statement 2 is true, Statement 2 is not a correct explanation for Statement"
       },
       {
         "images": [],
@@ -5649,7 +5649,7 @@
       571.2022705078125
     ],
     "stem_snippet": "images/q80_stem.png",
-    "stem_text": "Q80.Let be a function satisfying , for all and , where is the set of all real numbers and denotes the largest integer less than or equal to . Statement 1: exists. Statement 2: is continuous at .\u23a2\u23a5 \u2223\u2223 f : [1, 3] \u2192R x [x] \u2264f(x) \u2264\u221a6 \u2212x x \u22602 f(2) = 1 R [x] x limx\u21922\u2212f(x) f x = 2"
+    "stem_text": ".\u23a2\u23a5 \u2223\u2223 Q80.Let f : [1, 3] \u2192R be a function satisfying x \u2264f(x) \u2264\u221a6 \u2212x , for all x \u22602 and f(2) = 1 , where R is the [x] set of all real numbers and [x] denotes the largest integer less than or equal to x . Statement 1: limx\u21922\u2212f(x) exists. Statement 2: f is continuous at x = 2"
   },
   {
     "answer": "3",
@@ -5665,7 +5665,7 @@
           745.2022705078125
         ],
         "snippet": "images/q81_opt1.png",
-        "text": "(1) 1\u2223\u2223"
+        "text": "1\u2223\u2223 (1)"
       },
       {
         "images": [],
@@ -5691,7 +5691,7 @@
           803.4650268554688
         ],
         "snippet": "images/q81_opt3.png",
-        "text": "(3) 13 \u2223\u2223"
+        "text": "\u2223\u2223 (3) 13"
       },
       {
         "images": [],
@@ -5719,7 +5719,7 @@
       728.7022705078125
     ],
     "stem_snippet": "images/q81_stem.png",
-    "stem_text": "Q81.The weight of a certain stock of fish is given by , where is the size of stock and is the average weight of a fish. If and change with time as and , then the rate of change of with respect to at is\u2223\u2223 W W = nw n w n w t n = 2t2 + 3 w = t2 \u2212t + 2 W t t = 1"
+    "stem_text": "is\u2223\u2223 Q81.The weight W of a certain stock of fish is given by W = nw , where n is the size of stock and w is the average weight of a fish. If n and w change with time t as n = 2t2 + 3 and w = t2 \u2212t + 2 , then the rate of change of W with respect to t at t = 1"
   },
   {
     "answer": "1",
@@ -5789,7 +5789,7 @@
       97.2022705078125
     ],
     "stem_snippet": "images/q82_stem.png",
-    "stem_text": "Q82.If and , then equals f(x) = \u222b( x2+sin2 x 1+x2 ) sec2 xdx f(0) = 0 f(1)"
+    "stem_text": "Q82.If \u222b( x2+sin2 x ) sec2 and , then equals f(x) = xdx f(0) = 0 f(1) 1+x2"
   },
   {
     "answer": "4",
@@ -5859,7 +5859,7 @@
       155.7022705078125
     ],
     "stem_snippet": "images/q83_stem.png",
-    "stem_text": "Q83.The value of the integral , where [.] denotes the greatest integer function is \u222b0.9 0 [x \u22122[x]]dx"
+    "stem_text": "Q83.The value of the integral \u222b0.9 , where [.] denotes the greatest integer function is [x \u22122[x]]dx 0"
   },
   {
     "answer": "2",
@@ -5929,7 +5929,7 @@
       214.2022705078125
     ],
     "stem_snippet": "images/q84_stem.png",
-    "stem_text": "Q84.The area of the region bounded by the curve , and the lines, , and , is y = x3 y = 8 x = 0"
+    "stem_text": "Q84.The area of the region bounded by the curve y = x3 , and the lines, y = 8 , and x = 0 , is"
   },
   {
     "answer": "4",
@@ -5945,7 +5945,7 @@
           289.2022705078125
         ],
         "snippet": "images/q85_opt1.png",
-        "text": "(1) y = cx\u22123 \u2212x2 4"
+        "text": "(1) cx\u22123 \u2212x2 y = 4"
       },
       {
         "images": [],
@@ -5958,7 +5958,7 @@
           289.2022705078125
         ],
         "snippet": "images/q85_opt2.png",
-        "text": "(2) y = cx3 \u2212x2 4"
+        "text": "(2) cx3 \u2212x2 y = 4"
       },
       {
         "images": [],
@@ -5971,7 +5971,7 @@
           314.7022705078125
         ],
         "snippet": "images/q85_opt3.png",
-        "text": "(3) y = cx2 + x3 5"
+        "text": "(3) cx2 x3 y = + 5"
       },
       {
         "images": [],
@@ -5984,7 +5984,7 @@
           314.7022705078125
         ],
         "snippet": "images/q85_opt4.png",
-        "text": "(4) y = cx\u22122 + x3 5"
+        "text": "(4) cx\u22122 x3 y = + 5"
       }
     ],
     "question_number": 85,
@@ -5999,7 +5999,7 @@
       272.7022705078125
     ],
     "stem_snippet": "images/q85_stem.png",
-    "stem_text": "Q85.The general solution of the differential equation is dy dx + 2 x y = x2"
+    "stem_text": "Q85.The general solution of the differential equation dy + 2 y = x2 is dx x"
   },
   {
     "answer": "1",
@@ -6069,7 +6069,7 @@
       332.7022705078125
     ],
     "stem_snippet": "images/q86_stem.png",
-    "stem_text": "Q86.If and , then the angle between and is a + b + c = 0, |a| = 3, |b| = 5 |c| = 7 a b"
+    "stem_text": "Q86.If a + b + c = 0, |a| = 3, |b| = 5 and |c| = 7 , then the angle between a and b is"
   },
   {
     "answer": "2",
@@ -6085,7 +6085,7 @@
           424.2022705078125
         ],
         "snippet": "images/q87_opt1.png",
-        "text": "(1) ( 8 15 , \u22121 5 )"
+        "text": "(1) ( 8 , \u22121 ) 15 5"
       },
       {
         "images": [],
@@ -6098,7 +6098,7 @@
           424.2022705078125
         ],
         "snippet": "images/q87_opt2.png",
-        "text": "(2) ( 1 5 , \u22128 15 )"
+        "text": "(2) ( 1 , \u22128 ) 5 15"
       },
       {
         "images": [],
@@ -6111,7 +6111,7 @@
           449.7022705078125
         ],
         "snippet": "images/q87_opt3.png",
-        "text": "(3) (\u22128 15 , 1 5 )"
+        "text": "(3) (\u22128 , 1 ) 15 5"
       },
       {
         "images": [],
@@ -6124,7 +6124,7 @@
           449.7022705078125
         ],
         "snippet": "images/q87_opt4.png",
-        "text": "(4) (\u22121 5 , 8 15 )"
+        "text": "(4) (\u22121 , 8 ) 5 15"
       }
     ],
     "question_number": 87,
@@ -6139,7 +6139,7 @@
       407.7022705078125
     ],
     "stem_snippet": "images/q87_stem.png",
-    "stem_text": "Q87.If the three planes and contain a common line, then is equal to x = 5, 2x \u22125ay + 3z \u22122 = 0 3bx + y \u22123z = 0 (a, b)"
+    "stem_text": "Q87.If the three planes x = 5, 2x \u22125ay + 3z \u22122 = 0 and 3bx + y \u22123z = 0 contain a common line, then (a, b) is equal to"
   },
   {
     "answer": "3",
@@ -6209,7 +6209,7 @@
       499.9522705078125
     ],
     "stem_snippet": "images/q88_stem.png",
-    "stem_text": "Q88.Statement 1: The shortest distance between the lines and is . Statement 2: The shortest distance between two parallel lines is the perpendicular distance from any point on one of the lines to the other line. x 2 = y \u22121 = z 2 x\u22121 4 = y\u22121 \u22122 = z\u22121 4 \u221a2"
+    "stem_text": "Q88.Statement 1: The shortest distance between the lines x = y = z and x\u22121 = y\u22121 = z\u22121 is \u221a2 . Statement 2: 2 \u22121 2 4 \u22122 4 The shortest distance between two parallel lines is the perpendicular distance from any point on one of the lines to the other line."
   },
   {
     "answer": "3",
@@ -6279,7 +6279,7 @@
       643.2022705078125
     ],
     "stem_snippet": "images/q89_stem.png",
-    "stem_text": "Q89.If and are three vectors such that is parallel to the plane of and , then is equal to a = ^i \u22122^j + 3^k,b = 2^i + 3^j \u2212^k c = r^i + ^j + (2r \u22121^k c \u2192a b r"
+    "stem_text": "\u2192a Q89.If = ^i \u22122^j + 3^k,b = 2^i + 3^j \u2212^k and = r^i + ^j + (2r \u22121^k are three vectors such that is parallel to the a c c plane of and b , then r is equal to"
   },
   {
     "answer": "2",
@@ -6349,6 +6349,6 @@
       718.2022705078125
     ],
     "stem_snippet": "images/q90_stem.png",
-    "stem_text": "Q90.If six students, including two particular students and , stand in a row, then the probability that and are separated with one student in between them is A B A B"
+    "stem_text": "Q90.If six students, including two particular students A and B , stand in a row, then the probability that A and B are separated with one student in between them is"
   }
 ]

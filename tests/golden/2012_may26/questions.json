@@ -67,7 +67,7 @@
       125.7022705078125
     ],
     "stem_snippet": "images/q1_stem.png",
-    "stem_text": "Q1. The electrical resistance of a conductor of length and area of cross section is given by where ' ' is the electrical resistivity. What is the dimensional formula for electrical conductivity ' ' which is reciprocal of resistivity? R l a R = \u03c1l a \u03c1 \u03c3"
+    "stem_text": "Q1. The electrical resistance of a conductor of length and area of cross section is given by \u03c1l where ' ' R l a R = \u03c1 a is the electrical resistivity. What is the dimensional formula for electrical conductivity ' \u03c3 ' which is reciprocal of resistivity?"
   },
   {
     "answer": "4",
@@ -145,7 +145,7 @@
       217.2022705078125
     ],
     "stem_snippet": "images/q2_stem.png",
-    "stem_text": "Q2. A ball is dropped vertically downwards from a height above the ground. It hits the ground inelastically and bounces up vertically. Neglecting subsequent motion and air resistance, which of the following graph represents variation between speed and height correctly? h (v) (h)"
+    "stem_text": "Q2. A ball is dropped vertically downwards from a height h above the ground. It hits the ground inelastically and bounces up vertically. Neglecting subsequent motion and air resistance, which of the following graph represents variation between speed (v) and height (h) correctly?"
   },
   {
     "answer": "2",
@@ -215,7 +215,7 @@
       625.9522705078125
     ],
     "stem_snippet": "images/q3_stem.png",
-    "stem_text": "Q3. A satellite moving with velocity in a force free space collects stationary interplanetary dust at a rate of where is the mass (of satellite + dust) at that instant. The instantaneous acceleration of the satellite is v dM dt = \u03b1v M"
+    "stem_text": "Q3. A satellite moving with velocity v in a force free space collects stationary interplanetary dust at a rate of dM = \u03b1v where M is the mass (of satellite + dust) at that instant. The instantaneous acceleration of the satellite dt is"
   },
   {
     "answer": "1",
@@ -357,7 +357,7 @@
       381.4522705078125
     ],
     "stem_snippet": "images/q5_stem.png",
-    "stem_text": "Q5. The force on a particle of mass , moving along the -axis is given in the figure as a function of its position . The particle is moving with a velocity of along the -axis at . What is the kinetic energy of the particle at F = F^i 2 kg x x 5 m/s x x = 0 x = 8 m?"
+    "stem_text": "Q5. The force F = F^i on a particle of mass 2 kg , moving along the x -axis is given in the figure as a function of its position x . The particle is moving with a velocity of 5 m/s along the x -axis at x = 0 . What is the kinetic energy of the particle at x = 8 m?"
   },
   {
     "answer": "4",
@@ -427,7 +427,7 @@
       489.4522705078125
     ],
     "stem_snippet": "images/q6_stem.png",
-    "stem_text": "Q6. A stone of mass , tied to the end of a string, is whirled around in a circle on a horizontal frictionless table. The length of the string is reduced gradually keeping the angular momentum of the stone about the centre of the circle constant. Then, the tension in the string is given by , where is a constant, is the instantaneous radius of the circle. The value of is equal to m T = Arn A r n"
+    "stem_text": "Q6. A stone of mass m , tied to the end of a string, is whirled around in a circle on a horizontal frictionless table. The length of the string is reduced gradually keeping the angular momentum of the stone about the centre of the circle constant. Then, the tension in the string is given by T = Arn , where A is a constant, r is the instantaneous radius of the circle. The value of n is equal to"
   },
   {
     "answer": "2",
@@ -497,7 +497,7 @@
       597.4522705078125
     ],
     "stem_snippet": "images/q7_stem.png",
-    "stem_text": "Q7. A thick-walled hollow sphere has outside radius . It rolls down an incline without slipping and its speed at the bottom is . Now the incline is waxed, so that it is practically frictionless and the sphere is observed to slide down (without any rolling). Its speed at the bottom is observed to be . The radius of gyration of the hollow sphere about an axis through its centre is R0 v0 5v0/4"
+    "stem_text": "Q7. A thick-walled hollow sphere has outside radius R0 . It rolls down an incline without slipping and its speed at the bottom is v0 . Now the incline is waxed, so that it is practically frictionless and the sphere is observed to slide down (without any rolling). Its speed at the bottom is observed to be 5v0/4 . The radius of gyration of the hollow sphere about an axis through its centre is"
   },
   {
     "answer": "3",
@@ -513,7 +513,7 @@
           694.9522705078125
         ],
         "snippet": "images/q8_opt1.png",
-        "text": "(1) \u221a2Gm r (\u221a2 \u22121"
+        "text": "(1) \u221a2Gm (\u221a2 \u22121 r"
       },
       {
         "images": [],
@@ -539,7 +539,7 @@
           732.4522705078125
         ],
         "snippet": "images/q8_opt3.png",
-        "text": "(3) \u221a2Gm r (1 \u2212 1 \u221a2 )"
+        "text": "(3) \u221a2Gm (1 1 ) \u2212 r \u221a2"
       },
       {
         "images": [],
@@ -567,7 +567,7 @@
       672.4522705078125
     ],
     "stem_snippet": "images/q8_stem.png",
-    "stem_text": "Q8. A point particle is held on the axis of a ring of mass and radius at a distance from its centre . When released, it reaches under the gravitational attraction of the ring. Its speed at will be m r r C C C"
+    "stem_text": "Q8. A point particle is held on the axis of a ring of mass m and radius r at a distance r from its centre C . When released, it reaches C under the gravitational attraction of the ring. Its speed at C will be"
   },
   {
     "answer": "1",
@@ -637,7 +637,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q9_stem.png",
-    "stem_text": "Q9. The terminal velocity of a small sphere of radius in a viscous liquid is proportional to a"
+    "stem_text": "Q9. The terminal velocity of a small sphere of radius a in a viscous liquid is proportional to"
   },
   {
     "answer": "1",
@@ -709,7 +709,7 @@
       384.4521789550781
     ],
     "stem_snippet": "images/q10_stem.png",
-    "stem_text": "Q10.In a cylindrical water tank, there are two small holes and on the wall at a depth of , from the surface of water and at a height of from the bottom of water tank. Surface of water is at height of from the bottom of water tank. Surface of water is at heigh from the bottom of water tank. Water coming out from both holes strikes the ground at the same point . Find the ratio of and A B h1 h2 h2 H S h1 h2"
+    "stem_text": "Q10.In a cylindrical water tank, there are two small holes A and B on the wall at a depth of h1 , from the surface of water and at a height of h2 from the bottom of water tank. Surface of water is at height of h2 from the bottom of water tank. Surface of water is at heigh H from the bottom of water tank. Water coming out from both holes strikes the ground at the same point S . Find the ratio of h1 and h2"
   },
   {
     "answer": "4",
@@ -849,7 +849,7 @@
       535.9522094726562
     ],
     "stem_snippet": "images/q12_stem.png",
-    "stem_text": "Q12.An ideal monatomic gas with pressure , volume and temperature is expanded isothermally to a volume and a final pressure . If the same gas is expanded adiabatically to a volume , the final pressure is . The ratio is P V T 2V Pi 2 V Pa Pa Pi"
+    "stem_text": "Q12.An ideal monatomic gas with pressure P , volume V and temperature T is expanded isothermally to a volume 2V and a final pressure Pi . If the same gas is expanded adiabatically to a volume 2 V , the final pressure is Pa . The ratio Pa is Pi"
   },
   {
     "answer": "2",
@@ -919,7 +919,7 @@
       610.9522094726562
     ],
     "stem_snippet": "images/q13_stem.png",
-    "stem_text": "Q13.An air column in a pipe, which is closed at one end, will be in resonance wtih a vibrating tuning fork of frequency if the length of the column in is (velocity of sound ) 264 Hz cm = 330 m/s"
+    "stem_text": "Q13.An air column in a pipe, which is closed at one end, will be in resonance wtih a vibrating tuning fork of frequency 264 Hz if the length of the column in cm is (velocity of sound = 330 m/s )"
   },
   {
     "answer": "3",
@@ -989,7 +989,7 @@
       706.2022094726562
     ],
     "stem_snippet": "images/q14_stem.png",
-    "stem_text": "Q14.The disturbance of a wave propagating in the positive -direction is given by at time and by at , where and are in meters. The shape of the wave disturbance does not change during the propagation. The velocity of wave in is y(x, t) x y = 1 1+x2 t = 0 y = 1 [1+(x\u221212)] t = 2 s x y m/s"
+    "stem_text": "Q14.The disturbance y(x, t) of a wave propagating in the positive x -direction is given by y = 1 at time t = 0 1+x2 and by y = 1 at t = 2 s , where x and y are in meters. The shape of the wave disturbance does not [1+(x\u221212)] change during the propagation. The velocity of wave in m/s is"
   },
   {
     "answer": "3",
@@ -1067,7 +1067,7 @@
       108.4522705078125
     ],
     "stem_snippet": "images/q15_stem.png",
-    "stem_text": "Q15.Three positive charges of equal value are placed at vertices of an equilateral triangle. The resulting lines of force should be sketched as in q"
+    "stem_text": "Q15.Three positive charges of equal value q are placed at vertices of an equilateral triangle. The resulting lines of force should be sketched as in"
   },
   {
     "answer": "4",
@@ -1137,7 +1137,7 @@
       388.9522705078125
     ],
     "stem_snippet": "images/q16_stem.png",
-    "stem_text": "Q16.This question has Statement 1 and Statement 2 . Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: It is not possible to make a sphere of capacity 1 farad using a conducting material. Statement 2: It is possible for earth as its radius is . 6.4 \u00d7 106 m"
+    "stem_text": "Q16.This question has Statement 1 and Statement 2 . Of the four choices given after the Statements, choose the one that best describes the two Statements. Statement 1: It is not possible to make a sphere of capacity 1 farad using a conducting material. Statement 2: It is possible for earth as its radius is 6.4 \u00d7 106 m ."
   },
   {
     "answer": "3",
@@ -1207,7 +1207,7 @@
       546.4522705078125
     ],
     "stem_snippet": "images/q17_stem.png",
-    "stem_text": "Q17.The capacitor of an oscillatory circuit is enclosed in a container. When the container is evacuated, the resonance frequency of the circuit is . When the container is filled with a gas, the resonance frequency changes by . The dielectric constant of the gas is 10kHz 50 Hz"
+    "stem_text": "Q17.The capacitor of an oscillatory circuit is enclosed in a container. When the container is evacuated, the resonance frequency of the circuit is 10kHz . When the container is filled with a gas, the resonance frequency changes by 50 Hz . The dielectric constant of the gas is"
   },
   {
     "answer": "3",
@@ -1277,7 +1277,7 @@
       621.4522705078125
     ],
     "stem_snippet": "images/q18_stem.png",
-    "stem_text": "Q18.The resistance of a wire is . It is bent at the middle by and both the ends are twisted together to make a shorter wire. The resistance of the new wire is R 180\u2218"
+    "stem_text": "Q18.The resistance of a wire is R . It is bent at the middle by 180\u2218 and both the ends are twisted together to make a shorter wire. The resistance of the new wire is"
   },
   {
     "answer": "3",
@@ -1347,7 +1347,7 @@
       729.4522705078125
     ],
     "stem_snippet": "images/q19_stem.png",
-    "stem_text": "Q19.In an experiment of potentiometer for measuring the internal resistance of primary cell a balancing length is obtained on the potentiometer wire when the cell is open circuit. Now the cell is short circuited by a resistance . If is to be equal to the internal resistance of the cell the balancing length on the potentiometer wire will be \u2113 R R"
+    "stem_text": "Q19.In an experiment of potentiometer for measuring the internal resistance of primary cell a balancing length \u2113 is obtained on the potentiometer wire when the cell is open circuit. Now the cell is short circuited by a resistance R . If R is to be equal to the internal resistance of the cell the balancing length on the potentiometer wire will be"
   },
   {
     "answer": "1",
@@ -1417,7 +1417,7 @@
       124.9522705078125
     ],
     "stem_snippet": "images/q20_stem.png",
-    "stem_text": "Q20.Currents of a 10 ampere and 2 ampere are passed through two parallel thin wires and respectively in opposite directions. Wire is infinitely long and the length of the wire is . The force acting on the conductor , which is situated at distance from will be A B A B 2 m B 10 cm A"
+    "stem_text": "Q20.Currents of a 10 ampere and 2 ampere are passed through two parallel thin wires A and B respectively in opposite directions. Wire A is infinitely long and the length of the wire B is 2 m . The force acting on the conductor B , which is situated at 10 cm distance from A will be"
   },
   {
     "answer": "4",
@@ -1557,7 +1557,7 @@
       373.9522705078125
     ],
     "stem_snippet": "images/q22_stem.png",
-    "stem_text": "Q22.A radio transmitter transmits at . At a certain distance from the transmitter magnetic field has amplitude . The electric field and the wavelength are respectively 830kHz 4.82 \u00d7 10\u221211 T"
+    "stem_text": "Q22.A radio transmitter transmits at 830kHz . At a certain distance from the transmitter magnetic field has amplitude 4.82 \u00d7 10\u221211 T . The electric field and the wavelength are respectively"
   },
   {
     "answer": "1",
@@ -1627,7 +1627,7 @@
       432.4522705078125
     ],
     "stem_snippet": "images/q23_stem.png",
-    "stem_text": "Q23.The frequency of -rays; -rays and ultraviolet rays are respectively and then X \u03b3 a, b c"
+    "stem_text": "Q23.The frequency of X -rays; \u03b3 -rays and ultraviolet rays are respectively a, b and c then"
   },
   {
     "answer": "4",
@@ -1699,7 +1699,7 @@
       682.952392578125
     ],
     "stem_snippet": "images/q24_stem.png",
-    "stem_text": "Q24.A beam of light consisting of red, green and blue colours is incident on a right-angled prism on face . The refractive indices of the material for the above red, green and blue colours are and respectively. A person looking on surface of the prism will see AB 1.39, 1.44 1.47 AC"
+    "stem_text": "Q24.A beam of light consisting of red, green and blue colours is incident on a right-angled prism on face AB . The refractive indices of the material for the above red, green and blue colours are 1.39, 1.44 and 1.47 respectively. A person looking on surface AC of the prism will see"
   },
   {
     "answer": "1",
@@ -1775,7 +1775,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q25_stem.png",
-    "stem_text": "Q25.A telescope of aperture diameter is focused on a window at distance fitted with a wire mesh of spacing . Given: , which of the following is true for observing the mesh 3 \u00d7 10\u22122 m 80 m 2 \u00d7 10\u22123 m \u03bb = 5.5 \u00d7 10\u22127 m through the telescope?"
+    "stem_text": "Q25.A telescope of aperture 3 \u00d7 10\u22122 m diameter is focused on a window at 80 m distance fitted with a wire mesh of spacing 2 \u00d7 10\u22123 m . Given: \u03bb = 5.5 \u00d7 10\u22127 m , which of the following is true for observing the mesh through the telescope?"
   },
   {
     "answer": "3",
@@ -1845,7 +1845,7 @@
       182.7021484375
     ],
     "stem_snippet": "images/q26_stem.png",
-    "stem_text": "Q26.In Young's double slit interference experiment, the slit widths are in the ratio . Then the ratio of intensity at the maxima and minima in the interference pattern is 1 : 25"
+    "stem_text": "Q26.In Young's double slit interference experiment, the slit widths are in the ratio 1 : 25 . Then the ratio of intensity at the maxima and minima in the interference pattern is"
   },
   {
     "answer": "3",
@@ -1861,7 +1861,7 @@
           290.7021484375
         ],
         "snippet": "images/q27_opt1.png",
-        "text": "(1) No electrons are emitted if is less than , where is the work function of the metal v W/h W"
+        "text": "(1) No electrons are emitted if v is less than W/h , where W is the work function of the metal"
       },
       {
         "images": [],
@@ -1915,7 +1915,7 @@
       257.7021484375
     ],
     "stem_snippet": "images/q27_stem.png",
-    "stem_text": "Q27.Photoelectrons are ejected from a metal when light of frequency falls on it. Pick out the wrong statement from the following. v"
+    "stem_text": "Q27.Photoelectrons are ejected from a metal when light of frequency v falls on it. Pick out the wrong statement from the following."
   },
   {
     "answer": "1",
@@ -1987,7 +1987,7 @@
       521.7022094726562
     ],
     "stem_snippet": "images/q28_stem.png",
-    "stem_text": "Q28.Which of the plots shown in the figure represents speed of the electron in a hydrogen atom as a function of the principal quantum number ? (v) (n)"
+    "stem_text": "Q28.Which of the plots shown in the figure represents speed (v) of the electron in a hydrogen atom as a function of the principal quantum number (n) ?"
   },
   {
     "answer": "4",
@@ -2057,7 +2057,7 @@
       596.7022094726562
     ],
     "stem_snippet": "images/q29_stem.png",
-    "stem_text": "Q29.The counting rate observed from a radioactive source at was 1600 counts , and , it was 100 counts . The counting rate observed as counts at will be t = 0 s\u22121 t = 8 s s\u22121 s\u22121 t = 6 s"
+    "stem_text": "Q29.The counting rate observed from a radioactive source at t = 0 was 1600 counts s\u22121 , and t = 8 s , it was 100 counts s\u22121 . The counting rate observed as counts s\u22121 at t = 6 s will be"
   },
   {
     "answer": "3",
@@ -2205,7 +2205,7 @@
       166.20196533203125
     ],
     "stem_snippet": "images/q31_stem.png",
-    "stem_text": "Q31.A transition metal forms a volatile chloride which has a vapour density of . If it contains of chlorine the formula of the metal chloride will be M 94.8 74.75%"
+    "stem_text": "Q31.A transition metal M forms a volatile chloride which has a vapour density of 94.8 . If it contains 74.75% of chlorine the formula of the metal chloride will be"
   },
   {
     "answer": "2",
@@ -2275,7 +2275,7 @@
       241.20196533203125
     ],
     "stem_snippet": "images/q32_stem.png",
-    "stem_text": "Q32.The following sets of quantum numbers represent four electrons in an atom. (i) (ii) (iii) (iv) The sequence representing increasing order of energy, is n = 4, l = 1 n = 4, l = 0 n = 3, l = 2 n = 3, l = 1"
+    "stem_text": "Q32.The following sets of quantum numbers represent four electrons in an atom. (i) n = 4, l = 1 (ii) n = 4, l = 0 (iii) n = 3, l = 2 (iv) n = 3, l = 1 The sequence representing increasing order of energy, is"
   },
   {
     "answer": "4",
@@ -2304,7 +2304,7 @@
           316.20196533203125
         ],
         "snippet": "images/q33_opt2.png",
-        "text": "(2) O N F C > > >"
+        "text": "(2) O > N > F > C"
       },
       {
         "images": [],
@@ -2330,7 +2330,7 @@
           341.70196533203125
         ],
         "snippet": "images/q33_opt4.png",
-        "text": "(4) O F N C > > >"
+        "text": "(4) O > F > N > C"
       }
     ],
     "question_number": 33,
@@ -2345,7 +2345,7 @@
       299.70196533203125
     ],
     "stem_snippet": "images/q33_stem.png",
-    "stem_text": "Q33.Which of the following presents the correct order of second ionization enthalpies of and ? C, N, O F"
+    "stem_text": "Q33.Which of the following presents the correct order of second ionization enthalpies of C, N, O and F ?"
   },
   {
     "answer": "1",
@@ -2415,7 +2415,7 @@
       358.20196533203125
     ],
     "stem_snippet": "images/q34_stem.png",
-    "stem_text": "Q34.Among the following species which two have trigonal pyramidal shape? (I) (II) (III) (IV) NI3 I\u2212 3 SO2\u2212 3 NO\u2212 3"
+    "stem_text": "Q34.Among the following species which two have trigonal pyramidal shape? (I) NI3 (II) I\u2212 (III) SO2\u2212 (IV) NO\u2212 3 3 3"
   },
   {
     "answer": "1",
@@ -2625,7 +2625,7 @@
       550.2019653320312
     ],
     "stem_snippet": "images/q37_stem.png",
-    "stem_text": "Q37.One mole of an ideal gas is expanded isothermally and reversibly to half of its initial pressure. for the process in is and \u0394S JK\u22121 mol\u22121 [ln 2 = 0.693 R = 8.314, J/(molK)]"
+    "stem_text": "Q37.One mole of an ideal gas is expanded isothermally and reversibly to half of its initial pressure. \u0394S for the process in JK\u22121 mol\u22121 is [ln 2 = 0.693 and R = 8.314, J/(molK)]"
   },
   {
     "answer": "3",
@@ -2695,7 +2695,7 @@
       625.2019653320312
     ],
     "stem_snippet": "images/q38_stem.png",
-    "stem_text": "Q38.One mole of and two moles of were heated in a closed vessel of one-litre capacity at . At equilibrium moles of were found. The equilibrium constant of the reaction would be O2( g) SO2( g) 1098 K 1.6 SO3( g) Kc"
+    "stem_text": "Q38.One mole of O2( and two moles of SO2( were heated in a closed vessel of one-litre capacity at 1098 K . At g) g) equilibrium 1.6 moles of SO3( were found. The equilibrium constant Kc of the reaction would be g)"
   },
   {
     "answer": "4",
@@ -2765,7 +2765,7 @@
       700.2019653320312
     ],
     "stem_snippet": "images/q39_stem.png",
-    "stem_text": "Q39.The solubility of at is . The solubility product of at this temperature is (molar mass of ) PbI2 25\u2218C 0.7 g L\u22121 PbI2 PbI2 = 461.2 g mol\u22121"
+    "stem_text": "Q39.The solubility of PbI2 at 25\u2218C is 0.7 g L\u22121 . The solubility product of PbI2 at this temperature is (molar mass of PbI2 = 461.2 g mol\u22121 )"
   },
   {
     "answer": "1",
@@ -2781,7 +2781,7 @@
           91.20196533203125
         ],
         "snippet": "images/q40_opt1.png",
-        "text": "(1) and NaHCO3 Na2CO3"
+        "text": "(1) NaHCO3 and Na2CO3"
       },
       {
         "images": [],
@@ -2835,7 +2835,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q40_stem.png",
-    "stem_text": "Q40.Fire extinguishers contain and which one of the following? H2SO4"
+    "stem_text": "Q40.Fire extinguishers contain H2SO4 and which one of the following?"
   },
   {
     "answer": "4",
@@ -2851,7 +2851,7 @@
           289.20196533203125
         ],
         "snippet": "images/q41_opt1.png",
-        "text": "(1) IV III II I > > >"
+        "text": "(1) IV > III > II > I"
       },
       {
         "images": [],
@@ -2864,7 +2864,7 @@
           289.20196533203125
         ],
         "snippet": "images/q41_opt2.png",
-        "text": "(2) III I II IV > > >"
+        "text": "(2) III > I > II > IV"
       },
       {
         "images": [],
@@ -2877,7 +2877,7 @@
           314.70196533203125
         ],
         "snippet": "images/q41_opt3.png",
-        "text": "(3) II III I IV > > >"
+        "text": "(3) II > III > I > IV"
       },
       {
         "images": [],
@@ -2890,7 +2890,7 @@
           314.70196533203125
         ],
         "snippet": "images/q41_opt4.png",
-        "text": "(4) I III II IV > > >"
+        "text": "(4) I > III > II > IV"
       }
     ],
     "question_number": 41,
@@ -3127,7 +3127,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q44_stem.png",
-    "stem_text": "Q44.Consider the following sequence of reactions Compound ' ' is C"
+    "stem_text": "Q44.Consider the following sequence of reactions Compound ' C ' is"
   },
   {
     "answer": "2",
@@ -3156,7 +3156,7 @@
           353.70208740234375
         ],
         "snippet": "images/q45_opt2.png",
-        "text": "(2) and freons NO"
+        "text": "(2) NO and freons"
       },
       {
         "images": [],
@@ -3226,7 +3226,7 @@
           428.70208740234375
         ],
         "snippet": "images/q46_opt2.png",
-        "text": "(2) In BCC unit cell the void space is . 32%"
+        "text": "(2) In BCC unit cell the void space is 32% ."
       },
       {
         "images": [],
@@ -3337,7 +3337,7 @@
       503.70208740234375
     ],
     "stem_snippet": "images/q47_stem.png",
-    "stem_text": "Q47.The freezing point of a aqueous solution of is found to be . The freezing point constant of water, is . The percentage dissociation of at this concentration is 1.00 m HF \u22121.91\u2218C Kf 1.86 K kg mol\u22121 HF"
+    "stem_text": "Q47.The freezing point of a 1.00 m aqueous solution of HF is found to be \u22121.91\u2218C . The freezing point constant of water, Kf is 1.86 K kg mol\u22121 . The percentage dissociation of HF at this concentration is"
   },
   {
     "answer": "2",
@@ -3407,7 +3407,7 @@
       615.4520874023438
     ],
     "stem_snippet": "images/q48_stem.png",
-    "stem_text": "Q48.Given Standard electrode potential for the half cell is E\u2218 Cu2+/Cu = 0.34 V, E\u2218 Cu2+/Cu = 0.15 V Cu+/Cu"
+    "stem_text": "Q48.Given E\u2218 = 0.34 V, E\u2218 = 0.15 V Cu2+/Cu Cu2+/Cu Standard electrode potential for the half cell Cu+/Cu is"
   },
   {
     "answer": "3",
@@ -3477,7 +3477,7 @@
       690.4520874023438
     ],
     "stem_snippet": "images/q49_stem.png",
-    "stem_text": "Q49.The activation energy for a reaction which doubles the rate when the temperature is raised from to is 298 K 308 K"
+    "stem_text": "Q49.The activation energy for a reaction which doubles the rate when the temperature is raised from 298 K to 308 K is"
   },
   {
     "answer": "2",
@@ -3687,7 +3687,7 @@
       191.70208740234375
     ],
     "stem_snippet": "images/q52_stem.png",
-    "stem_text": "Q52.The number of bonds in and respectively are S \u2212S SO3, S2O2\u2212 3 S2O2\u2212 6 S2O2\u2212 8"
+    "stem_text": "Q52.The number of S \u2212S bonds in SO3, S2O2\u2212 S2O2\u2212 and S2O2\u2212 respectively are 3 6 8"
   },
   {
     "answer": "3",
@@ -3757,7 +3757,7 @@
       250.20208740234375
     ],
     "stem_snippet": "images/q53_stem.png",
-    "stem_text": "Q53.Which of the following forms stable oxidation state? +4"
+    "stem_text": "Q53.Which of the following forms stable +4 oxidation state?"
   },
   {
     "answer": "2",
@@ -3827,7 +3827,7 @@
       308.70208740234375
     ],
     "stem_snippet": "images/q54_stem.png",
-    "stem_text": "Q54.The number of unpaired electrons in Gadolinium is [Z = 64]"
+    "stem_text": "Q54.The number of unpaired electrons in Gadolinium [Z = 64] is"
   },
   {
     "answer": "2",
@@ -3897,7 +3897,7 @@
       367.20208740234375
     ],
     "stem_snippet": "images/q55_stem.png",
-    "stem_text": "Q55.The complex ion will give [Pt (NO2)(Py) (NH3) (NH2OH)]+"
+    "stem_text": "Q55.The complex ion [Pt (NO2)(Py) (NH3) (NH2OH)]+ will give"
   },
   {
     "answer": "1",
@@ -4219,7 +4219,7 @@
           701.7020874023438
         ],
         "snippet": "images/q60_opt3.png",
-        "text": "(3) RNA has double stranded -helix structure. \u03b1"
+        "text": "(3) RNA has double stranded \u03b1 -helix structure."
       },
       {
         "images": [],
@@ -4317,7 +4317,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q61_stem.png",
-    "stem_text": "Q61.If and 1 is a root of equation , then the curve intersect -axis at a, b, c \u2208R ax2 + bx +c = 0 y = 4ax2 + 3bx + 2c, a \u22600 x"
+    "stem_text": "Q61.If a, b, c \u2208R and 1 is a root of equation ax2 + bx +c = 0 , then the curve y = 4ax2 + 3bx + 2c, a \u22600 intersect x -axis at"
   },
   {
     "answer": "2",
@@ -4346,7 +4346,7 @@
           171.45166015625
         ],
         "snippet": "images/q62_opt2.png",
-        "text": "(2) 2 (|z1|2 + |z2|2)"
+        "text": "(2) (|z1|2 |z2|2) 2 +"
       },
       {
         "images": [],
@@ -4387,7 +4387,7 @@
       149.70166015625
     ],
     "stem_snippet": "images/q62_stem.png",
-    "stem_text": "Q62. is equal to |z1 + z2|2 + |z1 \u2212z2|2"
+    "stem_text": "Q62. |z1 + z2|2 + |z1 \u2212z2|2 is equal to"
   },
   {
     "answer": "1",
@@ -4527,7 +4527,7 @@
       304.95166015625
     ],
     "stem_snippet": "images/q64_stem.png",
-    "stem_text": "Q64.If the A.M. between and terms of an A.P. is equal to the A.M. between and terms of the same A.P., then is equal to pth qth rth sth p + q"
+    "stem_text": "Q64.If the A.M. between pth and qth terms of an A.P. is equal to the A.M. between rth and sth terms of the same A.P., then p + q is equal to"
   },
   {
     "answer": "3",
@@ -4597,7 +4597,7 @@
       381.45166015625
     ],
     "stem_snippet": "images/q65_stem.png",
-    "stem_text": "Q65.If the sum of the series ... upto terms, when is even, is , then the sum of the series, when is odd, is 12 + 2 \u22c522 + 32 + 2 \u22c542 + 52+ 2.62 + \u2026 n n n(n+1)2 2 n"
+    "stem_text": "Q65.If n(n+1)2 the sum of the series 12 + 2 \u22c522 + 32 + 2 \u22c542 + 52+ ... 2.62 + \u2026 upto n terms, when n is even, is , 2 then the sum of the series, when n is odd, is"
   },
   {
     "answer": "4",
@@ -4667,7 +4667,7 @@
       442.95166015625
     ],
     "stem_snippet": "images/q66_stem.png",
-    "stem_text": "Q66.The middle term in the expansion of in powers of is (1 \u22121 x ) n (1 \u2212xn) x"
+    "stem_text": "Q66.The middle term in the expansion of \u22121 n \u2212xn) in powers of is (1 ) (1 x x"
   },
   {
     "answer": "3",
@@ -4737,7 +4737,7 @@
       501.45166015625
     ],
     "stem_snippet": "images/q67_stem.png",
-    "stem_text": "Q67.The value of is cos 255\u2218+ sin 195\u2218"
+    "stem_text": "Q67.The value of cos 255\u2218+ sin 195\u2218 is"
   },
   {
     "answer": "3",
@@ -4753,7 +4753,7 @@
           600.45166015625
         ],
         "snippet": "images/q68_opt1.png",
-        "text": "(1) above -axis at a distance from it x 2/3"
+        "text": "(1) above x -axis at a distance 2/3 from it"
       },
       {
         "images": [],
@@ -4766,7 +4766,7 @@
           600.45166015625
         ],
         "snippet": "images/q68_opt2.png",
-        "text": "(2) above -axis at a distance from it x 3/2"
+        "text": "(2) above x -axis at a distance 3/2 from it"
       },
       {
         "images": [],
@@ -4779,7 +4779,7 @@
           625.95166015625
         ],
         "snippet": "images/q68_opt3.png",
-        "text": "(3) below -axis at a distance from it x 3/2"
+        "text": "(3) below x -axis at a distance 3/2 from it"
       },
       {
         "images": [],
@@ -4792,7 +4792,7 @@
           625.95166015625
         ],
         "snippet": "images/q68_opt4.png",
-        "text": "(4) below -axis at a distance from it x 2/3"
+        "text": "(4) below x -axis at a distance 2/3 from it"
       }
     ],
     "question_number": 68,
@@ -4807,7 +4807,7 @@
       583.95166015625
     ],
     "stem_snippet": "images/q68_stem.png",
-    "stem_text": "Q68.The line parallel to -axis and passing through the point of intersection of lines and , where is x ax + 2by + 3b = 0 bx \u22122ay \u22123a = 0 (a, b) \u2260(0, 0)"
+    "stem_text": "Q68.The line parallel to x -axis and passing through the point of intersection of lines ax + 2by + 3b = 0 and bx \u22122ay \u22123a = 0 , where (a, b) \u2260(0, 0) is"
   },
   {
     "answer": "4",
@@ -4823,7 +4823,7 @@
           91.2021484375
         ],
         "snippet": "images/q69_opt1.png",
-        "text": "(1) intersect . L1 \u2225L4, L2\u2225L3, L1 L4 \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) L1 \u2225L4, L2\u2225L3, L1 intersect L4 ."
       },
       {
         "images": [],
@@ -4836,7 +4836,7 @@
           91.2021484375
         ],
         "snippet": "images/q69_opt2.png",
-        "text": "(2) intersect . L1 \u22a5L2, L1\u2225L3, L1 L2"
+        "text": "(2) L1 \u22a5L2, L1\u2225L3, L1 intersect L2 ."
       },
       {
         "images": [],
@@ -4849,7 +4849,7 @@
           116.7021484375
         ],
         "snippet": "images/q69_opt3.png",
-        "text": "(3) intersect . L1 \u22a5L2, L2\u2225L3, L1 L4 \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) L1 \u22a5L2, L2\u2225L3, L1 intersect L4 ."
       },
       {
         "images": [],
@@ -4862,7 +4862,7 @@
           116.7021484375
         ],
         "snippet": "images/q69_opt4.png",
-        "text": "(4) intersect . L1 \u22a5L2, L1 \u22a5L3, L2 L4"
+        "text": "(4) L1 \u22a5L2, L1 \u22a5L3, L2 intersect L4 ."
       }
     ],
     "question_number": 69,
@@ -4883,7 +4883,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q69_stem.png",
-    "stem_text": "Q69.Consider the straight lines The correct statement is L1 : x \u2212y = 1 L2 : x + y = 1 L3 : 2x + 2y = 5 L4 : 2x \u22122y = 7 \u23a2\u23a5\u23a2\u23a5"
+    "stem_text": "Q69.Consider the straight lines L1 : x \u2212y = 1 L2 : x + y = 1 L3 : 2x + 2y = 5 L4 : 2x \u22122y = 7 The correct statement is \u23a2\u23a5\u23a2\u23a5"
   },
   {
     "answer": "3",
@@ -4899,7 +4899,7 @@
           166.2021484375
         ],
         "snippet": "images/q70_opt1.png",
-        "text": "(1) one \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) one"
       },
       {
         "images": [],
@@ -4925,7 +4925,7 @@
           191.7021484375
         ],
         "snippet": "images/q70_opt3.png",
-        "text": "(3) two \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) two"
       },
       {
         "images": [],
@@ -4953,7 +4953,7 @@
       149.7021484375
     ],
     "stem_snippet": "images/q70_stem.png",
-    "stem_text": "Q70.The number of common tangents of the circles given by and is x2 + y2 \u22128x \u22122y + 1 = 0 x2 + y2 + 6x + 8y = 0 \u23a2\u23a5\u23a2\u23a5"
+    "stem_text": "\u23a2\u23a5\u23a2\u23a5 Q70.The number of common tangents of the circles given by x2 + y2 \u22128x \u22122y + 1 = 0 and x2 + y2 + 6x + 8y = 0 is"
   },
   {
     "answer": "1",
@@ -4969,7 +4969,7 @@
           241.2021484375
         ],
         "snippet": "images/q71_opt1.png",
-        "text": "(1) \u22124 \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) \u22124"
       },
       {
         "images": [],
@@ -4995,7 +4995,7 @@
           266.7021484375
         ],
         "snippet": "images/q71_opt3.png",
-        "text": "(3) 4 \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) 4"
       },
       {
         "images": [],
@@ -5023,7 +5023,7 @@
       224.7021484375
     ],
     "stem_snippet": "images/q71_stem.png",
-    "stem_text": "Q71.The chord of the parabola , where one end of the chord is at point , is perpendicular to the axis of the parabola. Then the slope of the normal at is PQ y2 = x P (4, \u22122) Q \u23a2\u23a5\u23a2\u23a5"
+    "stem_text": "\u23a2\u23a5\u23a2\u23a5 Q71.The chord PQ of the parabola y2 = x , where one end P of the chord is at point (4, \u22122) , is perpendicular to the axis of the parabola. Then the slope of the normal at Q is"
   },
   {
     "answer": "1",
@@ -5039,7 +5039,7 @@
           301.2021484375
         ],
         "snippet": "images/q72_opt1.png",
-        "text": "(1) y2 = \u2212104x \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) y2 = \u2212104x"
       },
       {
         "images": [],
@@ -5065,7 +5065,7 @@
           326.7021484375
         ],
         "snippet": "images/q72_opt3.png",
-        "text": "(3) y2 = 26x \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) y2 = 26x"
       },
       {
         "images": [],
@@ -5093,7 +5093,7 @@
       284.7021484375
     ],
     "stem_snippet": "images/q72_stem.png",
-    "stem_text": "Q72.The normal at to the ellipse, touches a parabola, whose equation is (2, 3 2 ) x2 16 + y2 3 = 1 \u23a2\u23a5\u23a2\u23a5"
+    "stem_text": "\u23a2\u23a5\u23a2\u23a5 Q72.The 3 x2 y2 normal at (2, ) to the ellipse, + = 1 touches a parabola, whose equation is 2 16 3"
   },
   {
     "answer": "4",
@@ -5109,7 +5109,7 @@
           362.7021484375
         ],
         "snippet": "images/q73_opt1.png",
-        "text": "(1) \u2212\u03c0 \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) \u2212\u03c0"
       },
       {
         "images": [],
@@ -5135,7 +5135,7 @@
           388.2021484375
         ],
         "snippet": "images/q73_opt3.png",
-        "text": "(3) \u22121 \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) \u22121"
       },
       {
         "images": [],
@@ -5163,7 +5163,7 @@
       346.2021484375
     ],
     "stem_snippet": "images/q73_stem.png",
-    "stem_text": "Q73. equals limx\u21920 sin(\u03c0 cos2 x) x2 \u23a2\u23a5\u23a2\u23a5"
+    "stem_text": "\u23a2\u23a5\u23a2\u23a5 Q73. sin(\u03c0 cos2 x) limx\u21920 equals x2"
   },
   {
     "answer": "3",
@@ -5179,7 +5179,7 @@
           437.7021484375
         ],
         "snippet": "images/q74_opt1.png",
-        "text": "(1) q \u21d2\u223cp \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) q \u21d2\u223cp"
       },
       {
         "images": [],
@@ -5205,7 +5205,7 @@
           463.2021484375
         ],
         "snippet": "images/q74_opt3.png",
-        "text": "(3) p\u2227\u223cq \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) p\u2227\u223cq"
       },
       {
         "images": [],
@@ -5233,7 +5233,7 @@
       421.2021484375
     ],
     "stem_snippet": "images/q74_stem.png",
-    "stem_text": "Q74.Let and denote the following statements : The sun is shining : I shall play tennis in the afternoon The negation of the statement \"If the sun is shining then I shall play tennis in the afternoon\", is p q p q \u23a2\u23a5\u23a2\u23a5"
+    "stem_text": "\u23a2\u23a5\u23a2\u23a5 Q74.Let p and q denote the following statements p : The sun is shining q : I shall play tennis in the afternoon The negation of the statement \"If the sun is shining then I shall play tennis in the afternoon\", is"
   },
   {
     "answer": "1",
@@ -5249,7 +5249,7 @@
           547.9521484375
         ],
         "snippet": "images/q75_opt1.png",
-        "text": "(1) Statement 1 is true, Statement 2 is false. \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) Statement 1 is true, Statement 2 is false."
       },
       {
         "images": [],
@@ -5275,7 +5275,7 @@
           606.4521484375
         ],
         "snippet": "images/q75_opt3.png",
-        "text": "(3) Statement 1 is false, Statement 2 is true. \u23a2\u23a5\u23a2\u23a5"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) Statement 1 is false, Statement 2 is true."
       },
       {
         "images": [],
@@ -5303,7 +5303,7 @@
       498.4521484375
     ],
     "stem_snippet": "images/q75_stem.png",
-    "stem_text": "Q75.Statement 1: The variance of first odd natural numbers is Statement 2: The sum of first odd natural number is and the sum of square of first odd natural numbers is . n n2\u22121 3 n n2 n n(4n2+1) 3 \u23a2\u23a5\u23a2\u23a5"
+    "stem_text": "\u23a2\u23a5\u23a2\u23a5 Q75.Statement 1: The variance of first odd natural numbers is n2\u22121 Statement 2: The sum of first odd natural n n 3 n(4n2+1) number is n2 and the sum of square of first n odd natural numbers is . 3"
   },
   {
     "answer": "1",
@@ -5319,7 +5319,7 @@
           666.4521484375
         ],
         "snippet": "images/q76_opt1.png",
-        "text": "(1) \u23a2\u23a5\u23a2\u23a5 I"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (1) I"
       },
       {
         "images": [],
@@ -5345,7 +5345,7 @@
           691.9521484375
         ],
         "snippet": "images/q76_opt3.png",
-        "text": "(3) \u23a2\u23a5\u23a2\u23a5 B"
+        "text": "\u23a2\u23a5\u23a2\u23a5 (3) B"
       },
       {
         "images": [],
@@ -5373,7 +5373,7 @@
       649.9521484375
     ],
     "stem_snippet": "images/q76_stem.png",
-    "stem_text": "Q76. If and then equals A = \u23a1 \u23a2 \u23a3 1 0 0 2 1 0 \u22123 2 1 \u23a4 \u23a5 \u23a6 B = \u23a1 \u23a2 \u23a3 1 0 0 \u22122 1 0 7 \u22122 1 \u23a4 \u23a5 \u23a6 AB"
+    "stem_text": "\u23a2 \u23a5 \u23a2 \u23a5 Q76. \u23a1 1 0 0 \u23a4 \u23a1 1 0 0 \u23a4 If A = 2 1 0 and B = \u22122 1 0 then AB equals \u23a3 \u23a6 \u23a3 \u23a6 \u22123 2 1 7 \u22122 1"
   },
   {
     "answer": "1",
@@ -5443,7 +5443,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q77_stem.png",
-    "stem_text": "Q77.Statement 1: If the system of equations has a nontrivial solution, then the value of is . Statement 2: A system of three homogeneous equations in three variables has a non trivial solution if the determinant of the coefficient matrix is zero. \u23a2\u23a5\u23a2\u23a5 x + ky+ 3z = 0, 3x + ky \u22122z = 0, 2x + 3y \u22124z = 0 k 31 2"
+    "stem_text": "\u23a2\u23a5\u23a2\u23a5 Q77.Statement 1: If the system of equations x + ky+ 3z = 0, 3x + ky \u22122z = 0, 2x + 3y \u22124z = 0 has a nontrivial solution, then the value of k is 31 . Statement 2: A system of three homogeneous equations in three variables 2 has a non trivial solution if the determinant of the coefficient matrix is zero."
   },
   {
     "answer": "4",
@@ -5513,7 +5513,7 @@
       215.7022705078125
     ],
     "stem_snippet": "images/q78_stem.png",
-    "stem_text": "Q78.Let and be non empty sets in and is a bijective function. Statement 1: is an onto function. Statement 2: There exists a function such that fog . A B R f : A \u2192B f g : B \u2192A = IB"
+    "stem_text": "Q78.Let A and B be non empty sets in R and f : A \u2192B is a bijective function. Statement 1: f is an onto function. Statement 2: There exists a function g : B \u2192A such that fog = IB ."
   },
   {
     "answer": "4",
@@ -5529,7 +5529,7 @@
           356.7022705078125
         ],
         "snippet": "images/q79_opt1.png",
-        "text": "(1) and are any real numbers a = 0, b c"
+        "text": "(1) a = 0, b and c are any real numbers"
       },
       {
         "images": [],
@@ -5542,7 +5542,7 @@
           356.7022705078125
         ],
         "snippet": "images/q79_opt2.png",
-        "text": "(2) is any real number c = 0, a = 0, b"
+        "text": "(2) c = 0, a = 0, b is any real number"
       },
       {
         "images": [],
@@ -5555,7 +5555,7 @@
           382.2022705078125
         ],
         "snippet": "images/q79_opt3.png",
-        "text": "(3) is any real number b = 0, c = 0, a"
+        "text": "(3) b = 0, c = 0, a is any real number"
       },
       {
         "images": [],
@@ -5568,7 +5568,7 @@
           382.2022705078125
         ],
         "snippet": "images/q79_opt4.png",
-        "text": "(4) is any real number a = 0, b = 0, c"
+        "text": "(4) a = 0, b = 0, c is any real number"
       }
     ],
     "question_number": 79,
@@ -5583,7 +5583,7 @@
       340.2022705078125
     ],
     "stem_snippet": "images/q79_stem.png",
-    "stem_text": "Q79.If , where , is differentiable at , then f(x) = a| sin x| + be|x| + c|x|3 a, b, c \u2208R x = 0"
+    "stem_text": "Q79.If f(x) = a| sin x| + be|x| + c|x|3 , where a, b, c \u2208R , is differentiable at x = 0 , then"
   },
   {
     "answer": "4",
@@ -5653,7 +5653,7 @@
       399.61407470703125
     ],
     "stem_snippet": "images/q80_stem.png",
-    "stem_text": "Q80.Let be defined by Statement 1: The function fhas a local extremum f : (\u2212\u221e, \u221e) \u2192(\u2212\u221e, \u221e) f(x) = x3 + 1"
+    "stem_text": "Q80.Let f : (\u2212\u221e, \u221e) \u2192(\u2212\u221e, \u221e) be defined by f(x) = x3 + 1 Statement 1: The function fhas a local extremum"
   },
   {
     "answer": "2",
@@ -5723,7 +5723,7 @@
       556.2022705078125
     ],
     "stem_snippet": "images/q81_stem.png",
-    "stem_text": "Q81.If a metallic circular plate of radius is heated so that its radius increases at the rate of per hour, then the rate at which, the area of the plate increases (in hour) is 50 cm 1 mm cm2/"
+    "stem_text": "Q81.If a metallic circular plate of radius 50 cm is heated so that its radius increases at the rate of 1 mm per hour, then the rate at which, the area of the plate increases (in cm2/ hour) is"
   },
   {
     "answer": "1",
@@ -5793,7 +5793,7 @@
       616.2022705078125
     ],
     "stem_snippet": "images/q82_stem.png",
-    "stem_text": "Q82. is a polynomial of degree f(x) = \u222b dx sin6 x"
+    "stem_text": "Q82. f(x) = \u222b dx is a polynomial of degree sin6 x"
   },
   {
     "answer": "4",
@@ -5863,7 +5863,7 @@
       675.4522705078125
     ],
     "stem_snippet": "images/q83_stem.png",
-    "stem_text": "Q83.If is the greatest integer , then the value of the integral is [x] \u2264x \u222b0.9 \u22120.9 ([x2] + log ( 2\u2212x 2+x ))dx"
+    "stem_text": "Q83.If is the greatest integer , then the value of the integral \u222b0.9 ([x2] ( 2\u2212x ))dx is [x] \u2264x + log \u22120.9 2+x"
   },
   {
     "answer": "2",
@@ -5933,7 +5933,7 @@
       733.9522705078125
     ],
     "stem_snippet": "images/q84_stem.png",
-    "stem_text": "Q84.The area bounded by the parabola and the line , in square unit, is y2 = 4x 2x \u22123y + 4 = 0"
+    "stem_text": "Q84.The area bounded by the parabola y2 = 4x and the line 2x \u22123y + 4 = 0 , in square unit, is"
   },
   {
     "answer": "2",
@@ -6003,7 +6003,7 @@
       97.2022705078125
     ],
     "stem_snippet": "images/q85_stem.png",
-    "stem_text": "Q85.The integrating factor of the differential equation is (x2 \u22121 dy dx + 2)xy = x"
+    "stem_text": "Q85.The integrating factor of the differential equation (x2 dy 2)xy is \u22121 + = x dx"
   },
   {
     "answer": "3",
@@ -6073,7 +6073,7 @@
       175.2022705078125
     ],
     "stem_snippet": "images/q86_stem.png",
-    "stem_text": "Q86.Statement 1: The vectors and lie in the same plane if and only if Statement 2: The vectors and are perpendicular if and only if where is a vector perpendicular to the plane of and a,b c a \u22c5(b \u00d7c) = 0 \u2192u \u2192v \u2192u \u22c5\u2192v = 0 \u2192u \u00d7 \u2192v \u2192u \u2192v"
+    "stem_text": "\u2192u \u2192v \u2192u \u22c5\u2192v \u2192u \u2192v \u2192u \u2192v Q86.Statement 1: The vectors a,b and c lie in the same plane if and only if a \u22c5(b \u00d7c) = 0 Statement 2: The vectors and are perpendicular if and only if = 0 where \u00d7 is a vector perpendicular to the plane of and"
   },
   {
     "answer": "3",
@@ -6143,7 +6143,7 @@
       317.7022705078125
     ],
     "stem_snippet": "images/q87_stem.png",
-    "stem_text": "Q87.The distance of the point from the straight line that passes through the point and is parallel to the vector is \u2212^i + 2^j + 6^k 2^i + 3^j \u22124^k 6^i + 3^j \u22124^k"
+    "stem_text": "Q87.The distance of the point \u2212^i + 2^j + 6^k from the straight line that passes through the point 2^i + 3^j \u22124^k and is parallel to the vector 6^i + 3^j \u22124^k is"
   },
   {
     "answer": "4",
@@ -6159,7 +6159,7 @@
           454.2022705078125
         ],
         "snippet": "images/q88_opt1.png",
-        "text": "(1) and are perpendicular P R"
+        "text": "(1) P and R are perpendicular"
       },
       {
         "images": [],
@@ -6172,7 +6172,7 @@
           454.2022705078125
         ],
         "snippet": "images/q88_opt2.png",
-        "text": "(2) and are perpendicular Q R"
+        "text": "(2) Q and R are perpendicular"
       },
       {
         "images": [],
@@ -6185,7 +6185,7 @@
           479.7022705078125
         ],
         "snippet": "images/q88_opt3.png",
-        "text": "(3) and are parallel P Q"
+        "text": "(3) P and Q are parallel"
       },
       {
         "images": [],
@@ -6198,7 +6198,7 @@
           479.7022705078125
         ],
         "snippet": "images/q88_opt4.png",
-        "text": "(4) and are parallel P R"
+        "text": "(4) P and R are parallel"
       }
     ],
     "question_number": 88,
@@ -6283,7 +6283,7 @@
       496.9522705078125
     ],
     "stem_snippet": "images/q89_stem.png",
-    "stem_text": "Q89.The equation of a plane containing the line and the point is x+1 \u22123 = y\u22123 2 = z+2 1 (0, 7, \u22127)"
+    "stem_text": "Q89.The equation of a plane containing the line x+1 = y\u22123 = z+2 and the point (0, 7, \u22127) is \u22123 2 1"
   },
   {
     "answer": "2",

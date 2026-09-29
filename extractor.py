@@ -80,6 +80,26 @@ def _group_rows(markers, y_tol=6):
     return rows
 
 
+def _reading_order_text(page, rect, y_tol=3):
+    """Extract text from `rect` in true top-to-bottom, left-to-right visual reading order,
+    instead of PyMuPDF's internal block/span storage order. A symbol/unit run typeset as its
+    own text block (e.g. "K =", "(I)") can be stored later than the surrounding prose even
+    though it sits on the same visual line, so page.get_text("text", clip=...) silently dumps
+    it at the end of the string. Found via JEE Main 2012 (07 May) Q1: stem_text ended
+    "...surface tension? K = V = T =" instead of "Given that K = energy, V = velocity, T =
+    time..." — confirmed via get_text("words") that the K/V/T block's y-range overlaps the
+    sentence's own line almost exactly. Reuses _group_rows's y-tolerance row-grouping idiom on
+    individual words instead of option markers. y_tol=3 (tighter than _group_rows' marker
+    default of 6) since word baselines within one real line vary by ~0-2pt for this exam
+    layout's ~10-11pt body text, while distinct lines are ~12-16pt apart."""
+    words = page.get_text("words", clip=fitz.Rect(*rect))
+    if not words:
+        return ""
+    markers = [(w[4], w[0], w[1]) for w in words]  # (word, x0, y0)
+    rows = _group_rows(markers, y_tol=y_tol)
+    return " ".join(" ".join(w for (w, _, _) in row) for row in rows).strip()
+
+
 def _column_boundaries(marker_xs, margin=2.0):
     """One split line between each adjacent pair of marker x-positions, placed just before the
     next marker's own x. A real exam layout never lets one option's content overlap the next
@@ -262,7 +282,7 @@ def parse_pdf(pdf_path, out_dir):
                 stem_parts.append(stem_cont)
 
             stem_text = " ".join(
-                " ".join(src_page.get_text("text", clip=fitz.Rect(*rect)).split())
+                _reading_order_text(src_page, rect)
                 for src_page, _, rect in stem_parts
             ).strip()
 
@@ -313,7 +333,7 @@ def parse_pdf(pdf_path, out_dir):
                         options.append({"label": label, "text": "", "snippet": None, "images": []})
                         notes.append(f"Q{qnum}: option ({label}) marker not found (page {pi + 1})")
                         continue
-                    text = " ".join(opt_page.get_text("text", clip=fitz.Rect(*rect)).split())
+                    text = _reading_order_text(opt_page, rect)
                     snippet_name = f"q{qnum}_opt{label}.png"
                     _crop(opt_page, rect, os.path.join(img_dir, snippet_name))
                     opt_imgs = []

@@ -67,7 +67,7 @@
       125.7022705078125
     ],
     "stem_snippet": "images/q1_stem.png",
-    "stem_text": "Q1. Resistance of a given wire is obtained by measuring the current flowing in it and the voltage difference applied across it. If the percentage errors in the measurement of the current and the voltage difference are each, then error in the value of resistance of the wire is 3%"
+    "stem_text": "Q1. Resistance of a given wire is obtained by measuring the current flowing in it and the voltage difference applied across it. If the percentage errors in the measurement of the current and the voltage difference are 3% each, then error in the value of resistance of the wire is"
   },
   {
     "answer": "4",
@@ -137,7 +137,7 @@
       200.7022705078125
     ],
     "stem_snippet": "images/q2_stem.png",
-    "stem_text": "Q2. A boy can throw a stone up to a maximum height of . The maximum horizontal distance that the boy can throw the same stone up to will be 10 m"
+    "stem_text": "Q2. A boy can throw a stone up to a maximum height of 10 m . The maximum horizontal distance that the boy can throw the same stone up to will be"
   },
   {
     "answer": "3",
@@ -215,7 +215,7 @@
       275.7022705078125
     ],
     "stem_snippet": "images/q3_stem.png",
-    "stem_text": "Q3. A particle of mass is at rest at the origin at time . It is subjected to a force in the direction. Its speed is depicted by which of the following curves? m t = 0 F(t) = F0e\u2212bt x v(t)"
+    "stem_text": "Q3. A particle of mass m is at rest at the origin at time t = 0 . It is subjected to a force F(t) = F0e\u2212bt in the x direction. Its speed v(t) is depicted by which of the following curves?"
   },
   {
     "answer": "1",
@@ -231,7 +231,7 @@
           564.4522705078125
         ],
         "snippet": "images/q4_opt1.png",
-        "text": "(1) Statement is false, Statement is true 1 2"
+        "text": "(1) Statement 1 is false, Statement 2 is true"
       },
       {
         "images": [],
@@ -244,7 +244,7 @@
           564.4522705078125
         ],
         "snippet": "images/q4_opt2.png",
-        "text": "(2) Statement is true, Statement is false 1 2"
+        "text": "(2) Statement 1 is true, Statement 2 is false"
       },
       {
         "images": [],
@@ -257,7 +257,7 @@
           606.4522705078125
         ],
         "snippet": "images/q4_opt3.png",
-        "text": "(3) Statement is true, Statement is the correct explanation for statement 1 2 1"
+        "text": "(3) Statement 1 is true, Statement 2 is the correct explanation for statement 1"
       },
       {
         "images": [],
@@ -270,7 +270,7 @@
           606.4522705078125
         ],
         "snippet": "images/q4_opt4.png",
-        "text": "(4) Statement is true, Statement is true, Statement is not the correct explanation for statement . 1 2 2 1"
+        "text": "(4) Statement 1 is true, Statement 2 is true, Statement 2 is not the correct explanation for statement 1 ."
       }
     ],
     "question_number": 4,
@@ -285,7 +285,7 @@
       547.9522705078125
     ],
     "stem_snippet": "images/q4_stem.png",
-    "stem_text": "Q4. This question has statement and statement . Of the four choices given after the statements, choose the one that best describes the two statements. If two springs and of force constants and , respectively, are stretched by the same force, it is found that more work is done on spring than on spring . Statement : If stretched by the same amount, work done on , will be more than that on Statement 1 2 S1 S2 k1 k2 S1 S2 1 S1 S2 2 : k1 < k2"
+    "stem_text": "Q4. This question has statement 1 and statement 2 . Of the four choices given after the statements, choose the one that best describes the two statements. If two springs S1 and S2 of force constants k1 and k2 , respectively, are stretched by the same force, it is found that more work is done on spring S1 than on spring S2 . Statement 1 : If stretched by the same amount, work done on S1 , will be more than that on S2 Statement 2 : k1 < k2"
   },
   {
     "answer": "3",
@@ -355,7 +355,7 @@
       639.4522705078125
     ],
     "stem_snippet": "images/q5_stem.png",
-    "stem_text": "Q5. Two cars of masses and are moving in circles of radii and , respectively. Their speeds are such that they make complete circles in the same time . The ratio of their centripetal acceleration is m1 m2 r1 r2 t"
+    "stem_text": "Q5. Two cars of masses m1 and m2 are moving in circles of radii r1 and r2 , respectively. Their speeds are such that they make complete circles in the same time t . The ratio of their centripetal acceleration is"
   },
   {
     "answer": "4",
@@ -371,7 +371,7 @@
           747.4522705078125
         ],
         "snippet": "images/q6_opt1.png",
-        "text": "(1) Joules 6.4 \u00d7 1011"
+        "text": "(1) 6.4 \u00d7 1011 Joules"
       },
       {
         "images": [],
@@ -384,7 +384,7 @@
           747.4522705078125
         ],
         "snippet": "images/q6_opt2.png",
-        "text": "(2) Joules 6.4 \u00d7 108"
+        "text": "(2) 6.4 \u00d7 108 Joules"
       },
       {
         "images": [],
@@ -397,7 +397,7 @@
           803.4650268554688
         ],
         "snippet": "images/q6_opt3.png",
-        "text": "(3) Joules 6.4 \u00d7 109"
+        "text": "(3) 6.4 \u00d7 109 Joules"
       },
       {
         "images": [],
@@ -410,7 +410,7 @@
           803.4650268554688
         ],
         "snippet": "images/q6_opt4.png",
-        "text": "(4) Joules 6.4 \u00d7 1010"
+        "text": "(4) 6.4 \u00d7 1010 Joules"
       }
     ],
     "question_number": 6,
@@ -425,7 +425,7 @@
       730.9522705078125
     ],
     "stem_snippet": "images/q6_stem.png",
-    "stem_text": "Q6. The mass of a spaceship is . It is to be launched from the earth's surface out into free space. The value of ' ' and ' ' (radius of earth) are and respectively. The required energy for this work will be ; 1000 kg g R 10 m/s2 6400 km"
+    "stem_text": "Q6. The mass of a spaceship is 1000 kg . It is to be launched from the earth's surface out into free space. The value of ' g ' and ' R ' (radius of earth) are 10 m/s2 and 6400 km respectively. The required energy for this work will be ;"
   },
   {
     "answer": "4",
@@ -497,7 +497,7 @@
       223.9522705078125
     ],
     "stem_snippet": "images/q7_stem.png",
-    "stem_text": "Q7. A thin liquid film formed between a U-shaped wire and a light slider supports a weight of (see figure). The length of the slider is and its weight negligible. The surface tension of the liquid film is 1.5 \u00d7 10\u22122 N 30 cm"
+    "stem_text": "Q7. A thin liquid film formed between a U-shaped wire and a light slider supports a weight of 1.5 \u00d7 10\u22122 N (see figure). The length of the slider is 30 cm and its weight negligible. The surface tension of the liquid film is"
   },
   {
     "answer": "4",
@@ -569,7 +569,7 @@
       465.4522705078125
     ],
     "stem_snippet": "images/q8_stem.png",
-    "stem_text": "Q8. A wooden wheel of radius is made of two semicircular parts (see figure); The two parts are held together by a ring made of a metal strip of cross sectional area S and length . is slightly less than . To fit the ring on the wheel, it is heated so that its temperature rises by and it just steps over the wheel. As it cools down to surrounding temperature, it presses the semicircular parts together. If the coefficient of linear expansion of the metal is , and its Youngs' modulus is , the force that one part of the wheel applies on the other part is : R L L 2\u03c0R \u0394T \u03b1 Y"
+    "stem_text": "Q8. A wooden wheel of radius R is made of two semicircular parts (see figure); The two parts are held together by a ring made of a metal strip of cross sectional area S and length L . L is slightly less than 2\u03c0R . To fit the ring on the wheel, it is heated so that its temperature rises by \u0394T and it just steps over the wheel. As it cools down to surrounding temperature, it presses the semicircular parts together. If the coefficient of linear expansion of the metal is \u03b1 , and its Youngs' modulus is Y , the force that one part of the wheel applies on the other part is :"
   },
   {
     "answer": "1",
@@ -647,7 +647,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q9_stem.png",
-    "stem_text": "Q9. A liquid in a beaker has temperature at time and is temperature of surroundings, then according to Newton's law of cooling the correct graph between and is \u03b8(t) t \u03b80 loge (\u03b8 \u2212\u03b80) t"
+    "stem_text": "Q9. A liquid in a beaker has temperature \u03b8(t) at time t and \u03b80 is temperature of surroundings, then according to Newton's law of cooling the correct graph between loge (\u03b8 \u2212\u03b80) and t is"
   },
   {
     "answer": "1",
@@ -719,7 +719,7 @@
       490.9522705078125
     ],
     "stem_snippet": "images/q10_stem.png",
-    "stem_text": "Q10.Helium gas goes through a cycle (consisting of two isochoric and two isobaric lines) as shown in figure. Efficiency of this cycle is nearly: (Assume the gas to be close to ideal gas) ABCDA"
+    "stem_text": "Q10.Helium gas goes through a cycle ABCDA (consisting of two isochoric and two isobaric lines) as shown in figure. Efficiency of this cycle is nearly: (Assume the gas to be close to ideal gas)"
   },
   {
     "answer": "3",
@@ -789,7 +789,7 @@
       582.4522705078125
     ],
     "stem_snippet": "images/q11_stem.png",
-    "stem_text": "Q11.A Carnot engine, whose efficiency is , takes in heat from a source maintained at a temperature of It is desired to have an engine of efficiency . Then, the intake temperature for the same exhaust (sink) temperature must be 40% 500 K 60%"
+    "stem_text": "Q11.A Carnot engine, whose efficiency is 40% , takes in heat from a source maintained at a temperature of 500 K It is desired to have an engine of efficiency 60% . Then, the intake temperature for the same exhaust (sink) temperature must be"
   },
   {
     "answer": "4",
@@ -859,7 +859,7 @@
       706.9522705078125
     ],
     "stem_snippet": "images/q12_stem.png",
-    "stem_text": "Q12.If a simple pendulum has significant amplitude (up to a factor of of original) only in the period between to , then may be called the average life of the pendulum. When the spherical bob of the pendulum suffers a retardation (due to viscous drag) proportional to its velocity, with ' ' as the constant of proportionality, the average life time of the pendulum is (assuming damping is small) in seconds: 1/e t = 0s t = \u03c4s \u03c4 b"
+    "stem_text": "Q12.If a simple pendulum has significant amplitude (up to a factor of 1/e of original) only in the period between t = 0s to t = \u03c4s , then \u03c4 may be called the average life of the pendulum. When the spherical bob of the pendulum suffers a retardation (due to viscous drag) proportional to its velocity, with ' b ' as the constant of proportionality, the average life time of the pendulum is (assuming damping is small) in seconds:"
   },
   {
     "answer": "1",
@@ -929,7 +929,7 @@
       108.4522705078125
     ],
     "stem_snippet": "images/q13_stem.png",
-    "stem_text": "Q13.A cylindrical tube, open at both ends, has a fundamental frequency, , in air. The tube is dipped vertically in water so that half of it is in water. The fundamental frequency of the air-column is now f"
+    "stem_text": "Q13.A cylindrical tube, open at both ends, has a fundamental frequency, f , in air. The tube is dipped vertically in water so that half of it is in water. The fundamental frequency of the air-column is now"
   },
   {
     "answer": "3",
@@ -1007,7 +1007,7 @@
       183.4522705078125
     ],
     "stem_snippet": "images/q14_stem.png",
-    "stem_text": "Q14.In a uniformly charged sphere of total charge and radius , the electric field is plotted as a function of distance from the centre. The graph which would correspond to the above will be Q R E"
+    "stem_text": "Q14.In a uniformly charged sphere of total charge Q and radius R , the electric field E is plotted as a function of distance from the centre. The graph which would correspond to the above will be"
   },
   {
     "answer": "3",
@@ -1023,7 +1023,7 @@
           567.4522705078125
         ],
         "snippet": "images/q15_opt1.png",
-        "text": "(1) Statement is true, Statement is true, Statement is not the correct explanation for statement . 1 2 2 1"
+        "text": "(1) Statement 1 is true, Statement 2 is true, Statement 2 is not the correct explanation for statement 1 ."
       },
       {
         "images": [],
@@ -1036,7 +1036,7 @@
           567.4522705078125
         ],
         "snippet": "images/q15_opt2.png",
-        "text": "(2) Statement is true, Statement is false 1 2"
+        "text": "(2) Statement 1 is true, Statement 2 is false"
       },
       {
         "images": [],
@@ -1049,7 +1049,7 @@
           803.4650268554688
         ],
         "snippet": "images/q15_opt3.png",
-        "text": "(3) Statement is false, Statement is true 1 2"
+        "text": "(3) Statement 1 is false, Statement 2 is true"
       },
       {
         "images": [],
@@ -1062,7 +1062,7 @@
           803.4650268554688
         ],
         "snippet": "images/q15_opt4.png",
-        "text": "(4) Statement is true, Statement is the correct explanation for statement 1 2 1"
+        "text": "(4) Statement 1 is true, Statement 2 is the correct explanation for statement 1"
       }
     ],
     "question_number": 15,
@@ -1077,7 +1077,7 @@
       517.9522705078125
     ],
     "stem_snippet": "images/q15_stem.png",
-    "stem_text": "Q15.This question has statement and statement . Of the four choices given after the statements, choose the one that best describes the two statements. An insulating solid sphere of radius has a uniformly positive charge density . As a result of this uniform charge distribution there is a finite value of electric potential at the centre of the sphere, at the surface of the sphere and also at a point out side the sphere. The electric potential at infinity is zero. Statement : When a charge is taken from the centre to the surface of the sphere, its potential energy changes by Statement : The electric field at a distance from the centre of the sphere is 1 2 R \u03c1 1 q qp 3\u03b50 2 r(r < R) \u03c1r 3\u03b50"
+    "stem_text": "Q15.This question has statement 1 and statement 2 . Of the four choices given after the statements, choose the one that best describes the two statements. An insulating solid sphere of radius R has a uniformly positive charge density \u03c1 . As a result of this uniform charge distribution there is a finite value of electric potential at the centre of the sphere, at the surface of the sphere and also at a point out side the sphere. The electric potential at infinity is zero. Statement 1 : When a charge q is taken from the centre to the surface of the sphere, its potential energy changes by qp Statement 2 : The electric field at a distance r(r < R) from the centre of the sphere is 3\u03b50 \u03c1r 3\u03b50"
   },
   {
     "answer": "4",
@@ -1093,7 +1093,7 @@
           264.4522705078125
         ],
         "snippet": "images/q16_opt1.png",
-        "text": "(1) and 150 sec 200 sec"
+        "text": "(1) 150 sec and 200 sec"
       },
       {
         "images": [],
@@ -1106,7 +1106,7 @@
           264.4522705078125
         ],
         "snippet": "images/q16_opt2.png",
-        "text": "(2) and 0 50 sec"
+        "text": "(2) 0 and 50 sec"
       },
       {
         "images": [],
@@ -1119,7 +1119,7 @@
           289.9522705078125
         ],
         "snippet": "images/q16_opt3.png",
-        "text": "(3) and 50 sec 100 sec"
+        "text": "(3) 50 sec and 100 sec"
       },
       {
         "images": [],
@@ -1132,7 +1132,7 @@
           289.9522705078125
         ],
         "snippet": "images/q16_opt4.png",
-        "text": "(4) and 100 sec 150 sec"
+        "text": "(4) 100 sec and 150 sec"
       }
     ],
     "question_number": 16,
@@ -1149,7 +1149,7 @@
       247.9522705078125
     ],
     "stem_snippet": "images/q16_stem.png",
-    "stem_text": "Q16.The figure shows an experimental plot for discharging of a capacitor in an circuit. The time constant of this circuit lies between: R \u2212C \u03c4"
+    "stem_text": "Q16.The figure shows an experimental plot for discharging of a capacitor in an R \u2212C circuit. The time constant \u03c4 of this circuit lies between:"
   },
   {
     "answer": "3",
@@ -1219,7 +1219,7 @@
       322.9522705078125
     ],
     "stem_snippet": "images/q17_stem.png",
-    "stem_text": "Q17.Two electric bulbs marked and are connected in series to a supply. Which of the bulbs will fuse? 25 W \u2212220 V 100 W \u2212220 V 440 V"
+    "stem_text": "Q17.Two electric bulbs marked 25 W \u2212220 V and 100 W \u2212220 V are connected in series to a 440 V supply. Which of the bulbs will fuse?"
   },
   {
     "answer": "1",
@@ -1297,7 +1297,7 @@
       447.4522705078125
     ],
     "stem_snippet": "images/q18_stem.png",
-    "stem_text": "Q18.A charge is uniformly distributed over the surface of non conducting disc of radius . The disc rotates about an axis perpendicular to its plane and passing through its centre with an angular velocity . As a result of this rotation a magnetic field of induction is obtained at the centre of the disc. If we keep both the amount of charge placed on the disc and its angular velocity to be constant and vary the radius of the disc then the variation of the magnetic induction at the centre of the disc will be represented by the figure Q R \u03c9 B"
+    "stem_text": "Q18.A charge Q is uniformly distributed over the surface of non conducting disc of radius R . The disc rotates about an axis perpendicular to its plane and passing through its centre with an angular velocity \u03c9 . As a result of this rotation a magnetic field of induction B is obtained at the centre of the disc. If we keep both the amount of charge placed on the disc and its angular velocity to be constant and vary the radius of the disc then the variation of the magnetic induction at the centre of the disc will be represented by the figure"
   },
   {
     "answer": "2",
@@ -1367,7 +1367,7 @@
       667.952392578125
     ],
     "stem_snippet": "images/q19_stem.png",
-    "stem_text": "Q19.Proton, Deuteron and alpha particle of the same kinetic energy are moving in circular trajectories in a constant magnetic field. The radii of proton, deuteron and alpha particle are respectively and . Which one of the following relations is correct? rp, rd r\u03b1"
+    "stem_text": "Q19.Proton, Deuteron and alpha particle of the same kinetic energy are moving in circular trajectories in a constant magnetic field. The radii of proton, deuteron and alpha particle are respectively rp, rd and r\u03b1 . Which one of the following relations is correct?"
   },
   {
     "answer": "4",
@@ -1453,7 +1453,7 @@
           221.7021484375
         ],
         "snippet": "images/q21_opt1.png",
-        "text": "(1) and X\u2225B k\u2225B \u00d7E"
+        "text": "(1) X\u2225B and k\u2225B \u00d7E"
       },
       {
         "images": [],
@@ -1466,7 +1466,7 @@
           221.7021484375
         ],
         "snippet": "images/q21_opt2.png",
-        "text": "(2) and X\u2225E k\u2225E \u00d7B"
+        "text": "(2) X\u2225E and k\u2225E \u00d7B"
       },
       {
         "images": [],
@@ -1479,7 +1479,7 @@
           247.9521484375
         ],
         "snippet": "images/q21_opt3.png",
-        "text": "(3) and X\u2225B k\u2225E \u00d7B"
+        "text": "(3) X\u2225B and k\u2225E \u00d7B"
       },
       {
         "images": [],
@@ -1492,7 +1492,7 @@
           247.9521484375
         ],
         "snippet": "images/q21_opt4.png",
-        "text": "(4) and X\u2225E k\u2225B \u00d7E"
+        "text": "(4) X\u2225E and k\u2225B \u00d7E"
       }
     ],
     "question_number": 21,
@@ -1507,7 +1507,7 @@
       204.4521484375
     ],
     "stem_snippet": "images/q21_stem.png",
-    "stem_text": "Q21.An electromagnetic wave in vacuum has the electric and magnetic fields and , which are always perpendicular to each other. The direction of polarization is given by and that of wave propagation by . Then : E B \u2192X \u2192 k"
+    "stem_text": "\u2192X Q21.An electromagnetic wave in vacuum has the electric and magnetic fields E and B , which are always \u2192 perpendicular to each other. The direction of polarization is given by and that of wave propagation by k . Then :"
   },
   {
     "answer": "4",
@@ -1577,7 +1577,7 @@
       297.4521484375
     ],
     "stem_snippet": "images/q22_stem.png",
-    "stem_text": "Q22.An object in front of a lens forms a sharp image on a film behind the lens. A glass plate thick, of refractive index is interposed between lens and film with its plane faces parallel to film. At what distance (from lens) should object be shifted to be in sharp focus on film? 2.4 m 12 cm 1 cm 1.50"
+    "stem_text": "Q22.An object 2.4 m in front of a lens forms a sharp image on a film 12 cm behind the lens. A glass plate 1 cm thick, of refractive index 1.50 is interposed between lens and film with its plane faces parallel to film. At what distance (from lens) should object be shifted to be in sharp focus on film?"
   },
   {
     "answer": "4",
@@ -1593,7 +1593,7 @@
           410.7021484375
         ],
         "snippet": "images/q23_opt1.png",
-        "text": "(1) Im 9 (4 + 5 cos \u03d5)"
+        "text": "(1) Im (4 + 5 cos \u03d5) 9"
       },
       {
         "images": [],
@@ -1606,7 +1606,7 @@
           410.7021484375
         ],
         "snippet": "images/q23_opt2.png",
-        "text": "(2) lm 3 (1 + 2 cos2 \u03d5 2 )"
+        "text": "(2) lm (1 cos2 \u03d5 ) + 2 3 2"
       },
       {
         "images": [],
@@ -1619,7 +1619,7 @@
           441.4521484375
         ],
         "snippet": "images/q23_opt3.png",
-        "text": "(3) Im 5 (1 + 4 cos2 \u03d5 2 )"
+        "text": "(3) Im (1 cos2 \u03d5 ) + 4 5 2"
       },
       {
         "images": [],
@@ -1632,7 +1632,7 @@
           441.4521484375
         ],
         "snippet": "images/q23_opt4.png",
-        "text": "(4) Im 9 (1 + 8 cos2 \u03d5 2 )"
+        "text": "(4) Im (1 cos2 \u03d5 ) + 8 9 2"
       }
     ],
     "question_number": 23,
@@ -1647,7 +1647,7 @@
       388.9521484375
     ],
     "stem_snippet": "images/q23_stem.png",
-    "stem_text": "Q23.In Young's double slit experiment, one of the slit is wider than other, so that the amplitude of the light from one slit is double of that from other slit. If be the maximum intensity, the resultant intensity I when they interfere at phase difference is given by Im \u03d5"
+    "stem_text": "Q23.In Young's double slit experiment, one of the slit is wider than other, so that the amplitude of the light from one slit is double of that from other slit. If Im be the maximum intensity, the resultant intensity I when they interfere at phase difference \u03d5 is given by"
   },
   {
     "answer": "3",
@@ -1663,7 +1663,7 @@
           507.4521484375
         ],
         "snippet": "images/q24_opt1.png",
-        "text": "(1) Statement is false, Statement is true 1 2"
+        "text": "(1) Statement 1 is false, Statement 2 is true"
       },
       {
         "images": [],
@@ -1676,7 +1676,7 @@
           507.4521484375
         ],
         "snippet": "images/q24_opt2.png",
-        "text": "(2) Statement is true, Statement is false 1 2"
+        "text": "(2) Statement 1 is true, Statement 2 is false"
       },
       {
         "images": [],
@@ -1689,7 +1689,7 @@
           565.9521484375
         ],
         "snippet": "images/q24_opt3.png",
-        "text": "(3) Statement is true, Statement is the correct explanation for statement 1 2 1"
+        "text": "(3) Statement 1 is true, Statement 2 is the correct explanation for statement 1"
       },
       {
         "images": [],
@@ -1702,7 +1702,7 @@
           565.9521484375
         ],
         "snippet": "images/q24_opt4.png",
-        "text": "(4) Statement is true, Statement is true, Statement is not the correct explanation for statement . 1 2 2 1"
+        "text": "(4) Statement 1 is true, Statement 2 is true, Statement 2 is not the correct explanation for statement 1 ."
       }
     ],
     "question_number": 24,
@@ -1717,7 +1717,7 @@
       490.9521484375
     ],
     "stem_snippet": "images/q24_stem.png",
-    "stem_text": "Q24.This question has statement and statement . Of the four choices given after the statements, choose the one that best describes the two statements Statement 1 : Davisson - germer experiment established the wave nature of electrons. Statement 2 : If electrons have wave nature, they can interfere and show diffraction. 1 2"
+    "stem_text": "Q24.This question has statement 1 and statement 2 . Of the four choices given after the statements, choose the one that best describes the two statements Statement 1 : Davisson - germer experiment established the wave nature of electrons. Statement 2 : If electrons have wave nature, they can interfere and show diffraction."
   },
   {
     "answer": "4",
@@ -1787,7 +1787,7 @@
       598.9521484375
     ],
     "stem_snippet": "images/q25_stem.png",
-    "stem_text": "Q25.Hydrogen atom is excited from ground state to another state with principal quantum number equal to . Then the number of spectral lines in the emission spectra will be 4"
+    "stem_text": "Q25.Hydrogen atom is excited from ground state to another state with principal quantum number equal to 4 . Then the number of spectral lines in the emission spectra will be"
   },
   {
     "answer": "4",
@@ -1857,7 +1857,7 @@
       690.4521484375
     ],
     "stem_snippet": "images/q26_stem.png",
-    "stem_text": "Q26.A diatomic molecule is made of two masses and which are separated by a distance . If we calculate its rotational energy by applying Bohr's rule of angular momentum quantization, its energy will be given by ( is an integer) m1 m2 r n"
+    "stem_text": "Q26.A diatomic molecule is made of two masses m1 and m2 which are separated by a distance r . If we calculate its rotational energy by applying Bohr's rule of angular momentum quantization, its energy will be given by ( n is an integer)"
   },
   {
     "answer": "1",
@@ -1927,7 +1927,7 @@
       108.45196533203125
     ],
     "stem_snippet": "images/q27_stem.png",
-    "stem_text": "Q27.Assume that a neutron breaks into a proton and an electron. The energy released during this process is (Mass of neutron mass of proton mass of electron = 1.6725 \u00d7 10\u221227 kg; = 1.6725 \u00d7 10\u221227 kg; = 9 \u00d7 10\u221231 kg)"
+    "stem_text": "Q27.Assume that a neutron breaks into a proton and an electron. The energy released during this process is (Mass of neutron = 1.6725 \u00d7 10\u221227 kg; mass of proton = 1.6725 \u00d7 10\u221227 kg; mass of electron = 9 \u00d7 10\u221231 kg)"
   },
   {
     "answer": "1",
@@ -2077,7 +2077,7 @@
       546.4519653320312
     ],
     "stem_snippet": "images/q29_stem.png",
-    "stem_text": "Q29.A radar has a power of and is operating at a frequency of . It is located on a mountain top of height . The maximum distance upto which it can detect object located on the surface of the earth (Radius of earth ) is 1 Kw 10 GHz 500 m = 6.4 \u00d7 106 m"
+    "stem_text": "Q29.A radar has a power of 1 Kw and is operating at a frequency of 10 GHz . It is located on a mountain top of height 500 m . The maximum distance upto which it can detect object located on the surface of the earth (Radius of earth = 6.4 \u00d7 106 m ) is"
   },
   {
     "answer": "3",
@@ -2147,7 +2147,7 @@
       654.4519653320312
     ],
     "stem_snippet": "images/q30_stem.png",
-    "stem_text": "Q30.A spectrometer gives the following reading when used to measure the angle of a prism. Main scale reading: degree Vernier scale reading : divisions Given that division on main scale corresponds to degree. Total divisions on the vernier scale is and match with divisions of the main scale. The angle of the prism from the above data 58.5 09 1 0.5 30 29"
+    "stem_text": "Q30.A spectrometer gives the following reading when used to measure the angle of a prism. Main scale reading: 58.5 degree Vernier scale reading : 09 divisions Given that 1 division on main scale corresponds to 0.5 degree. Total divisions on the vernier scale is 30 and match with 29 divisions of the main scale. The angle of the prism from the above data"
   },
   {
     "answer": "4",
@@ -2217,7 +2217,7 @@
       729.4519653320312
     ],
     "stem_snippet": "images/q31_stem.png",
-    "stem_text": "Q31.The density of a solution prepared by dissolving of urea (mol. Mass ) in of water is . The molarity of this solution is : 120 g = 60u 1000 g 1.15 g/mL"
+    "stem_text": "Q31.The density of a solution prepared by dissolving 120 g of urea (mol. Mass = 60u ) in 1000 g of water is 1.15 g/mL . The molarity of this solution is :"
   },
   {
     "answer": "2",
@@ -2233,7 +2233,7 @@
           124.95196533203125
         ],
         "snippet": "images/q32_opt1.png",
-        "text": "(1) (c) (d) (b) (a) < < <"
+        "text": "(1) (c) < (d) < (b) < (a)"
       },
       {
         "images": [],
@@ -2246,7 +2246,7 @@
           124.95196533203125
         ],
         "snippet": "images/q32_opt2.png",
-        "text": "(2) (d) (b) (c) (a) < < <"
+        "text": "(2) (d) < (b) < (c) < (a)"
       },
       {
         "images": [],
@@ -2259,7 +2259,7 @@
           150.45196533203125
         ],
         "snippet": "images/q32_opt3.png",
-        "text": "(3) (b) (d) (a) (c) < < <"
+        "text": "(3) (b) < (d) < (a) < (c)"
       },
       {
         "images": [],
@@ -2272,7 +2272,7 @@
           150.45196533203125
         ],
         "snippet": "images/q32_opt4.png",
-        "text": "(4) (a) (c) (b) (d) < < <"
+        "text": "(4) (a) < (c) < (b) < (d)"
       }
     ],
     "question_number": 32,
@@ -2287,7 +2287,7 @@
       108.45196533203125
     ],
     "stem_snippet": "images/q32_stem.png",
-    "stem_text": "Q32.The electrons identified by quantum numbers and : (a) (b) (c) (d) Can be placed in order of increasing energy as: n I n = 4, I = 1 n = 4, l = 0 n = 3, I = 2 n = 3, I = 1"
+    "stem_text": "Q32.The electrons identified by quantum numbers n and I : (a) n = 4, I = 1 (b) n = 4, l = 0 (c) n = 3, I = 2 (d) n = 3, I = 1 Can be placed in order of increasing energy as:"
   },
   {
     "answer": "3",
@@ -2443,7 +2443,7 @@
           300.45196533203125
         ],
         "snippet": "images/q35_opt1.png",
-        "text": "(1) and CO2\u2212 3 NO\u2212 3"
+        "text": "(1) CO2\u2212 and NO\u2212 3 3"
       },
       {
         "images": [],
@@ -2456,7 +2456,7 @@
           300.45196533203125
         ],
         "snippet": "images/q35_opt2.png",
-        "text": "(2) and PCl+ 4 SiCl4"
+        "text": "(2) PCl+ and SiCl4 4"
       },
       {
         "images": [],
@@ -2469,7 +2469,7 @@
           325.95196533203125
         ],
         "snippet": "images/q35_opt3.png",
-        "text": "(3) and PF5 BrF5"
+        "text": "(3) PF5 and BrF5"
       },
       {
         "images": [],
@@ -2482,7 +2482,7 @@
           325.95196533203125
         ],
         "snippet": "images/q35_opt4.png",
-        "text": "(4) and AlF3\u2212 6 SF6"
+        "text": "(4) AlF3\u2212 and SF6 6"
       }
     ],
     "question_number": 35,
@@ -2583,7 +2583,7 @@
           419.70196533203125
         ],
         "snippet": "images/q37_opt1.png",
-        "text": "(1) \u0394Gsystem \u0394Stotal = \u2212T"
+        "text": "(1) \u0394Gsystem = \u2212T \u0394Stotal"
       },
       {
         "images": [],
@@ -2596,7 +2596,7 @@
           419.70196533203125
         ],
         "snippet": "images/q37_opt2.png",
-        "text": "(2) In isothermal process wreversible = \u2212nRT ln Vf Vi"
+        "text": "(2) In isothermal process Vf wreversible = \u2212nRT ln Vi"
       },
       {
         "images": [],
@@ -2609,7 +2609,7 @@
           445.20196533203125
         ],
         "snippet": "images/q37_opt3.png",
-        "text": "(3) ln K = \u0394H0\u2212T\u0394S0 RT"
+        "text": "(3) \u0394H0\u2212T\u0394S0 ln K = RT"
       },
       {
         "images": [],
@@ -2707,7 +2707,7 @@
       478.20196533203125
     ],
     "stem_snippet": "images/q38_stem.png",
-    "stem_text": "Q38.The equilibrium constant for the reaction at temperature is . The value of for the reaction, at the same temperature is : (Kc) N2(g) + O2( g) \u21922NO(g) T 4 \u00d7 10\u22124 Kc NO(g) \u21921/2 N2(g) + 1/2 O2(g)"
+    "stem_text": "Q38.The equilibrium constant (Kc) for the reaction N2(g) + O2( g) \u21922NO(g) at temperature T is 4 \u00d7 10\u22124 . The value of Kc for the reaction, NO(g) \u21921/2 N2(g) + 1/2 O2(g) at the same temperature is :"
   },
   {
     "answer": "3",
@@ -2777,7 +2777,7 @@
       536.7019653320312
     ],
     "stem_snippet": "images/q39_stem.png",
-    "stem_text": "Q39.The pH of a molar solution of the acid is . The value of the ionization constant, Ka of this acid is : 0.1 HQ 3"
+    "stem_text": "Q39.The pH of a 0.1 molar solution of the acid HQ is 3 . The value of the ionization constant, Ka of this acid is :"
   },
   {
     "answer": "3",
@@ -2847,7 +2847,7 @@
       595.2019653320312
     ],
     "stem_snippet": "images/q40_stem.png",
-    "stem_text": "Q40.Very pure hydrogen can be made by which of the following processes? (99.9%)"
+    "stem_text": "Q40.Very pure hydrogen (99.9%) can be made by which of the following processes?"
   },
   {
     "answer": "3",
@@ -2933,7 +2933,7 @@
           107.70208740234375
         ],
         "snippet": "images/q42_opt1.png",
-        "text": "(1) Nitrophenol is more volatile in steam than those of and isomers o\u2212 m\u2212 p\u2212"
+        "text": "(1) o\u2212 Nitrophenol is more volatile in steam than those of m\u2212 and p\u2212 isomers"
       },
       {
         "images": [],
@@ -2946,7 +2946,7 @@
           107.70208740234375
         ],
         "snippet": "images/q42_opt2.png",
-        "text": "(2) Nitrophenol shows Intramolecular bonding o\u2212 H\u2212"
+        "text": "(2) o\u2212 Nitrophenol shows Intramolecular H\u2212 bonding"
       },
       {
         "images": [],
@@ -2959,7 +2959,7 @@
           149.70208740234375
         ],
         "snippet": "images/q42_opt3.png",
-        "text": "(3) Nitrophenol shows Intermolecular bonding o\u2212 H\u2212"
+        "text": "(3) o\u2212 Nitrophenol shows Intermolecular H\u2212 bonding"
       },
       {
         "images": [],
@@ -2972,7 +2972,7 @@
           149.70208740234375
         ],
         "snippet": "images/q42_opt4.png",
-        "text": "(4) Melting point of Nitrophenol is lower than those of and isomers. o\u2212 m\u2212 p\u2212"
+        "text": "(4) Melting point of o\u2212 Nitrophenol is lower than those of m\u2212 and p\u2212 isomers."
       }
     ],
     "question_number": 42,
@@ -2987,7 +2987,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q42_stem.png",
-    "stem_text": "Q42.Ortho-Nitrophenol is less soluble in water than and Nitrophenols because : p\u2212 m\u2212"
+    "stem_text": "Q42.Ortho-Nitrophenol is less soluble in water than p\u2212 and m\u2212 Nitrophenols because :"
   },
   {
     "answer": "2",
@@ -3057,7 +3057,7 @@
       166.20208740234375
     ],
     "stem_snippet": "images/q43_stem.png",
-    "stem_text": "Q43. Hexyne gives trans Hexene on treatment with : 2\u2212 \u22122\u2212"
+    "stem_text": "Q43. 2\u2212 Hexyne gives trans \u22122\u2212 Hexene on treatment with :"
   },
   {
     "answer": "4",
@@ -3197,7 +3197,7 @@
       299.70208740234375
     ],
     "stem_snippet": "images/q45_stem.png",
-    "stem_text": "Q45.Lithium forms body centred cubic structure. The length of the side of its unit cell is . Atomic radius of the lithium will be: 351pm"
+    "stem_text": "Q45.Lithium forms body centred cubic structure. The length of the side of its unit cell is 351pm . Atomic radius of the lithium will be:"
   },
   {
     "answer": "2",
@@ -3267,7 +3267,7 @@
       374.70208740234375
     ],
     "stem_snippet": "images/q46_stem.png",
-    "stem_text": "Q46. for water is . If your automobile radiator holds of water, how many grams of ethylene glycol must you add to get the freezing point of the solution lowered to ? Kf 1.86 K kg mol\u22121 1.0 kg (C2H6O2) \u22122.8\u2218C"
+    "stem_text": "Q46. Kf for water is 1.86 K kg mol\u22121 . If your automobile radiator holds 1.0 kg of water, how many grams of ethylene glycol (C2H6O2) must you add to get the freezing point of the solution lowered to \u22122.8\u2218C ?"
   },
   {
     "answer": "4",
@@ -3337,7 +3337,7 @@
       449.70208740234375
     ],
     "stem_snippet": "images/q47_stem.png",
-    "stem_text": "Q47.The standard reduction potentials for , and are and respectively. The reaction will be spontaneous when: Zn2+/Zn, Ni2+/Ni Fe2+/Fe \u22120.76, \u22120.23 \u22120.44 V X + Y2+ \u2192X2+ + Y"
+    "stem_text": "Q47.The standard reduction potentials for Zn2+/Zn, Ni2+/Ni , and Fe2+/Fe are \u22120.76, \u22120.23 and \u22120.44 V respectively. The reaction X + Y2+ \u2192X2+ + Y will be spontaneous when:"
   },
   {
     "answer": "2",
@@ -3407,7 +3407,7 @@
       524.7020874023438
     ],
     "stem_snippet": "images/q48_stem.png",
-    "stem_text": "Q48.For a first order reaction, products, the concentration of changes from to in minutes. The rate of reaction when the concentration of is is : (A) \u2192 A 0.1 M 0.025 M 40 A 0.01 M"
+    "stem_text": "Q48.For a first order reaction, (A) \u2192 products, the concentration of A changes from 0.1 M to 0.025 M in 40 minutes. The rate of reaction when the concentration of A is 0.01 M is :"
   },
   {
     "answer": "4",
@@ -3423,7 +3423,7 @@
           599.7020874023438
         ],
         "snippet": "images/q49_opt1.png",
-        "text": "(1) x m \u221dP 0"
+        "text": "(1) x \u221dP 0 m"
       },
       {
         "images": [],
@@ -3436,7 +3436,7 @@
           599.7020874023438
         ],
         "snippet": "images/q49_opt2.png",
-        "text": "(2) x m \u221dp1"
+        "text": "(2) x \u221dp1 m"
       },
       {
         "images": [],
@@ -3449,7 +3449,7 @@
           641.7020874023438
         ],
         "snippet": "images/q49_opt3.png",
-        "text": "(3) x m \u221dp1/n"
+        "text": "(3) x \u221dp1/n m"
       },
       {
         "images": [],
@@ -3547,7 +3547,7 @@
       677.7020874023438
     ],
     "stem_snippet": "images/q50_stem.png",
-    "stem_text": "Q50.Which method of purification is represented by the following equation: Ti(s) + 2I2(g) 523 K \u27f6TiI4(g) 1700 K \u27f6Ti(s) + 2I2(g)"
+    "stem_text": "Q50.Which method of purification is represented by the following equation: 523 \u27f6TiI4(g) K 1700 \u27f6Ti(s) K Ti(s) + 2I2(g) + 2I2(g)"
   },
   {
     "answer": "4",
@@ -3617,7 +3617,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q51_stem.png",
-    "stem_text": "Q51.Iron exhibits and oxidation states. Which of the following statements about iron is incorrect? +2 +3"
+    "stem_text": "Q51.Iron exhibits +2 and +3 oxidation states. Which of the following statements about iron is incorrect?"
   },
   {
     "answer": "2",
@@ -3757,7 +3757,7 @@
       224.70208740234375
     ],
     "stem_snippet": "images/q53_stem.png",
-    "stem_text": "Q53.How many chiral compounds are possible on monochlorination of methyl butane ? 2\u2212"
+    "stem_text": "Q53.How many chiral compounds are possible on monochlorination of 2\u2212 methyl butane ?"
   },
   {
     "answer": "2",
@@ -3827,7 +3827,7 @@
       299.70208740234375
     ],
     "stem_snippet": "images/q54_stem.png",
-    "stem_text": "Q54.Which branched chain isomer of the hydrocarbon with molecular mass gives only one isomer of mono substituted alky halide? 72 u"
+    "stem_text": "Q54.Which branched chain isomer of the hydrocarbon with molecular mass 72 u gives only one isomer of mono substituted alky halide?"
   },
   {
     "answer": "2",
@@ -3939,7 +3939,7 @@
           458.70208740234375
         ],
         "snippet": "images/q56_opt3.png",
-        "text": "(3) Methyl butanone 3\u2212 \u22122\u2212"
+        "text": "(3) 3\u2212 Methyl \u22122\u2212 butanone"
       },
       {
         "images": [],
@@ -3983,7 +3983,7 @@
           632.7020874023438
         ],
         "snippet": "images/q57_opt1.png",
-        "text": "(1) NH2NH2, (\u2212) OH"
+        "text": "(1) (\u2212) NH2NH2, OH"
       },
       {
         "images": [],
@@ -4009,7 +4009,7 @@
           658.2020874023438
         ],
         "snippet": "images/q57_opt3.png",
-        "text": "(3) , Liq. Na NH3"
+        "text": "(3) Na , Liq. NH3"
       },
       {
         "images": [],
@@ -4319,7 +4319,7 @@
       167.70166015625
     ],
     "stem_snippet": "images/q61_stem.png",
-    "stem_text": "Q61.If and is real, then the point represented by the complex number lies z \u22601 z2 z\u22121 z"
+    "stem_text": "Q61.If and z2 is real, then the point represented by the complex number lies z \u22601 z z\u22121"
   },
   {
     "answer": "4",
@@ -4389,7 +4389,7 @@
       275.70166015625
     ],
     "stem_snippet": "images/q62_stem.png",
-    "stem_text": "Q62.Assuming the balls to be identical except for difference in colours, the number of ways in which one or more balls can be selected from white, green and black balls is 10 9 7"
+    "stem_text": "Q62.Assuming the balls to be identical except for difference in colours, the number of ways in which one or more balls can be selected from 10 white, 9 green and 7 black balls is"
   },
   {
     "answer": "2",
@@ -4459,7 +4459,7 @@
       350.70166015625
     ],
     "stem_snippet": "images/q63_stem.png",
-    "stem_text": "Q63.Let . The number of different ordered pairs that can be formed such that and is empty, is X = {1, 2, 3, 4, 5} (Y , Z) Y \u2286X, Z \u2286X Y \u2229Z"
+    "stem_text": "Q63.Let X = {1, 2, 3, 4, 5} . The number of different ordered pairs (Y , Z) that can be formed such that Y \u2286X, Z \u2286X and Y \u2229Z is empty, is"
   },
   {
     "answer": "2",
@@ -4475,7 +4475,7 @@
           475.20166015625
         ],
         "snippet": "images/q64_opt1.png",
-        "text": "(1) Statement is false, statement is true. 1 2"
+        "text": "(1) Statement 1 is false, statement 2 is true."
       },
       {
         "images": [],
@@ -4488,7 +4488,7 @@
           475.20166015625
         ],
         "snippet": "images/q64_opt2.png",
-        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement 1 2 2 1"
+        "text": "(2) Statement 1 is true, statement 2 is true; statement 2 is a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -4501,7 +4501,7 @@
           517.20166015625
         ],
         "snippet": "images/q64_opt3.png",
-        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement 1 2 2 1"
+        "text": "(3) Statement 1 is true, statement 2 is true; statement 2 is not a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -4514,7 +4514,7 @@
           517.20166015625
         ],
         "snippet": "images/q64_opt4.png",
-        "text": "(4) Statement is true, statement is false 1 2"
+        "text": "(4) Statement 1 is true, statement 2 is false"
       }
     ],
     "question_number": 64,
@@ -4529,7 +4529,7 @@
       442.20166015625
     ],
     "stem_snippet": "images/q64_stem.png",
-    "stem_text": "Q64.Statement : The sum of the series is . Statement : for any natural number . 1 1 + (1 + 2 + 4) + (4 + 6 + 9) + (9 + 12 + 16) + \u2026 \u2026 + (361 + 380 + 400) 8000 2 \u2211n k=1 (k3 \u2212(k \u22121)3) = n3 n"
+    "stem_text": "Q64.Statement 1 : The sum of the series 1 + (1 + 2 + 4) + (4 + 6 + 9) + (9 + 12 + 16) + \u2026 \u2026 + (361 + 380 + 400) is 8000 . Statement 2 : \u2211n (k3 \u2212(k \u22121)3) = n3 for any natural number n . k=1"
   },
   {
     "answer": "4",
@@ -4558,7 +4558,7 @@
           566.70166015625
         ],
         "snippet": "images/q65_opt2.png",
-        "text": "(2) times its term 150 50th"
+        "text": "(2) 150 times its 50th term"
       },
       {
         "images": [],
@@ -4599,7 +4599,7 @@
       550.20166015625
     ],
     "stem_snippet": "images/q65_stem.png",
-    "stem_text": "Q65.If times the term of an with non zero common difference equals the times its term, then the term of this is 100 100th AP 50 50th 150th AP"
+    "stem_text": "Q65.If 100 times the 100th term of an AP with non zero common difference equals the 50 times its 50th term, then the 150th term of this AP is"
   },
   {
     "answer": "1",
@@ -4669,7 +4669,7 @@
       608.70166015625
     ],
     "stem_snippet": "images/q66_stem.png",
-    "stem_text": "Q66.If is a positive integer, then is n (\u221a3 + 1)2n \u2212(\u221a3 \u22121)2n"
+    "stem_text": "Q66.If n is a positive integer, then (\u221a3 + 1)2n \u2212(\u221a3 \u22121)2n is"
   },
   {
     "answer": "2",
@@ -4739,7 +4739,7 @@
       667.20166015625
     ],
     "stem_snippet": "images/q67_stem.png",
-    "stem_text": "Q67.The equation has esin x \u2212e\u2212sin x \u22124 = 0"
+    "stem_text": "Q67.The equation esin x \u2212e\u2212sin x \u22124 = 0 has"
   },
   {
     "answer": "3",
@@ -4809,7 +4809,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q68_stem.png",
-    "stem_text": "Q68.If the line passes through the point which divides the line segment joining the points and in the ratio , then equals 2x + y = k (1, 1) (2, 4) 3 : 2 k"
+    "stem_text": "Q68.If the line 2x + y = k passes through the point which divides the line segment joining the points (1, 1) and (2, 4) in the ratio 3 : 2 , then k equals"
   },
   {
     "answer": "3",
@@ -4879,7 +4879,7 @@
       149.7021484375
     ],
     "stem_snippet": "images/q69_stem.png",
-    "stem_text": "Q69.A line is drawn through the point to meet the coordinate axes at and such that it forms a triangle , where is the origin. If the area of the triangle is least, then the slope of the line is (1, 2) P Q OPQ O OPQ PQ"
+    "stem_text": "Q69.A line is drawn through the point (1, 2) to meet the coordinate axes at P and Q such that it forms a triangle OPQ , where O is the origin. If the area of the triangle OPQ is least, then the slope of the line PQ is"
   },
   {
     "answer": "1",
@@ -4949,7 +4949,7 @@
       224.7021484375
     ],
     "stem_snippet": "images/q70_stem.png",
-    "stem_text": "Q70.The length of the diameter of the circle which touches the -axis at the point and passes through the point is x (1, 0) (2, 3)"
+    "stem_text": "Q70.The length of the diameter of the circle which touches the x -axis at the point (1, 0) and passes through the point (2, 3) is"
   },
   {
     "answer": "2",
@@ -4965,7 +4965,7 @@
           350.7021484375
         ],
         "snippet": "images/q71_opt1.png",
-        "text": "(1) Statement is false, statement is true 1 2"
+        "text": "(1) Statement 1 is false, statement 2 is true"
       },
       {
         "images": [],
@@ -4978,7 +4978,7 @@
           350.7021484375
         ],
         "snippet": "images/q71_opt2.png",
-        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement 1 2 2 1"
+        "text": "(2) Statement 1 is true, statement 2 is true; statement 2 is a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -4991,7 +4991,7 @@
           392.7021484375
         ],
         "snippet": "images/q71_opt3.png",
-        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement 1 2 2 1"
+        "text": "(3) Statement 1 is true, statement 2 is true; statement 2 is not a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -5004,7 +5004,7 @@
           392.7021484375
         ],
         "snippet": "images/q71_opt4.png",
-        "text": "(4) Statement is true, statement is false 1 2"
+        "text": "(4) Statement 1 is true, statement 2 is false"
       }
     ],
     "question_number": 71,
@@ -5019,7 +5019,7 @@
       317.7021484375
     ],
     "stem_snippet": "images/q71_stem.png",
-    "stem_text": "Q71.Statement : An equation of a common tangent to the parabola and the ellipse is . Statement : If the line is a common tangent to the parabola and the ellipse , then satisfies . 1 y2 = 16\u221a3x 2x2 + y2 = 4 y = 2x + 2\u221a3 2 y = mx + 4\u221a3 m , (m \u22600) y2 = 16\u221a3x 2x2 + y2 = 4 m m4 + 2m2 = 24"
+    "stem_text": "Q71.Statement 1 : An equation of a common tangent to the parabola y2 = 16\u221a3x and the ellipse 2x2 + y2 = 4 is y = 2x + 2\u221a3 . Statement 2 : If the line y = mx + 4\u221a3 , (m \u22600) is a common tangent to the parabola m y2 = 16\u221a3x and the ellipse 2x2 + y2 = 4 , then m satisfies m4 + 2m2 = 24 ."
   },
   {
     "answer": "4",
@@ -5089,7 +5089,7 @@
       442.2021484375
     ],
     "stem_snippet": "images/q72_stem.png",
-    "stem_text": "Q72.An ellipse is drawn by taking a diameter of the circle as its semiminor axis and a diameter of the circle as its semi-major axis. If the centre of the ellipse is the origin and its axes are the coordinate axes, then the equation of the ellipse is (x \u22121)2 + y2 = 1 x2 + (y \u22122)2 = 4"
+    "stem_text": "Q72.An ellipse is drawn by taking a diameter of the circle (x \u22121)2 + y2 = 1 as its semiminor axis and a diameter of the circle x2 + (y \u22122)2 = 4 as its semi-major axis. If the centre of the ellipse is the origin and its axes are the coordinate axes, then the equation of the ellipse is"
   },
   {
     "answer": "1",
@@ -5175,7 +5175,7 @@
           658.2021484375
         ],
         "snippet": "images/q74_opt1.png",
-        "text": "(1) Statement is false, statement is true 1 2"
+        "text": "(1) Statement 1 is false, statement 2 is true"
       },
       {
         "images": [],
@@ -5188,7 +5188,7 @@
           658.2021484375
         ],
         "snippet": "images/q74_opt2.png",
-        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement 1 2 2 1"
+        "text": "(2) Statement 1 is true, statement 2 is true; statement 2 is a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -5201,7 +5201,7 @@
           700.2021484375
         ],
         "snippet": "images/q74_opt3.png",
-        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement 1 2 2 1"
+        "text": "(3) Statement 1 is true, statement 2 is true; statement 2 is not a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -5214,7 +5214,7 @@
           700.2021484375
         ],
         "snippet": "images/q74_opt4.png",
-        "text": "(4) Statement is true, statement is false 1 2"
+        "text": "(4) Statement 1 is true, statement 2 is false"
       }
     ],
     "question_number": 74,
@@ -5229,7 +5229,7 @@
       625.2021484375
     ],
     "stem_snippet": "images/q74_stem.png",
-    "stem_text": "Q74.Let be observations, and let be their arithematic mean and be their variance. Statement : Variance of is . Statement : Arithmetic mean of is . x1, x2, \u2026 \u2026 , xn n \u2013x \u03c32 1 2x1, 2x2, \u2026 \u2026 , 2xn 4\u03c32 2 2x1, 2x2, \u2026 . . , 2xn 4\u2013x"
+    "stem_text": "Q74.Let be observations, and let \u2013x be their arithematic mean and \u03c32 be their variance. x1, x2, \u2026 \u2026 , xn n Statement 1 : Variance of 2x1, 2x2, \u2026 \u2026 , 2xn is 4\u03c32 . Statement 2 : Arithmetic mean of 2x1, 2x2, \u2026 . . , 2xn is 4\u2013x ."
   },
   {
     "answer": "2",
@@ -5299,7 +5299,7 @@
       716.7021484375
     ],
     "stem_snippet": "images/q75_stem.png",
-    "stem_text": "Q75.In a , if and , then the angle is equal to \u0394PQR 3 sin P + 4 cos Q = 6 4 sin Q + 3 cos P = 1 R"
+    "stem_text": "Q75.In a \u0394PQR , if 3 sin P + 4 cos Q = 6 and 4 sin Q + 3 cos P = 1 , then the angle R is equal to"
   },
   {
     "answer": "4",
@@ -5315,7 +5315,7 @@
           179.7022705078125
         ],
         "snippet": "images/q76_opt1.png",
-        "text": "(1) \u239c\u239f \u239b \u239c \u239d \u22121 1 0 \u239e \u239f \u23a0 \u239c\u239f"
+        "text": "\u239c\u239f \u239c \u239f \u239c\u239f (1) \u239b \u22121 \u239e 1 \u239d \u23a0 0"
       },
       {
         "images": [],
@@ -5328,7 +5328,7 @@
           179.7022705078125
         ],
         "snippet": "images/q76_opt2.png",
-        "text": "(2) \u239c\u239f\u239c\u239f \u239b \u239c \u239d \u22121 1 \u22121 \u239e \u239f \u23a0 \u239c\u239f"
+        "text": "\u239c\u239f\u239c\u239f \u239c \u239f \u239c\u239f (2) \u239b \u22121 \u239e 1 \u239d \u23a0 \u22121"
       },
       {
         "images": [],
@@ -5341,7 +5341,7 @@
           232.2022705078125
         ],
         "snippet": "images/q76_opt3.png",
-        "text": "(3) \u239c\u239f\u239c\u239f \u239b \u239c \u239d \u22121 \u22121 0 \u239e \u239f \u23a0"
+        "text": "\u239c\u239f\u239c\u239f \u239c \u239f (3) \u239b \u22121 \u239e \u22121 \u239d \u23a0 0"
       },
       {
         "images": [],
@@ -5354,7 +5354,7 @@
           232.2022705078125
         ],
         "snippet": "images/q76_opt4.png",
-        "text": "(4) \u239c\u239f\u239c\u239f\u239c\u239f \u239b \u239c \u239d 1 \u22121 \u22121 \u239e \u239f \u23a0"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f \u239c \u239f (4) \u239b 1 \u239e \u22121 \u239d \u23a0 \u22121"
       }
     ],
     "question_number": 76,
@@ -5369,7 +5369,7 @@
       135.4522705078125
     ],
     "stem_snippet": "images/q76_stem.png",
-    "stem_text": "Q76. Let . If and are column matrices such that and , then is equal to A = \u239b \u239c \u239d 1 0 0 2 1 0 3 2 1 \u239e \u239f \u23a0 u1 u2 Au1 = \u239b \u239c \u239d 1 0 0 \u239e \u239f \u23a0 Au2 = \u239b \u239c \u239d 0 1 0 \u239e \u239f \u23a0 u1 + u2 \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f"
+    "stem_text": "\u239c \u239f \u239c \u239f \u239c \u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f Q76. \u239b 1 0 0 \u239e \u239b 1 \u239e \u239b 0 \u239e Let A = 2 1 0 . If u1 and u2 are column matrices such that Au1 = 0 and Au2 = 1 , then \u239d \u23a0 \u239d \u23a0 \u239d \u23a0 3 2 1 0 0 u1 + u2 is equal to"
   },
   {
     "answer": "3",
@@ -5385,7 +5385,7 @@
           281.7022705078125
         ],
         "snippet": "images/q77_opt1.png",
-        "text": "(1) \u239c\u239f\u239c\u239f\u239c\u239f \u22122"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f (1) \u22122"
       },
       {
         "images": [],
@@ -5398,7 +5398,7 @@
           281.7022705078125
         ],
         "snippet": "images/q77_opt2.png",
-        "text": "(2) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 1"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (2) 1"
       },
       {
         "images": [],
@@ -5411,7 +5411,7 @@
           307.2022705078125
         ],
         "snippet": "images/q77_opt3.png",
-        "text": "(3) \u239c\u239f\u239c\u239f\u239c\u239f 0"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f (3) 0"
       },
       {
         "images": [],
@@ -5424,7 +5424,7 @@
           307.2022705078125
         ],
         "snippet": "images/q77_opt4.png",
-        "text": "(4) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f \u22121"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (4) \u22121"
       }
     ],
     "question_number": 77,
@@ -5439,7 +5439,7 @@
       265.2022705078125
     ],
     "stem_snippet": "images/q77_stem.png",
-    "stem_text": "Q77.Let and be matrices with . If and , then determinant of is equal to \u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f P Q 3 \u00d7 3 P \u2260Q P 3 = Q3 P 2Q = Q2P (P 2 + Q2)"
+    "stem_text": "\u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f Q77.Let P and Q be 3 \u00d7 3 matrices with P \u2260Q . If P 3 = Q3 and P 2Q = Q2P , then determinant of (P 2 + Q2) is equal to"
   },
   {
     "answer": "1",
@@ -5455,7 +5455,7 @@
           356.7022705078125
         ],
         "snippet": "images/q78_opt1.png",
-        "text": "(1) continuous for every real \u239c\u239f\u239c\u239f\u239c\u239f x"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f (1) continuous for every real x"
       },
       {
         "images": [],
@@ -5468,7 +5468,7 @@
           356.7022705078125
         ],
         "snippet": "images/q78_opt2.png",
-        "text": "(2) discontinuous only at \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f x = 0"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (2) discontinuous only at x = 0"
       },
       {
         "images": [],
@@ -5481,7 +5481,7 @@
           398.7022705078125
         ],
         "snippet": "images/q78_opt3.png",
-        "text": "(3) discontinuous only at non-zero integral values of\u239c\u239f\u239c\u239f\u239c\u239f x"
+        "text": "of\u239c\u239f\u239c\u239f\u239c\u239f (3) discontinuous only at non-zero integral values x"
       },
       {
         "images": [],
@@ -5494,7 +5494,7 @@
           398.7022705078125
         ],
         "snippet": "images/q78_opt4.png",
-        "text": "(4) continuous only at \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f x = 0"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (4) continuous only at x = 0"
       }
     ],
     "question_number": 78,
@@ -5509,7 +5509,7 @@
       340.2022705078125
     ],
     "stem_snippet": "images/q78_stem.png",
-    "stem_text": "Q78.If is a function defined by , where denotes the greatest integer function, then is\u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f f : R \u2192R f(x) = [x] cos ( 2x\u22121 2 )\u03c0 [x] f"
+    "stem_text": "is\u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f Q78.If f : R \u2192R is a function defined by f(x) = [x] cos ( 2x\u22121 )\u03c0 , where [x] denotes the greatest integer function, 2 then f"
   },
   {
     "answer": "2",
@@ -5525,7 +5525,7 @@
           464.7022705078125
         ],
         "snippet": "images/q79_opt1.png",
-        "text": "(1) Statement is false, statement is true\u239c\u239f\u239c\u239f\u239c\u239f 1 2"
+        "text": "true\u239c\u239f\u239c\u239f\u239c\u239f (1) Statement 1 is false, statement 2 is"
       },
       {
         "images": [],
@@ -5538,7 +5538,7 @@
           464.7022705078125
         ],
         "snippet": "images/q79_opt2.png",
-        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 1 2 2 1"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (2) Statement 1 is true, statement 2 is true; statement 2 is a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -5551,7 +5551,7 @@
           506.7022705078125
         ],
         "snippet": "images/q79_opt3.png",
-        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement \u239c\u239f\u239c\u239f\u239c\u239f 1 2 2 1"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f (3) Statement 1 is true, statement 2 is true; statement 2 is not a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -5564,7 +5564,7 @@
           506.7022705078125
         ],
         "snippet": "images/q79_opt4.png",
-        "text": "(4) Statement is true, statement is false\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 1 2"
+        "text": "false\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (4) Statement 1 is true, statement 2 is"
       }
     ],
     "question_number": 79,
@@ -5608,7 +5608,7 @@
           572.7022705078125
         ],
         "snippet": "images/q80_opt2.png",
-        "text": "(2) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 7 9"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (2) 7 9"
       },
       {
         "images": [],
@@ -5634,7 +5634,7 @@
           598.9522705078125
         ],
         "snippet": "images/q80_opt4.png",
-        "text": "(4) \u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f 9 2"
+        "text": "\u239c\u239f\u239c\u239f\u239c\u239f\u239c\u239f (4) 9 2"
       }
     ],
     "question_number": 80,
@@ -5649,7 +5649,7 @@
       556.2022705078125
     ],
     "stem_snippet": "images/q80_stem.png",
-    "stem_text": "Q80.A spherical balloon is filled with cubic meters of helium gas. If a leak in the balloon causes the gas to escape at the rate of cubic meters per minute, then the rate (in meters per minute) at which the radius of the balloon decreases minutes after the leakage began is \u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f 4500 \u03c0 72 \u03c0 49"
+    "stem_text": "\u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f Q80.A spherical balloon is filled with 4500 \u03c0 cubic meters of helium gas. If a leak in the balloon causes the gas to escape at the rate of 72 \u03c0 cubic meters per minute, then the rate (in meters per minute) at which the radius of the balloon decreases 49 minutes after the leakage began is"
   },
   {
     "answer": "2",
@@ -5665,7 +5665,7 @@
           681.4522705078125
         ],
         "snippet": "images/q81_opt1.png",
-        "text": "(1) Statement is false, statement is true\u239c\u239f\u239c\u239f 1 2"
+        "text": "true\u239c\u239f\u239c\u239f (1) Statement 1 is false, statement 2 is"
       },
       {
         "images": [],
@@ -5678,7 +5678,7 @@
           681.4522705078125
         ],
         "snippet": "images/q81_opt2.png",
-        "text": "(2) Statement is true, statement is true; statement is a correct explanation for statement \u239c\u239f\u239c\u239f 1 2 2 1"
+        "text": "\u239c\u239f\u239c\u239f (2) Statement 1 is true, statement 2 is true; statement 2 is a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -5691,7 +5691,7 @@
           723.4522705078125
         ],
         "snippet": "images/q81_opt3.png",
-        "text": "(3) Statement is true, statement is true; statement is not a correct explanation for statement \u239c\u239f\u239c\u239f 1 2 2 1"
+        "text": "\u239c\u239f\u239c\u239f (3) Statement 1 is true, statement 2 is true; statement 2 is not a correct explanation for statement 1"
       },
       {
         "images": [],
@@ -5704,7 +5704,7 @@
           723.4522705078125
         ],
         "snippet": "images/q81_opt4.png",
-        "text": "(4) Statement is true, statement is false\u239c\u239f\u239c\u239f 1 2"
+        "text": "false\u239c\u239f\u239c\u239f (4) Statement 1 is true, statement 2 is"
       }
     ],
     "question_number": 81,
@@ -5719,7 +5719,7 @@
       648.4522705078125
     ],
     "stem_snippet": "images/q81_stem.png",
-    "stem_text": "Q81.Let be such that the function given by has extreme values at and . Statement 1: has local maximum at and at . Statement 2: and \u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f a, b \u2208R f f(x) = ln |x| + bx2 + ax, x \u22600 x = \u22121 x = 2 f x = \u22121 x = 2 a = 1 2 b = \u22121 4"
+    "stem_text": "\u239c\u239f \u239c\u239f\u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f \u239c\u239f Q81.Let a, b \u2208R be such that the function f given by f(x) = ln |x| + bx2 + ax, x \u22600 has extreme values at x = \u22121 and x = 2 . Statement 1: f has local maximum at x = \u22121 and at x = 2 . Statement 2: a = 1 and 2 b = \u22121 4"
   },
   {
     "answer": "4",
@@ -5789,7 +5789,7 @@
       803.4650268554688
     ],
     "stem_snippet": "images/q82_stem.png",
-    "stem_text": "Q82.If the integral , then is equal to \u239c\u239f \u239c\u239f \u222b 5 tan x tan x\u22122 dx = x + a ln | sin x \u22122 cos x| + k a"
+    "stem_text": "\u239c\u239f \u239c\u239f Q82.If the integral \u222b 5 tan x dx = x + a ln | sin x \u22122 cos x| + k , then a is equal to tan x\u22122"
   },
   {
     "answer": "2",
@@ -5859,7 +5859,7 @@
       133.2022705078125
     ],
     "stem_snippet": "images/q83_stem.png",
-    "stem_text": "Q83.If , then equals g(x) = \u222bx 0 cos 4t dt g(x + \u03c0)"
+    "stem_text": "Q83.If \u222bx , then equals g(x) = cos 4t dt g(x + \u03c0) 0"
   },
   {
     "answer": "3",
@@ -5929,7 +5929,7 @@
       194.7022705078125
     ],
     "stem_snippet": "images/q84_stem.png",
-    "stem_text": "Q84.The area bounded between the parabolas and , and the straight line is x2 = y 4 x2 = 9y y = 2"
+    "stem_text": "Q84.The area bounded between the parabolas x2 = y and x2 = 9y , and the straight line y = 2 is 4"
   },
   {
     "answer": "1",
@@ -5971,7 +5971,7 @@
           314.7022705078125
         ],
         "snippet": "images/q85_opt3.png",
-        "text": "(3) 1 2 ln 18"
+        "text": "(3) 1 ln 18 2"
       },
       {
         "images": [],
@@ -5999,7 +5999,7 @@
       272.7022705078125
     ],
     "stem_snippet": "images/q85_stem.png",
-    "stem_text": "Q85.The population at time of a certain mouse species satisfies the differential equation . If , then the time at which the population becomes zero is p(t) t dp(t) dt = 0.5 p(t) \u2212450 p(0) = 850"
+    "stem_text": "Q85.The population at time of a certain mouse species satisfies the differential equation dp(t) p(t) t = 0.5 p(t) dt \u2212450 . If p(0) = 850 , then the time at which the population becomes zero is"
   },
   {
     "answer": "3",
@@ -6069,7 +6069,7 @@
       349.2022705078125
     ],
     "stem_snippet": "images/q86_stem.png",
-    "stem_text": "Q86.Let and be two unit vectors. If the vectors and are perpendicular to each other, then the angle between and is ^a ^b c = ^a + 2^b d = 5^a \u22124^b ^a ^b"
+    "stem_text": "Q86.Let ^a and ^b be two unit vectors. If the vectors = ^a + 2^b and = 5^a \u22124^b are perpendicular to each other, c d then the angle between ^a and ^b is"
   },
   {
     "answer": "2",
@@ -6085,7 +6085,7 @@
           458.7022705078125
         ],
         "snippet": "images/q87_opt1.png",
-        "text": "(1)r = 3q \u22123(p\u22c5q) (p\u22c5p)p"
+        "text": "(1)r \u22123(p\u22c5q) = 3q (p\u22c5p)p"
       },
       {
         "images": [],
@@ -6098,7 +6098,7 @@
           458.7022705078125
         ],
         "snippet": "images/q87_opt2.png",
-        "text": "(2)r = \u2212\u2192q + ( \u2192p\u22c5\u2192q \u2192p\u22c5\u2192p )\u2192p"
+        "text": "(2)r \u2212\u2192q ( \u2192p\u22c5\u2192q )\u2192p = + \u2192p\u22c5\u2192p"
       },
       {
         "images": [],
@@ -6111,7 +6111,7 @@
           489.4522705078125
         ],
         "snippet": "images/q87_opt3.png",
-        "text": "(3)r =q \u2212(p\u22c5q p\u22c5p )p"
+        "text": "(3)r \u2212(p\u22c5q )p =q p\u22c5p"
       },
       {
         "images": [],
@@ -6124,7 +6124,7 @@
           489.4522705078125
         ],
         "snippet": "images/q87_opt4.png",
-        "text": "(4)r = \u22123q + 3(p\u22c5q) (p\u22c5p)p"
+        "text": "(4)r 3(p\u22c5q) = \u22123q + (p\u22c5p)p"
       }
     ],
     "question_number": 87,
@@ -6139,7 +6139,7 @@
       430.9522705078125
     ],
     "stem_snippet": "images/q87_stem.png",
-    "stem_text": "Q87.Let be a parallelogram such that and be an acute angle. If is the vector that coincides with the altitude directed from the vertex to the side , then is given by ABCD AB =\u2192q, AD =p \u2212 \u2192 \u2212 \u2192 \u2220BAD r B AD \u2192r"
+    "stem_text": "\u2192r \u2212 \u2212 Q87.Let \u2192 \u2192 =\u2192q, ABCD be a parallelogram such that AB AD =p and \u2220BAD be an acute angle. If r is the vector that coincides with the altitude directed from the vertex B to the side AD , then is given by"
   },
   {
     "answer": "1",
@@ -6209,7 +6209,7 @@
       505.9522705078125
     ],
     "stem_snippet": "images/q88_stem.png",
-    "stem_text": "Q88.An equation of a plane parallel to the plane and at a unit distance from the origin is x \u22122y + 2z \u22125 = 0"
+    "stem_text": "Q88.An equation of a plane parallel to the plane x \u22122y + 2z \u22125 = 0 and at a unit distance from the origin is"
   },
   {
     "answer": "3",
@@ -6279,7 +6279,7 @@
       564.4522705078125
     ],
     "stem_snippet": "images/q89_stem.png",
-    "stem_text": "Q89.If the lines and intersect, then is equal to x\u22121 2 = y+1 3 = z\u22121 4 x\u22123 1 = y\u2212k 2 = z 1 k"
+    "stem_text": "Q89.If the lines x\u22121 = y+1 = z\u22121 and x\u22123 = y\u2212k = z intersect, then k is equal to 2 3 4 1 2 1"
   },
   {
     "answer": "2",
@@ -6349,6 +6349,6 @@
       639.4522705078125
     ],
     "stem_snippet": "images/q90_stem.png",
-    "stem_text": "Q90.Three numbers are chosen at random without replacement from . The probability that their minimum is , given that their maximum is , is {1, 2, 3, \u2026 . .8} 3 6"
+    "stem_text": "Q90.Three numbers are chosen at random without replacement from {1, 2, 3, \u2026 . .8} . The probability that their minimum is 3 , given that their maximum is 6 , is"
   }
 ]

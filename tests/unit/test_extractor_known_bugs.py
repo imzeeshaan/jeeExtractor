@@ -59,7 +59,11 @@ def test_may19_q20_stem_continues_across_page_break_with_diagram(tmp_path):
     questions, notes = _parse("2012_may19", tmp_path)
     q20 = _question(questions, 20)
 
-    assert q20["stem_text"].rstrip().endswith("displacement of the connector is represented by the figure. x")
+    # "x" used to be a detached symbol dumped at the very end ("...figure. x") before the
+    # reading-order fix (extractor._reading_order_text) — it now lands inline in its correct
+    # position ("moving along x -axis"), and the stem correctly ends on "figure."
+    assert q20["stem_text"].rstrip().endswith("displacement of the connector is represented by the figure.")
+    assert "moving along x -axis" in q20["stem_text"]
     assert q20["stem_images"] == ["images/q20_stem_diagram_1.png"]
 
     assert any("Q20: options continue on page 5" in n for n in notes)
@@ -130,6 +134,24 @@ def test_no_inverted_or_degenerate_rects_anywhere(tmp_path):
                     assert r[1] < r[3] and r[0] < r[2], (
                         f"{paper_id} Q{q['question_number']} option {o['label']}: degenerate rect {r}"
                     )
+
+
+def test_may07_q1_symbols_are_inline_not_detached(tmp_path):
+    """Bug: a symbol/variable typeset as its own PDF text block (e.g. "K =") but
+    positioned on the SAME visual line as the surrounding sentence used to be
+    dumped at the very end of stem_text by naive block-order concatenation
+    (page.get_text("text", clip=...)), instead of staying inline. Q1's stem used
+    to read "...surface tension? K = V = T =" (bug-report-flagged "symbol/variable
+    detachment"). Fixed via extractor._reading_order_text, which reconstructs
+    reading order from get_text("words") using y-proximity row grouping (the
+    same idiom _group_rows already uses for option markers)."""
+    questions, notes = _parse("2012_may07", tmp_path)
+    q1 = _question(questions, 1)
+
+    assert "K = energy" in q1["stem_text"]
+    assert "V = velocity" in q1["stem_text"]
+    assert "T = time" in q1["stem_text"]
+    assert q1["stem_text"].rstrip().endswith("dimensional formula for surface tension?")
 
 
 def test_answer_regex_handles_multichar_values():
