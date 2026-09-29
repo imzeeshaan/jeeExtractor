@@ -44,16 +44,25 @@ low-confidence extractions, correcting them, and approving results.
    cp .env.example .env
    ```
 
-   `.env.example` covers the basics (data directory, DB path, render DPI).
-   To also enable the vision fallback path (only needed for scanned/JEE
-   Advanced-style PDFs — standard papers work fully offline without this),
-   add:
+   `.env.example` covers the basics (data directory, DB path, render DPI)
+   and already sets `JEE_VISION_PROVIDER=real` by default — fill in your
+   API keys to activate it:
 
    ```bash
    DEEPSEEK_API_KEY=your-deepseek-key
    OPENAI_API_KEY=your-openai-key       # used as the fallback/escalation provider
-   JEE_VISION_PROVIDER=real             # defaults to "mock" (no API calls, no cost)
    ```
+
+   Real vision is used for two things: (1) the "🔎 Ask vision to
+   transcribe" button in the Review Studio UI (manual, per-block LaTeX
+   transcription for any document), and (2) the automatic vision-layout
+   fallback path for scanned/JEE Advanced-style PDFs with no text layer.
+   Standard text-layer papers still extract fully offline without any keys
+   — `DEEPSEEK_API_KEY`/`OPENAI_API_KEY` only need to be set if you want
+   either of those two vision features. Leaving the keys blank (or setting
+   `JEE_VISION_PROVIDER=mock` instead) reverts to the free, zero-cost mock
+   provider used by the automated test suite — it wires up correctly but
+   returns no real transcription.
 
    `.env` is git-ignored — never commit real API keys.
 
